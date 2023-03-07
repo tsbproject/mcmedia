@@ -999,16 +999,16 @@ padding: 3px;
   /**********  Super Extra Extra small devices only **********/
   @media (max-width: 287px) {
     #logo-img{
-        width: 140px;
-        height: 70px;
-        margin-left: 45px;
+        width: 100px;
+        height: 50px;
+        margin-left: 25px;
         margin-top: -15px;
        
       }
     
     
       #slogan {
-        font-size: 0.6rem;
+        font-size: 0.5rem;
         font-style: oblique;
         color: white;
         border: 0.1em solid yellowgreen;
@@ -1018,7 +1018,7 @@ padding: 3px;
         text-transform: uppercase;
         position: relative;
         bottom: 1em;
-        left: 3em;
+        left: 0.48em;
       
        
       }
@@ -1151,25 +1151,25 @@ color: rgb(248, 246, 246);
 .slide-caption, #slide-button{
 background-color: rgb(243, 245, 241);
 font-family: "Oxygen" sans-serif;
-font-weight: 300;
+font-weight: 250;
 font-style: bold;
-font-size: small;
+font-size: 10px;
 color: black;
 border: 0.17px solid rgb(8, 7, 7);
 border-radius: 5px;
-padding: 3px;
+padding: 1px;
 }
 
 .slide-caption, #slide-button-L {
 background-color: yellowgreen;
 font-family: "Oxygen" sans-serif;
-font-weight: 300;
+font-weight: 250;
 font-style: bold;
-font-size: small;
+font-size: 10px;
 color: black;
 border: 0.17px solid rgb(247, 244, 244);
 border-radius: 5px;
-padding: 3px;
+padding: 2px;
 
 }
 
