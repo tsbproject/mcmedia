@@ -254,22 +254,22 @@ body {
   }
 
   .footer {
-    height: 600px;
+    height: 400px;
     background-color: rgb(3, 15, 22);
  
     
   }
   
   .copyright {
-    margin-top: 16em;
+    margin-top: 1em;
     color: #f5f3f3;
+   
   }
   
 
   #copyright-text {
     font-family: "Lora" serif;
-    text-align: left;
-    margin-left: 10em;
+    margin-left: -30em;
     
   }
 
@@ -286,21 +286,78 @@ body {
 
   }
 
-  .footer section hr {
+  .footer hr {
    width: 50%;
+   color: #f5f3f3;
+   margin-left: 5em;
  
   }
   .footer #top-hr {
     width: 100%;
     color: #f5f3f3;
+    margin-left: auto;
   }
 
-  #footer-head {
+  .list-unstyled {
     font-family: "Lora" serif;
+    font-size: small;
+    margin-left: 6.6em;
     color: #f5f3f3;
-    margin-left: 3em;
+    padding: 10px;
+   
   
   }
+
+  #footer-info h4 {
+    color: yellowgreen;
+    margin-left: 4em;
+  }
+
+  #find-us h4 {
+    color: yellowgreen;
+    margin-left: 4em;
+
+   
+
+  }
+
+  
+
+  #location-footer{
+    color: yellowgreen;
+    font-size: small;
+  
+  
+
+
+  }
+
+  #address-footer{
+       color: #f5f3f3;
+       font-size: small;
+       
+  }
+
+
+   #Telephone-footer {
+           color: yellowgreen;
+           font-size: small;
+          
+           
+  }
+
+  #number-footer{
+    color: #f5f3f3;
+    font-size: small;
+   
+  }
+
+  #envelope-footer{
+    color: yellowgreen;
+
+  }
+
+
 
 
   
