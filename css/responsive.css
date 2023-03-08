@@ -141,6 +141,10 @@
       color: yellowgreen;
   
     }
+<<<<<<< HEAD
+    
+=======
+>>>>>>> 48cbe8a9093617dfa34722368297ee523fd576d3
   
   
   
@@ -1162,7 +1166,7 @@ a, a:hover, a:active  {
 }
 
 
-.portfolio {
+#portfo {
   height: 200px;
   background-color: white;
   margin-top: 30em;
@@ -1526,11 +1530,30 @@ padding: 3px;
 }
 
 #grid-icon{
+<<<<<<< HEAD
+  font-size: 60px;
+=======
   font-size: 40px;
+>>>>>>> 48cbe8a9093617dfa34722368297ee523fd576d3
   color: aliceblue;
   border: solid 0.05em yellowgreen;
   border-radius: 50px;
   text-shadow: 0.02em;
+<<<<<<< HEAD
+  margin-left: -15px;
+  margin-top: 30em;
+  position: relative;
+  bottom: 4.5rem;
+  right: -8rem;
+}
+
+
+
+
+
+
+
+=======
   margin-left: -2px;
   margin-top: 30em;
   position: relative;
@@ -1541,6 +1564,7 @@ padding: 3px;
  
 }
 
+>>>>>>> 48cbe8a9093617dfa34722368297ee523fd576d3
 p {
   font-family: "Lora" serif;
   color: white;
@@ -1560,6 +1584,8 @@ a, a:hover, a:active  {
    
     
 
+<<<<<<< HEAD
+=======
     .portfolio {
       height: 500px;
       background-color: white;
@@ -1568,6 +1594,7 @@ a, a:hover, a:active  {
     
     }
     
+>>>>>>> 48cbe8a9093617dfa34722368297ee523fd576d3
     
 /***************************FOOTER STYLE START*********************************/
 
@@ -1681,12 +1708,152 @@ a, a:hover, a:active  {
 
 
 
+/***************************FOOTER STYLE START*********************************/
+
+
+
+.footer {
+  height: 900px;
+  background-color: rgb(3, 15, 22);
+
+
+
+  
+}
+
+.copyright {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 1em;
+  color: #f5f3f3;
+ 
+}
+
+
+#copyright-text {
+  font-family: "Lora" serif;
+  margin-left: -30em;
+  
+}
+
+#footer-logo {
+      width: 100px;
+      height: 50px;
+}
+
+#social-footer {
+  font-size: small;
+  align-items: center;
+  -webkit-text-fill-color: yellowgreen;
+  margin-top: -2em;
+  margin-left: 9rem;
+
+
+
+}
+
+.footer hr {
+ width: 50%;
+ color: #f5f3f3;
+ margin-left: 5em;
+
+}
+.footer #top-hr {
+  width: 100%;
+  color: #f5f3f3;
+  margin-left: auto;
+}
+
+.list-unstyled {
+  font-family: "Lora" serif;
+  font-size: x-small;
+  text-align: center;
+  vertical-align: auto;
+  margin-left: 13em;
+  color: #f5f3f3;
+  padding: 5px;
+ 
+
+}
+
+#footer-info h4 {
+  font-size: medium;
+  color: yellowgreen;
+  text-align: center;
+  margin-left: 1em;
+}
+
+#find-us h4 {
+  font-size: medium;
+  color: yellowgreen;
+ text-align: center;
+  margin-left: 1em;
+
+ 
+
+}
+
+
+
+#location-footer{
+  color: yellowgreen;
+  font-size: small;
+
+
+
+
+}
+
+#address-footer{
+  text-align: center;
+     color: #f5f3f3;
+     font-size: small;
+     
+}
+
+
+ #Telephone-footer {
+         color: yellowgreen;
+         font-size: small;
+         
+        
+         
+}
+
+#number-footer{
+    text-align: left;
+  color: #f5f3f3;
+  font-size: small;
+ 
+}
+
+#envelope-footer{
+    text-align: left;
+  color: yellowgreen;
+
+}
+
+  /*****PORTFOLIO********/
+  
+  #portfo {
+    height: 200px;
+    background-color: rgb(250, 246, 246);
+    margin-top: 100rem;
+  }
+  
+
+
+
   }
 
 
   
   /**********  Super Extra Extra small devices only **********/
+<<<<<<< HEAD
+  @media (max-width: 287px) {
+=======
   @media (min-width: 287px) and (max-width:414px) {
+>>>>>>> 48cbe8a9093617dfa34722368297ee523fd576d3
     #logo-img{
         width: 100px;
         height: 50px;
@@ -1907,7 +2074,11 @@ padding: 2px;
   font-family: Arial, Helvetica, sans-serif;
   color: white;
   background-color: blue;
+<<<<<<< HEAD
+  font-size: 0.8em;
+=======
   font-size: 1em;
+>>>>>>> 48cbe8a9093617dfa34722368297ee523fd576d3
   font-style: bold;
   margin-top: -3.2em;
   margin-left: em;
@@ -1963,13 +2134,121 @@ a, a:hover, a:active  {
     
     }
     
-    .footer {
-      height: 300px;
-      background-color: rgb(3, 15, 22);
-      
-    
-    }
-    
+    /***************************FOOTER STYLE START*********************************/
+
+
+
+.footer {
+  height: 900px;
+  background-color: rgb(3, 15, 22);
+
+
+
+  
+}
+
+.copyright {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 1em;
+  color: #f5f3f3;
+ 
+}
+
+
+#copyright-text {
+  font-family: "Lora" serif;
+  margin-left: -30em;
+  
+}
+
+#footer-logo {
+      width: 100px;
+      height: 50px;
+}
+
+#social-footer {
+  font-size: small;
+  align-items: center;
+  -webkit-text-fill-color: yellowgreen;
+  margin-top: -2em;
+  margin-left: 4rem;
+
+}
+
+.footer hr {
+ width: 50%;
+ color: #f5f3f3;
+ margin-left: 5em;
+
+}
+.footer #top-hr {
+  width: 100%;
+  color: #f5f3f3;
+  margin-left: auto;
+}
+
+.list-unstyled {
+  font-family: "Lora" serif;
+  font-size: x-small;
+  margin-left: 6.6em;
+  color: #f5f3f3;
+  padding: 10px;
+ 
+
+}
+
+#footer-info h4 {
+  font-size: medium;
+  color: yellowgreen;
+  margin-left: 4em;
+}
+
+#find-us h4 {
+  font-size: medium;
+  color: yellowgreen;
+  margin-left: 4em;
+
+ 
+
+}
+
+
+
+#location-footer{
+  color: yellowgreen;
+  font-size: small;
+
+
+
+
+}
+
+#address-footer{
+     color: #f5f3f3;
+     font-size: small;
+     
+}
+
+
+ #Telephone-footer {
+         color: yellowgreen;
+         font-size: small;
+        
+         
+}
+
+#number-footer{
+  color: #f5f3f3;
+  font-size: small;
+ 
+}
+
+#envelope-footer{
+  color: yellowgreen;
+
+}
+
 
 
 

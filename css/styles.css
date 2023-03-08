@@ -1,155 +1,159 @@
 body {
+<<<<<<< HEAD
+  background-color: rgb(247, 248, 243);
+=======
     background-color: rgb(247, 248, 243);
+>>>>>>> 48cbe8a9093617dfa34722368297ee523fd576d3
 }
 
 
 /***************************HEADER SECTION STYLES*********************************/
 
 #header-nav {
-    height: 150px;
-    background-color: rgb(6, 6, 102);
-    border-bottom: 0.8em;
-    border-style: ridge;
-    border-color: yellowgreen;
+  height: 150px;
+  background-color: rgb(6, 6, 102);
+  border-bottom: 0.8em;
+  border-style: ridge;
+  border-color: yellowgreen;
 }
 
 
 #logo-img{
-    width: 170px;
-    height: 80px;
-    margin-left: 45px;
-   
-  }
+  width: 170px;
+  height: 80px;
+  margin-left: 45px;
+ 
+}
 
 
-  #slogan {
-    font-size: 0.9rem;
-    font-style: oblique;
-    color: white;
-    border: 0.1em solid yellowgreen;
-    padding: 0.3em;
-    border-radius: 0.7em;
-    text-decoration: double;
-    text-transform: uppercase;
-    margin-left: 2.7em;
-  
-  
-   
-  }
+#slogan {
+  font-size: 0.9rem;
+  font-style: oblique;
+  color: white;
+  border: 0.1em solid yellowgreen;
+  padding: 0.3em;
+  border-radius: 0.7em;
+  text-decoration: double;
+  text-transform: uppercase;
+  margin-left: 2.7em;
 
 
  
+}
+
+
+
 
 
 .header-info {
-    background-color: yellowgreen;
-    font-style: italic;
-    font-size: 16px
-    
-    
-  }
-  
-  
-  #clock {
-    color: rgb(6, 6, 102);
-    
-  }
-  
-  #working-hour{
-    color: white;
-    font-style: italic;
-  }
-  
-  #Telephone{
-    color:rgb(6, 6, 102);
-    
-  
-  
-  
-  }
-  
-  #number {
-    color: rgb(245, 243, 243);
-  
-  
-  }
-
-  #location {
-    color:rgb(6, 6, 102);
-  
-  
-  }
-  
-  
-  #address {
-    color: rgb(247, 248, 245);
+  background-color: yellowgreen;
+  font-style: italic;
+  font-size: 16px
   
   
 }
 
-  #social {
-   color: rgb(6, 6, 102);
+
+#clock {
+  color: rgb(6, 6, 102);
+  
+}
+
+#working-hour{
+  color: white;
+  font-style: italic;
+}
+
+#Telephone{
+  color:rgb(6, 6, 102);
+  
+
+
 
 }
 
-  
+#number {
+  color: rgb(245, 243, 243);
+
+
+}
+
+#location {
+  color:rgb(6, 6, 102);
+
+
+}
+
+
+#address {
+  color: rgb(247, 248, 245);
+
+
+}
+
+#social {
+ color: rgb(6, 6, 102);
+
+}
+
+
 /***************************END OF HEADER SECTION STYLES*********************************/
 
 /***************************SLIDE SECTION STYLE*********************************/
 
 
 #slide-image {
-    text-align: center;
-    width: 100%;
-    height: 700px;
+  text-align: center;
+  width: 100%;
+  height: 700px;
 }
 
 .slide-caption, h2 {
-  font-family: "Oxygen" sans-serif;
-  font-weight: 700;
-  font-size: 40px;
-  text-align: center;
-  align-items: center;
-  color: yellowgreen;
-  margin-top: -10em;
-  border: 0.1px solid rgb(247, 244, 244);
-  border-radius: 50px;
-  border-spacing: 25px;
+font-family: "Oxygen" sans-serif;
+font-weight: 700;
+font-size: 40px;
+text-align: center;
+align-items: center;
+color: yellowgreen;
+margin-top: -10em;
+border: 0.1px solid rgb(247, 244, 244);
+border-radius: 50px;
+border-spacing: 25px;
 
 }
 
 .slide-caption, #slide-text{
-  font-family: "Lora" serif;
-  font-size: 20px;
-  text-align:center;
-  color: rgb(248, 246, 246);
+font-family: "Lora" serif;
+font-size: 20px;
+text-align:center;
+color: rgb(248, 246, 246);
 
- 
+
 
 }
 
 .slide-caption, #slide-button{
-  background-color: rgb(243, 245, 241);
-  font-family: "Oxygen" sans-serif;
-  font-weight: 700;
-  font-style: bold;
-  font-size: large;
-  color: black;
-  border: 0.17px solid rgb(247, 244, 244);
-  border-radius: 5px;
-  padding: 10px;
+background-color: rgb(243, 245, 241);
+font-family: "Oxygen" sans-serif;
+font-weight: 700;
+font-style: bold;
+font-size: large;
+color: black;
+border: 0.17px solid rgb(247, 244, 244);
+border-radius: 5px;
+padding: 10px;
 }
 
 #slide-button-L {
-  background-color: yellowgreen;
-  font-family: "Oxygen" sans-serif;
-  font-weight: 700;
-  font-style: bold;
-  font-size: large;
-  color: black;
-  border: 0.17px solid rgb(247, 244, 244);
-  border-radius: 5px;
-  padding: 10px;
+background-color: yellowgreen;
+font-family: "Oxygen" sans-serif;
+font-weight: 700;
+font-style: bold;
+font-size: large;
+color: black;
+border: 0.17px solid rgb(247, 244, 244);
+border-radius: 5px;
+padding: 10px;
 
 }
 
@@ -158,93 +162,223 @@ body {
 /***************************END OF SLIDE SECTION STYLE*********************************/
 
 #columns {
-    width: 100%;
-    height: 400px;
-    border-color: 2px greenyellow;
-    border-width:1px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 35px;
-    margin-bottom: 12px;
-    padding: 5px;
-    opacity: 0.7;
-    
+  width: 100%;
+  height: 400px;
+  border-color: 2px greenyellow;
+  border-width:1px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+  margin-bottom: 12px;
+  padding: 5px;
+  opacity: 0.7;
   
-   
+
+ 
+
+}
+
+#front-tiles {
+  background-color:rgb(6, 6, 102);
+  border: solid 0.05em yellowgreen;
+  border-style: ridge;
+  border-width: 0.3em;
+  border-radius: 4em;
+  padding: 30px;
+  box-shadow: 20cqh;
+ 
+
+ 
+}
+
+#front-tiles:hover {
+  box-shadow: 0 2px 5px 2px #f5f3f3;
+
+}
+
+.label{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: blue;
+  font-size: 1.3em;
+  font-style: bold;
+  margin-top: -3.2em;
+  margin-left: em;
+  font-weight: 100px;
+  text-align: center;
+  border: solid 0.2em yellowgreen;
+  border-radius: 1em;
+  border-width: 3px;
+  border-style: outset;
+ 
   
-  }
+}
+
+#grid-icon{
+  font-size: 60px;
+  color: aliceblue;
+  border: solid 0.05em yellowgreen;
+  border-radius: 50px;
+  text-shadow: 0.02em;
+  margin-left: -15px;
+  margin-top: 30em;
+  position: relative;
+  bottom: 4.5rem;
+  right: -8rem;
+ 
   
-  #front-tiles {
-    background-color:rgb(6, 6, 102);
-    border: solid 0.05em yellowgreen;
-    border-style: ridge;
-    border-width: 0.3em;
-    border-radius: 4em;
-    padding: 30px;
-    box-shadow: 20cqh;
-   
-  
-   
-  }
-  
-  #front-tiles:hover {
-    box-shadow: 0 2px 5px 2px #f5f3f3;
-  
-  }
-  
-  .label{
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-color: blue;
-    font-size: 1.3em;
-    font-style: bold;
-    margin-top: -3.2em;
-    margin-left: em;
-    font-weight: 100px;
-    text-align: center;
-    border: solid 0.2em yellowgreen;
-    border-radius: 1em;
-    border-width: 3px;
-    border-style: outset;
-   
-    
-  }
-  
-  #grid-icon{
-    font-size: 60px;
-    color: aliceblue;
-    border: solid 0.05em yellowgreen;
-    border-radius: 50px;
-    text-shadow: 0.02em;
-    margin-left: -15px;
-    margin-top: 30em;
-    position: relative;
-    bottom: 4.5rem;
-    right: -8rem;
-   
-    
-   
-  }
-  
-  p {
-    font-family: "Lora" serif;
-    color: white;
-    text-align: left;
-    justify-content: center;
-  
-  
-  }
-  a, a:hover, a:active  {
-    text-decoration: none;
-    text-decoration-color: none;
-    color:white;
-  }
-  
-  /***************************END OF INFOTMATION GRID STYLES*********************************/
+ 
+}
+
+p {
+  font-family: "Lora" serif;
+  color: white;
+  text-align: left;
+  justify-content: center;
+
+
+}
+a, a:hover, a:active  {
+  text-decoration: none;
+  text-decoration-color: none;
+  color:white;
+}
+
+/***************************END OF INFOTMATION GRID STYLES*********************************/
+
+#portfo {
+  height: 200px;
+  background-color: rgb(250, 246, 246);
+  margin-top: 10rem;
+}
 
 
 
 
+.footer {
+  height: 400px;
+  background-color: rgb(3, 15, 22);
+
+  
+}
+
+.copyright {
+  margin-top: 1em;
+  color: #f5f3f3;
+ 
+}
+
+
+#copyright-text {
+  font-family: "Lora" serif;
+  margin-left: -30em;
+  
+}
+
+#footer-logo {
+      width: 140px;
+      height: 70px;
+}
+
+#social-footer {
+  font-size: x-large;
+  -webkit-text-fill-color: yellowgreen;
+  margin-top: -2em;
+  margin-left: 70rem;
+
+}
+
+.footer hr {
+ width: 50%;
+ color: #f5f3f3;
+ margin-left: 5em;
+
+}
+.footer #top-hr {
+  width: 100%;
+  color: #f5f3f3;
+  margin-left: auto;
+}
+
+.list-unstyled {
+  font-family: "Lora" serif;
+  font-size: small;
+  margin-left: 6.6em;
+  color: #f5f3f3;
+  padding: 10px;
+ 
+
+}
+
+#footer-info h4 {
+  color: yellowgreen;
+  margin-left: 4em;
+}
+
+#find-us h4 {
+  color: yellowgreen;
+  margin-left: 4em;
+
+ 
+
+}
+
+
+
+#location-footer{
+  color: yellowgreen;
+  font-size: small;
+  margin-left: 11px;
+
+
+
+
+}
+
+#address-footer{
+     color: #f5f3f3;
+     font-size: small;
+   
+     
+}
+
+
+ #Telephone-footer1 {
+         color: yellowgreen;
+         font-size: small;
+        
+         
+}
+
+
+
+#Telephone-footer2 {
+  color: yellowgreen;
+  font-size: small;
+  text-indent: -0.4px;
+  margin-left: 11px;
+ 
+  
+}
+
+#number-footer{
+  color: #f5f3f3;
+  font-size: small;
+ 
+}
+
+#envelope-footer{
+  color: yellowgreen;
+  margin-left: 11px;
+
+}
+
+
+
+
+
+<<<<<<< HEAD
+=======
   .portfolio {
     height: 200px;
     background-color: white;
@@ -361,6 +495,7 @@ body {
 
 
   
+>>>>>>> 48cbe8a9093617dfa34722368297ee523fd576d3
 
 
 
