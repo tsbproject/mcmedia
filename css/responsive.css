@@ -1292,7 +1292,7 @@ a, a:hover, a:active  {
     #logo-img{
         width: 140px;
         height: 70px;
-        margin-left: 45px;
+        margin-left: auto;
         margin-top: -15px;
        
       }
@@ -1308,8 +1308,8 @@ a, a:hover, a:active  {
         text-decoration: double;
         text-transform: uppercase;
         position: relative;
-        bottom: 1em;
-        left: 3em;
+        bottom: 2em;
+        left: -2.8em;
       
        
       }
@@ -1324,7 +1324,7 @@ a, a:hover, a:active  {
         text-indent: 7px;
         font-weight: 400px;
         padding: 1px;
-        margin-top: 1em;
+        margin-top: -2em;
         margin-left: 0.3em;
         position: relative;
         z-index: 10;
@@ -1527,7 +1527,7 @@ padding: 3px;
 
 #grid-icon{
   font-size: 40px;
-  color: aliceblue;
+  color: yellowgreen;
   border: solid 0.05em yellowgreen;
   border-radius: 50px;
   text-shadow: 0.02em;
