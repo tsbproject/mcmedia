@@ -1176,7 +1176,7 @@ a, a:hover, a:active  {
 
 
 .footer {
-  height: 500px;
+  height: 510px;
   background-color: rgb(3, 15, 22);
 
   
@@ -1203,8 +1203,8 @@ a, a:hover, a:active  {
 #social-footer {
   font-size: small;
   -webkit-text-fill-color: yellowgreen;
-  margin-top: -3em;
-  margin-left: 40rem;
+  margin-top: -6em;
+  margin-left: 35rem;
 
 }
 
