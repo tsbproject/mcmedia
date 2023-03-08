@@ -1630,6 +1630,10 @@ a, a:hover, a:active  {
 
 }
 
+.nav a:hover{
+  text-decoration: underline;
+}
+
 #footer-info h4 {
   font-size: medium;
   color: yellowgreen;

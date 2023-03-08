@@ -436,6 +436,10 @@ a, a:hover, a:active  {
   
   }
 
+  .nav a:hover{
+    text-decoration: underline;
+  }
+
   #footer-info h4 {
     color: yellowgreen;
     margin-left: 4em;
