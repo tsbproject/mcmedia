@@ -229,8 +229,8 @@ padding: 10px;
 p {
   font-family: "Lora" serif;
   color: white;
-  text-align: left;
-  justify-content: center;
+  text-align: justify;
+  
 
 
 }
