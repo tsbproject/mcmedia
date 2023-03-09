@@ -389,6 +389,8 @@ a, a:hover, a:active  {
   }
   
   .copyright {
+    font-family: "Lora" serif;
+    font-size: small;
     margin-top: 1em;
     color: #f5f3f3;
    
@@ -471,12 +473,20 @@ a, a:hover, a:active  {
   }
 
 
-   #Telephone-footer {
+   #Telephone-footer1 {
            color: yellowgreen;
            font-size: small;
           
            
   }
+
+  #Telephone-footer2 {
+    color: yellowgreen;
+    font-size: small;
+    margin-left: 12px;
+   
+    
+}
 
   #number-footer{
     color: #f5f3f3;
@@ -486,6 +496,11 @@ a, a:hover, a:active  {
 
   #envelope-footer{
     color: yellowgreen;
+
+  }
+
+  #email-footer{
+    color: #f5f3f3;
 
   }
 
