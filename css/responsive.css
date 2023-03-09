@@ -1288,7 +1288,7 @@ a, a:hover, a:active  {
     
 
   /**********  Super Extra small devices only **********/
-  @media (max-width: 414px) {
+  @media (min-width: 414px) and (max-width: 568px) {
     #logo-img{
         width: 140px;
         height: 70px;
@@ -1828,7 +1828,7 @@ a, a:hover, a:active  {
 
   
   /**********  Super Extra Extra small devices only **********/
-  @media (max-width: 287px) {
+  @media (min-width: 267px) and (max-width: 360px) {
     
     #logo-img{
         width: 100px;
@@ -2065,8 +2065,8 @@ padding: 2px;
 }
 
 #grid-icon{
-  font-size: 60px;
-  color: aliceblue;
+  font-size: 50px;
+  color: yellowgreen;
   border: solid 0.05em yellowgreen;
   border-radius: 50px;
   text-shadow: 0.02em;
@@ -2074,7 +2074,7 @@ padding: 2px;
   margin-top: 30em;
   position: relative;
   bottom: 4.5rem;
-  right: -5rem;
+  right: -4.4rem;
  
   
  
@@ -2101,7 +2101,7 @@ a, a:hover, a:active  {
     .portfolio {
       height: 200px;
       background-color: white;
-      margin-top: 140em;
+      margin-top: 170em;
     
     
     }
@@ -2111,7 +2111,7 @@ a, a:hover, a:active  {
 
 
 .footer {
-  height: 900px;
+  height: 950px;
   background-color: rgb(3, 15, 22);
 
 
