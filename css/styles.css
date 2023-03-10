@@ -140,6 +140,10 @@ border-radius: 5px;
 padding: 10px;
 }
 
+#slide-button:hover {
+  background-color: yellowgreen;
+}
+
 #slide-button-L {
 background-color: yellowgreen;
 font-family: "Oxygen" sans-serif;
@@ -152,6 +156,11 @@ border-radius: 5px;
 padding: 10px;
 
 }
+
+#slide-button-L:hover {
+  background-color: rgb(241, 241, 240);
+}
+
 
 
 
@@ -230,15 +239,14 @@ p {
   font-family: "Lora" serif;
   color: white;
   text-align: justify;
-  
+  }
 
 
-}
-a, a:hover, a:active  {
+ a, a:hover, a:active  {
   text-decoration: none;
-  text-decoration-color: none;
-  color:white;
-}
+  color: white;
+  }
+ 
 
 /***************************END OF INFOTMATION GRID STYLES*********************************/
 
