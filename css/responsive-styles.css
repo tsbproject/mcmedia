@@ -1,0 +1,2545 @@
+  /********** Large devices only **********/
+  @media (min-width: 1200px) {
+    #nav-list {
+        font-family: "Oxygen", sans-serif;
+        font-size: 1.25em;
+        color: white;
+        text-indent: 7px;
+        font-weight: 400px;
+        padding: 3px;
+        margin-top: 4em;
+        margin-left: 3em;
+        font-stretch: semi-expanded;
+        border-top: solid 0.2px rgb(15, 155, 197);
+        border-spacing: 2px;
+        
+        
+    }
+
+    #who {
+        background-color: yellowgreen;
+        width: fit-content;
+        margin-left: 22rem;
+    }
+
+    #do {
+        background-color: yellowgreen;
+        width: 25rem;
+        margin-left: 30rem;
+    }
+
+    #portfolio {
+      background-color: yellowgreen;
+      width: fit-content;
+      margin-left: 35rem;
+       
+    }
+ 
+ 
+ 
+ 
+ 
+ 
+    /*
+  ===========================
+   DROPDOWN MENU  STYLE
+  ============================
+  */
+  .dropdown-menu {
+    animation: slideDown 0.5s ease forwards;
+    transform-origin: top;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+    to {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  
+    
+    
+
+    /*
+    =====================================
+    FOOTER STYLE START
+    =====================================
+   */
+
+
+    .footer {
+      height: 400px;
+      background-color: rgb(3, 15, 22);
+   
+      
+    }
+    
+    .copyright {
+      margin-top: 1em;
+      color: #f5f3f3;
+     
+    }
+    
+  
+    #copyright-text {
+      font-family: "Lora" serif;
+      margin-left: -30em;
+      
+    }
+  
+    #footer-logo {
+          width: 140px;
+          height: 70px;
+    }
+  
+    #social-footer {
+      font-size: x-large;
+      -webkit-text-fill-color: yellowgreen;
+      margin-top: -2em;
+      margin-left: 70rem;
+  
+    }
+  
+    .footer hr {
+     width: 50%;
+     color: #f5f3f3;
+     margin-left: 5em;
+   
+    }
+    .footer #top-hr {
+      width: 100%;
+      color: #f5f3f3;
+      margin-left: auto;
+    }
+  
+    .list-unstyled {
+      font-family: "Lora" serif;
+      font-size: small;
+      margin-left: 6.6em;
+      color: #f5f3f3;
+      padding: 10px;
+     
+    
+    }
+  
+    #footer-info h4 {
+      color: yellowgreen;
+      margin-left: 4em;
+    }
+  
+    #find-us h4 {
+      color: yellowgreen;
+      margin-left: 4em;
+  
+     
+  
+    }
+  
+    
+  
+    #location-footer{
+      color: yellowgreen;
+      font-size: small;
+    
+    
+  
+  
+    }
+  
+    #address-footer{
+         color: #f5f3f3;
+         font-size: small;
+         
+    }
+  
+  
+     #Telephone-footer {
+             color: yellowgreen;
+             font-size: small;
+            
+             
+    }
+  
+    #number-footer{
+      color: #f5f3f3;
+      font-size: small;
+     
+    }
+  
+    #envelope-footer{
+      color: yellowgreen;
+  
+    }
+  
+  
+  
+  
+  }  
+  
+
+
+  
+  
+  /********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+
+    #logo-img{
+        width: 140px;
+        height: 70px;
+        margin-left: 45px;
+        margin-top: 17px;
+       
+      }
+    
+    
+      #slogan {
+        font-size: 0.6rem;
+        font-style: oblique;
+        color: white;
+        border: 0.1em solid yellowgreen;
+        padding: 0.3em;
+        border-radius: 0.7em;
+        text-decoration: double;
+        text-transform: uppercase;
+        position: relative;
+        bottom: 1em;
+        left: 3em;
+      
+       
+      }
+    
+    
+      #nav-list {
+        font-family: "Oxygen", sans-serif;
+        font-size: 0.9em;
+        color: white;
+        text-indent: 2px;
+        font-weight: 400px;
+        padding: 1px;
+        margin-top: 6em;
+        margin-left: 0.5em;
+        border-top: solid 0.2px rgb(15, 155, 197);
+        border-spacing: 5px;
+        
+      
+      
+    }
+
+
+     /*
+  ===========================
+   DROPDOWN MENU  STYLE
+  ============================
+  */
+  .dropdown-menu {
+    animation: slideDown 0.5s ease forwards;
+    transform-origin: top;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+    to {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  
+    
+    
+    .header-info {
+        background-color: yellowgreen;
+        font-style: italic;
+        font-size: 17px
+        
+        
+      }
+      
+      
+      #clock {
+        color: rgb(6, 6, 102);
+        
+      }
+      
+      #working-hour{
+        color: white;
+        font-style: italic;
+      }
+      
+      #Telephone{
+        color:rgb(6, 6, 102);
+        
+      
+      
+      
+      }
+      
+      #number {
+        color: rgb(245, 243, 243);
+      
+      
+      }
+    
+      #envelope {
+        color:rgb(6, 6, 102);
+      
+      
+      }
+      
+      
+      #email {
+        color: rgb(247, 248, 245);
+      
+      
+      }
+    
+      #social {
+       color: rgb(6, 6, 102);
+    
+      }
+
+      #slide-image {
+        width: 100%;
+        height: 100%;
+    }
+
+
+
+     /*
+  ===========================
+  HEADER WORKING HOUR STYING
+  ============================
+  */
+#workhour {
+ font-family: "Lora" serif;
+font-size: medium;
+ color: yellowgreen;
+ position: absolute;
+ right: 4.5em;
+ top: 0.9em;
+ }
+ 
+ #clocknew {
+  font-size: medium;
+ position: absolute;
+ right: 18.5em;
+ top: 0.9em;
+ }
+
+
+    /***************************INFORMATION GRID STYLES*********************************/
+
+#columns {
+  width: 100%;
+  height: 400px;
+  border-color: 2px greenyellow;
+  border-width:1px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+  margin-bottom: 12px;
+  padding: 5px;
+  
+
+ 
+
+}
+
+.front-tiles {
+  background-color:rgb(6, 6, 102);
+  border: solid 0.05em yellowgreen;
+  border-style: ridge;
+  border-width: 0.3em;
+  border-radius: 4em;
+  padding: 30px;
+  box-shadow: 20cqh;
+
+ 
+}
+
+#front-tiles:hover {
+  box-shadow: 0 2px 5px 2px #f5f3f3;
+
+}
+
+.label{
+  font-family: "lora" serif;
+  color: white;
+  background-color: blue;
+  font-size: 0.7em;
+  font-style: bold;
+  margin-top: -3.2em;
+  margin-left: em;
+  font-weight: 100px;
+  text-align: center;
+  border: solid 0.2em yellowgreen;
+  border-radius: 1em;
+  border-width: 3px;
+  border-style: outset;
+ 
+  
+}
+
+#grid-icon{
+  font-size: 60px;
+  color: aliceblue;
+  border: solid 0.05em yellowgreen;
+  border-radius: 50px;
+  text-shadow: 0.02em;
+  margin-left: -15px;
+  margin-top: 30em;
+  position: relative;
+  bottom: 4.5rem;
+  right: -4rem;
+ 
+  
+ 
+}
+
+p {
+  font-family: "Lora" serif;
+  color: white;
+  text-align: left;
+  justify-content: center;
+
+
+}
+a, a:hover, a:active  {
+  text-decoration: none;
+  text-decoration-color: none;
+  color:white;
+}
+    
+.portfolio {
+  height: 200px;
+  background-color: white;
+  margin-top: 18em;
+
+
+}
+
+/*
+==========================
+FOOTER STYLE START
+=========================
+*/
+
+
+.footer {
+  height: 400px;
+  background-color: rgb(3, 15, 22);
+
+  
+}
+
+.copyright {
+  margin-top: 1em;
+  color: #f5f3f3;
+ 
+}
+
+
+#copyright-text {
+  font-family: "Lora" serif;
+  margin-left: -30em;
+  
+}
+
+#footer-logo {
+      width: 100px;
+      height: 50px;
+}
+
+#social-footer {
+  font-size: small;
+  -webkit-text-fill-color: yellowgreen;
+  margin-top: -3em;
+  margin-left: 50rem;
+
+}
+
+.footer hr {
+ width: 50%;
+ color: #f5f3f3;
+ margin-left: 5em;
+
+}
+.footer #top-hr {
+  width: 100%;
+  color: #f5f3f3;
+  margin-left: auto;
+}
+
+.list-unstyled {
+  font-family: "Lora" serif;
+  font-size: x-small;
+  margin-left: 6.6em;
+  color: #f5f3f3;
+  padding: 10px;
+ 
+
+}
+
+#footer-info h4 {
+  font-size: medium;
+  color: yellowgreen;
+  margin-left: 4em;
+}
+
+#find-us h4 {
+  font-size: medium;
+  color: yellowgreen;
+  margin-left: 4em;
+
+ 
+
+}
+
+
+
+#location-footer{
+  color: yellowgreen;
+  font-size: small;
+
+
+
+
+}
+
+#address-footer{
+     color: #f5f3f3;
+     font-size: small;
+     
+}
+
+
+ #Telephone-footer {
+         color: yellowgreen;
+         font-size: small;
+        
+         
+}
+
+#number-footer{
+  color: #f5f3f3;
+  font-size: small;
+ 
+}
+
+#envelope-footer{
+  color: yellowgreen;
+
+}
+
+
+
+
+
+
+
+  
+
+}
+
+
+
+  
+  
+
+    
+  
+    
+    
+   
+  
+    
+    
+    
+    /********** Small devices only **********/
+  @media (min-width: 768px) and (max-width: 991px) {
+
+    #logo-img{
+        width: 140px;
+        height: 70px;
+        margin-left: 38px;
+        margin-top: -15px;
+       
+      }
+    
+    
+      #slogan {
+        font-size: 0.6rem;
+        font-style: oblique;
+        color: white;
+        border: 0.1em solid yellowgreen;
+        padding: 0.3em;
+        border-radius: 0.7em;
+        text-decoration: double;
+        text-transform: uppercase;
+        position: relative;
+        bottom: 1em;
+        left: 1em;
+      
+       
+      }
+    
+    /********** NAVIGATION STYLES START*******/
+      #nav-list {
+        background-color: rgb(6, 6, 102);
+        font-family: "Oxygen", sans-serif;
+        font-size: 1.1em;
+        text-align: center;
+        color: white;
+        text-indent: 7px;
+        font-weight: 400px;
+        padding: 1px;
+        margin-top: 1em;
+        margin-left: 0.2em;
+        position: relative;
+        z-index: 10;
+
+      }
+
+      #who {
+        background-color: yellowgreen;
+        width: fit-content;
+        
+    }
+
+    #do {
+        background-color: yellowgreen;
+        width: fit-content;
+      
+    }
+
+    #portfolio {
+        background-color: yellowgreen;
+        width: fit-content;
+      
+       
+    }
+
+
+
+     /*
+  ===========================
+   DROPDOWN MENU  STYLE
+  ============================
+  */
+  .dropdown-menu {
+    animation: slideDown 0.5s ease forwards;
+    transform-origin: top;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+    to {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  
+
+
+     /********** NAVIGATION STYLES END*******/
+        
+      
+   
+        
+    
+    
+    .header-info {
+        background-color: yellowgreen;
+        font-style: italic;
+        font-size: 16px
+        
+        
+      }
+      
+      
+      #clock {
+        color: rgb(6, 6, 102);
+        
+      }
+      
+      #working-hour{
+        color: white;
+        font-style: italic;
+      }
+      
+      #Telephone{
+        color:rgb(6, 6, 102);
+        
+      
+      
+      
+      }
+      
+      #number {
+        color: rgb(245, 243, 243);
+      
+      
+      }
+    
+      #envelope{
+        color:rgb(6, 6, 102);
+      
+      
+      }
+      
+      
+      #aemail {
+        color: rgb(247, 248, 245);
+      
+      
+      }
+    
+      #social {
+       color: rgb(6, 6, 102);
+    
+      }
+
+      /*
+  ===========================
+  HEADER WORKING HOUR STYING
+  ============================
+  */
+#workhour {
+  font-family: "Lora" serif;
+ font-size: medium;
+  color: yellowgreen;
+  position: absolute;
+  right: 4.5em;
+  top: 0.9em;
+  }
+  
+  #clocknew {
+   font-size: medium;
+  position: absolute;
+  right: 18.5em;
+  top: 0.9em;
+  }
+
+       /*
+       =======================
+       SLIDE SECTION STYLE
+       =======================
+      */
+
+
+#slide-image {
+  text-align: center;
+  width: 100%;
+  height: 350px;
+ 
+}
+
+
+.slide-caption, h2 {
+font-family: "Oxygen" sans-serif;
+font-weight: 400;
+font-size: 25px;
+text-align: center;
+align-items: center;
+color: yellowgreen;
+margin-top: -8em;
+border: 0.1px solid rgb(247, 244, 244);
+border-radius: 25px;
+border-spacing: 25px;
+
+}
+
+.slide-caption, #slide-text{
+font-family: "Lora" serif;
+font-size: 10px;
+text-align:center;
+color: rgb(248, 246, 246);
+
+
+
+}
+
+.slide-caption, #slide-button{
+background-color: rgb(243, 245, 241);
+font-family: "Oxygen" sans-serif;
+font-weight: 300;
+font-style: bold;
+font-size: small;
+color: black;
+border: 0.17px solid rgb(8, 7, 7);
+border-radius: 5px;
+padding: 3px;
+}
+
+.slide-caption, #slide-button-L {
+background-color: yellowgreen;
+font-family: "Oxygen" sans-serif;
+font-weight: 300;
+font-style: bold;
+font-size: small;
+color: black;
+border: 0.17px solid rgb(247, 244, 244);
+border-radius: 5px;
+padding: 3px;
+
+}
+
+
+
+/*
+===============================
+END OF SLIDE SECTION STYLE
+===============================
+*/
+   
+    
+    
+/*
+===============================
+INFORMATION GRID STYLES
+===============================
+*/
+
+#columns {
+  width: 100%;
+  height: 400px;
+  border-color: 2px greenyellow;
+  border-width:1px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+  margin-bottom: 12px;
+  padding: 5px;
+  
+
+ 
+
+}
+
+.front-tiles {
+  font-family: "Lora" serif;
+  height: 20px;
+  background-color:rgb(6, 6, 102);
+  border: solid 0.05em yellowgreen;
+  border-style: ridge;
+  border-width: 0.3em;
+  border-radius: 4em;
+  padding: 30px;
+  box-shadow: 20cqh;
+  position: relative;
+  z-index: 10;
+
+ 
+}
+
+#front-tiles:hover {
+  box-shadow: 0 2px 5px 2px #f5f3f3;
+
+}
+
+.label{
+  font-family: "Lora" serif;
+  color: white;
+  background-color: blue;
+  font-size: 0.5em;
+  font-style: bold;
+  margin-top: -3.2em;
+  font-weight: 50;
+  text-align: center;
+  border: solid 0.2em yellowgreen;
+  border-radius: 1em;
+  border-width: 3px;
+  border-style: outset;
+  border-spacing: 30px;
+ 
+  
+}
+
+#grid-icon{
+  font-size: 40px;
+  color: yellowgreen;
+  border: solid 0.05em yellowgreen;
+  border-radius: 50px;
+  text-shadow: 0.02em;
+  margin-left: -15px;
+  margin-top: 60em;
+  position: relative;
+  bottom: 3rem;
+  right: -3rem;
+ 
+  
+ 
+}
+
+p {
+  font-family: "Lora" serif;
+  color: white;
+  text-align: left;
+  text-indent: 10px;
+
+
+
+}
+a, a:hover, a:active  {
+  text-decoration: none;
+  text-decoration-color: none;
+  color:white;
+}
+
+
+.portfolio {
+  height: 200px;
+  background-color: white;
+  margin-top: 1em;
+
+
+}
+
+
+
+
+.footer {
+  height: 430px;
+  margin-top: 30em;
+  background-color: rgb(3, 15, 22);
+
+  
+}
+
+.copyright {
+  margin-top: 1em;
+  color: #f5f3f3;
+ 
+}
+
+
+#copyright-text {
+  font-family: "Lora" serif;
+  margin-left: -30em;
+  
+}
+
+#footer-logo {
+      width: 100px;
+      height: 50px;
+}
+
+#social-footer {
+  font-size: small;
+  -webkit-text-fill-color: yellowgreen;
+  margin-top: -3em;
+  margin-left: 35rem;
+
+}
+
+.footer hr {
+ width: 50%;
+ color: #f5f3f3;
+ margin-left: 5em;
+
+}
+.footer #top-hr {
+  width: 100%;
+  color: #f5f3f3;
+  margin-left: auto;
+}
+
+.list-unstyled {
+  font-family: "Lora" serif;
+  font-size: x-small;
+  margin-left: 4em;
+  color: #f5f3f3;
+  padding: 10px;
+ 
+
+}
+
+#footer-info h4 {
+  font-size: medium;
+  color: yellowgreen;
+  margin-left: 4em;
+}
+
+#find-us h4 {
+  font-size: medium;
+  color: yellowgreen;
+  margin-left: 4em;
+
+ 
+
+}
+
+
+
+#location-footer{
+  color: yellowgreen;
+  font-size: small;
+
+
+
+
+}
+
+#address-footer{
+     color: #f5f3f3;
+     font-size: small;
+     
+}
+
+
+ #Telephone-footer {
+         color: yellowgreen;
+         font-size: small;
+        
+         
+}
+
+#number-footer{
+  color: #f5f3f3;
+  font-size: small;
+ 
+}
+
+#envelope-footer{
+  color: yellowgreen;
+
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+    
+
+  
+  
+  
+  
+  
+  
+  /********** Extra small devices only **********/
+  @media (max-width: 767px) {
+    #logo-img{
+        width: 140px;
+        height: 70px;
+        margin-left: 38px;
+        margin-top: -15px;
+       
+      }
+    
+    
+      #slogan {
+        font-size: 0.6rem;
+        font-style: oblique;
+        color: white;
+        border: 0.1em solid yellowgreen;
+        padding: 0.3em;
+        border-radius: 0.7em;
+        text-decoration: double;
+        text-transform: uppercase;
+        position: relative;
+        bottom: 2.1em;
+        left: 1em;
+      
+       
+      }
+    
+    
+      #nav-list {
+        background-color: rgb(6, 6, 102);
+        font-family: "Oxygen", sans-serif;
+        font-size: 1.2em;
+        align-items: center;
+        color: white;
+        text-indent: 7px;
+        font-weight: 400px;
+        padding: 1px;
+        margin-top: -1.59em;
+        margin-left: 0.2em;
+        position: relative;
+        z-index: 10;
+      
+      
+    }
+
+    #who {
+      background-color: yellowgreen;
+      width: fit-content;
+      
+  }
+
+  #do {
+      background-color: yellowgreen;
+      width: fit-content;
+    
+  }
+
+  #portfolio {
+      background-color: yellowgreen;
+      width: fit-content;
+    
+     
+  }
+
+
+   /*
+  ===========================
+   DROPDOWN MENU  STYLE
+  ============================
+  */
+  .dropdown-menu {
+    animation: slideDown 0.5s ease forwards;
+    transform-origin: top;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+    to {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  
+    
+    
+    .header-info {
+        background-color: yellowgreen;
+        font-style: italic;
+        font-size: 16px
+        
+        
+      }
+      
+      
+      #clock {
+        color: rgb(6, 6, 102);
+        
+      }
+      
+      #working-hour{
+        color: white;
+        font-style: italic;
+      }
+      
+      #Telephone{
+        color:rgb(6, 6, 102);
+        
+      
+      
+      
+      }
+      
+      #number {
+        color: rgb(245, 243, 243);
+      
+      
+      }
+    
+      #envelope {
+        color:rgb(6, 6, 102);
+      
+      
+      }
+      
+      
+      #email {
+        color: rgb(247, 248, 245);
+      
+      
+      }
+    
+      #social {
+       color: rgb(6, 6, 102);
+    
+      }
+
+      /*
+  ===========================
+  HEADER WORKING HOUR STYING
+  ============================
+  */
+#workhour {
+  font-family: "Lora" serif;
+ font-size: medium;
+  color: yellowgreen;
+  position: absolute;
+  right: 4.5em;
+  top: 0.36em;
+  }
+  
+  #clocknew {
+  font-size: medium;
+  position: absolute;
+  right: 19em;
+  top: 0.92em;
+  }
+   
+
+   
+    /*
+    ==========================
+    SLIDE SECTION STYLE
+    ==========================
+    */
+
+
+#slide-image {
+  text-align: center;
+  width: 100%;
+  height: 350px;
+ 
+}
+
+
+.slide-caption, h2 {
+font-family: "Oxygen" sans-serif;
+font-weight: 400;
+font-size: 18px;
+text-align: center;
+align-items: center;
+color: yellowgreen;
+margin-top: -12em;
+border: 0.1px solid rgb(247, 244, 244);
+border-radius: 25px;
+border-spacing: 25px;
+
+}
+
+.slide-caption, #slide-text{
+font-family: "Lora" serif;
+font-size: 10px;
+text-align:center;
+color: rgb(248, 246, 246);
+
+
+
+}
+
+.slide-caption, #slide-button{
+background-color: rgb(243, 245, 241);
+font-family: "Oxygen" sans-serif;
+font-weight: 300;
+font-style: bold;
+font-size: small;
+color: black;
+border: 0.17px solid rgb(8, 7, 7);
+border-radius: 5px;
+padding: 3px;
+}
+
+.slide-caption, #slide-button-L {
+background-color: yellowgreen;
+font-family: "Oxygen" sans-serif;
+font-weight: 300;
+font-style: bold;
+font-size: small;
+color: black;
+border: 0.17px solid rgb(247, 244, 244);
+border-radius: 5px;
+padding: 3px;
+
+}
+
+
+
+/*
+=============================
+END OF SLIDE SECTION STYLE
+==============================
+*/
+   
+/*
+===============================
+INFORMATION GRID STYLES
+===============================
+*/
+
+#columns {
+  width: 100%;
+  height: 400px;
+  border-color: 2px greenyellow;
+  border-width:1px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+  margin-bottom: 12px;
+  padding: 5px;
+  
+
+ 
+
+}
+
+.front-tiles {
+  height: 20px;
+  background-color:rgb(6, 6, 102);
+  border: solid 0.05em yellowgreen;
+  border-style: ridge;
+  border-width: 0.3em;
+  border-radius: 4em;
+  padding: 30px;
+  box-shadow: 20cqh;
+
+ 
+}
+
+#front-tiles:hover {
+  box-shadow: 0 2px 5px 2px #f5f3f3;
+
+}
+
+.label{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: blue;
+  font-size: 1em;
+  font-style: bold;
+  margin-top: -3.2em;
+  margin-left: em;
+  font-weight: 100px;
+  text-align: center;
+  border: solid 0.2em yellowgreen;
+  border-radius: 1em;
+  border-width: 3px;
+  border-style: outset;
+ 
+  
+}
+
+#grid-icon{
+  font-size: 60px;
+  color: aliceblue;
+  border: solid 0.05em yellowgreen;
+  border-radius: 50px;
+  text-shadow: 0.02em;
+  margin-left: -15px;
+  margin-top: 30em;
+  position: relative;
+  bottom: 4.5rem;
+  right: -9rem;
+ 
+  
+ 
+}
+
+p {
+  font-family: "Lora" serif;
+  color: white;
+  text-align: left;
+  text-justify: 25px;
+  padding: 10px;
+
+
+}
+a, a:hover, a:active  {
+  text-decoration: none;
+  text-decoration-color: none;
+  color:white;
+}
+
+
+.portfolio {
+  height: 200px;
+  background-color: white;
+  margin-top: 34em;
+
+
+}
+
+
+
+/*
+===========================
+FOOTER STYLE START
+===========================
+*/
+
+
+.footer {
+  height: 510px;
+  background-color: rgb(3, 15, 22);
+
+  
+}
+
+.copyright {
+  margin-top: 0.1em;
+  color: #f5f3f3;
+ 
+}
+
+
+#copyright-text {
+  font-family: "Lora" serif;
+  margin-left: -30em;
+
+  
+}
+
+#footer-logo {
+      width: 100px;
+      height: 50px;
+}
+
+#social-footer {
+  font-size: small;
+  -webkit-text-fill-color: yellowgreen;
+  margin-top: -5em;
+  margin-left: 35rem;
+
+}
+
+.footer hr {
+ width: 50%;
+ color: #f5f3f3;
+ margin-left: 5em;
+
+}
+.footer #top-hr {
+  width: 100%;
+  color: #f5f3f3;
+  margin-left: auto;
+}
+
+.list-unstyled {
+  font-family: "Lora" serif;
+  font-size: x-small;
+  margin-left: 6.6em;
+  color: #f5f3f3;
+  padding: 10px;
+ 
+
+}
+
+#footer-info h4 {
+  font-size: medium;
+  color: yellowgreen;
+  margin-left: 4em;
+}
+
+#find-us h4 {
+  font-size: medium;
+  color: yellowgreen;
+  margin-left: 4em;
+
+ 
+
+}
+
+
+
+#location-footer{
+  color: yellowgreen;
+  font-size: small;
+
+
+
+
+}
+
+#address-footer{
+     color: #f5f3f3;
+     font-size: small;
+     
+}
+
+
+ #Telephone-footer {
+         color: yellowgreen;
+         font-size: small;
+        
+         
+}
+
+#number-footer{
+  color: #f5f3f3;
+  font-size: small;
+ 
+}
+
+#envelope-footer{
+  color: yellowgreen;
+
+}
+
+
+
+    
+    }
+    
+
+  /**********  Super Extra small devices only **********/
+  @media (min-width: 414px) and (max-width: 568px) {
+    #logo-img{
+        width: 140px;
+        height: 70px;
+        margin-left: auto;
+        margin-top: -15px;
+       
+      }
+    
+    
+      #slogan {
+        font-size: 0.6rem;
+        font-style: oblique;
+        color: white;
+        border: 0.1em solid yellowgreen;
+        padding: 0.3em;
+        border-radius: 0.7em;
+        text-decoration: double;
+        text-transform: uppercase;
+        position: relative;
+        bottom: 2em;
+        left: -2.8em;
+      
+       
+      }
+    
+    
+      #nav-list {
+        font-family: "Oxygen", sans-serif;
+        background-color: rgb(6, 6, 102);
+        font-size: 1.1em;
+        text-align: center;
+        color: white;
+        text-indent: 7px;
+        font-weight: 400px;
+        padding: 1px;
+        margin-top: -2em;
+        margin-left: 0.3em;
+        position: relative;
+        z-index: 10;
+      
+      
+    }
+
+    #who {
+      background-color: yellowgreen;
+      width: fit-content;
+      
+  }
+
+  #do {
+      background-color: yellowgreen;
+      width: fit-content;
+    
+  }
+
+  #portfolio {
+      background-color: yellowgreen;
+      width: fit-content;
+    
+     
+  }
+
+
+   /*
+  ===========================
+   DROPDOWN MENU  STYLE
+  ============================
+  */
+  .dropdown-menu {
+    animation: slideDown 0.5s ease forwards;
+    transform-origin: top;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+    to {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  
+    
+    
+    .header-info {
+        background-color: yellowgreen;
+        font-style: italic;
+        font-size: 11px
+        
+        
+      }
+      
+      
+      #clock {
+        color: rgb(6, 6, 102);
+        
+      }
+      
+      #working-hour{
+        color: white;
+        font-style: italic;
+      }
+      
+      #Telephone{
+        color:rgb(6, 6, 102);
+        
+      
+      
+      
+      }
+      
+      #number {
+        color: rgb(245, 243, 243);
+      
+      
+      }
+    
+      #envelope {
+        color:rgb(6, 6, 102);
+      
+      
+      }
+      
+      
+      #email {
+        color: rgb(247, 248, 245);
+      
+      
+      }
+    
+      #social {
+       color: rgb(6, 6, 102);
+    
+      }
+
+
+  /*=============================
+  HEADER WORKING HOUR STYING
+  ============================
+  */
+#workhour {
+  font-family: "Lora" serif;
+ font-size: 12px;
+  color: yellowgreen;
+  position: absolute;
+  right: 3em;
+  top: 0.36em;
+  }
+  
+  #clocknew {
+  font-size: 12px;
+  position: absolute;
+  right: 18em;
+  top: 1.2em;
+  }
+   
+
+/*
+============================
+SLIDE SECTION STYLE
+============================
+*/
+
+
+#slide-image {
+  text-align: center;
+  width: 100%;
+  height: 350px;
+ 
+}
+
+
+.slide-caption, h2 {
+font-family: "Oxygen" sans-serif;
+font-weight: 500;
+font-size: 20px;
+text-align: center;
+align-items: center;
+color: yellowgreen;
+margin-top: -12em;
+border: 0.1px solid rgb(247, 244, 244);
+border-radius: 25px;
+border-spacing: 25px;
+
+}
+
+.slide-caption, #slide-text{
+font-family: "Lora" serif;
+font-size: 10px;
+text-align:center;
+color: rgb(248, 246, 246);
+
+
+
+}
+
+.slide-caption, #slide-button{
+background-color: rgb(243, 245, 241);
+font-family: "Oxygen" sans-serif;
+font-weight: 300;
+font-style: bold;
+font-size: small;
+color: black;
+border: 0.17px solid rgb(8, 7, 7);
+border-radius: 5px;
+padding: 3px;
+}
+
+.slide-caption, #slide-button-L {
+background-color: yellowgreen;
+font-family: "Oxygen" sans-serif;
+font-weight: 300;
+font-style: bold;
+font-size: small;
+color: black;
+border: 0.17px solid rgb(247, 244, 244);
+border-radius: 5px;
+padding: 3px;
+
+}
+
+
+
+/*
+=============================
+END OF SLIDE SECTION STYLE
+=============================
+*/
+
+
+
+
+/*
+==============================
+INFORMATION GRID STYLES
+==============================
+*/
+
+#columns {
+  width: 100%;
+  height: 400px;
+  border-color: 2px greenyellow;
+  border-width:1px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+  margin-bottom: 12px;
+  padding: 5px;
+  
+
+ 
+
+}
+
+.front-tiles {
+  height: 20px;
+  background-color:rgb(6, 6, 102);
+  border: solid 0.05em yellowgreen;
+  border-style: ridge;
+  border-width: 0.3em;
+  border-radius: 4em;
+  padding: 30px;
+  box-shadow: 20cqh;
+
+ 
+}
+
+#front-tiles:hover {
+  box-shadow: 0 2px 5px 2px #f5f3f3;
+
+}
+
+.label{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: blue;
+  font-size: 1em;
+  font-style: bold;
+  margin-top: -3.2em;
+  margin-left: em;
+  font-weight: 100px;
+  text-align: center;
+  border: solid 0.2em yellowgreen;
+  border-radius: 1em;
+  border-width: 3px;
+  border-style: outset;
+ 
+  
+}
+
+#grid-icon{
+  font-size: 40px;
+  color: yellowgreen;
+  border: solid 0.05em yellowgreen;
+  border-radius: 50px;
+  text-shadow: 0.02em;
+  margin-left: -15px;
+  margin-top: 30em;
+  position: relative;
+  bottom: 4.5rem;
+  right: -9rem;
+}
+
+
+
+
+
+p {
+  font-family: "Lora" serif;
+  color: white;
+  text-align: left;
+  text-justify: 25px;
+  padding: 10px;
+
+
+}
+a, a:hover, a:active  {
+  text-decoration: none;
+  text-decoration-color: none;
+  color:white;
+}
+
+   
+   
+    
+
+
+    .portfolio {
+      height: 500px;
+      background-color: white;
+      margin-top: 60em;
+    
+    
+    }
+    
+    
+/*
+===========================
+FOOTER STYLE START
+===========================
+*/
+
+
+.footer {
+  height: 500px;
+  background-color: rgb(3, 15, 22);
+
+
+  
+}
+
+.copyright {
+  margin-top: 1em;
+  color: #f5f3f3;
+ 
+}
+
+
+#copyright-text {
+  font-family: "Lora" serif;
+  margin-left: -30em;
+  
+}
+
+#footer-logo {
+      width: 100px;
+      height: 50px;
+}
+
+#social-footer {
+  font-size: small;
+  -webkit-text-fill-color: yellowgreen;
+  margin-top: -6em;
+  margin-left: 35rem;
+
+}
+
+.footer hr {
+ width: 50%;
+ color: #f5f3f3;
+ margin-left: 5em;
+
+}
+.footer #top-hr {
+  width: 100%;
+  color: #f5f3f3;
+  margin-left: auto;
+}
+
+.list-unstyled {
+  font-family: "Lora" serif;
+  font-size: x-small;
+  margin-left: 6.6em;
+  color: #f5f3f3;
+  padding: 10px;
+ 
+
+}
+
+.nav a:hover{
+  text-decoration: underline;
+}
+
+#footer-info h4 {
+  font-size: medium;
+  color: yellowgreen;
+  margin-left: 4em;
+}
+
+#find-us h4 {
+  font-size: medium;
+  color: yellowgreen;
+  margin-left: 4em;
+
+ 
+
+}
+
+
+
+#location-footer{
+  color: yellowgreen;
+  font-size: small;
+
+
+
+
+}
+
+#address-footer{
+     color: #f5f3f3;
+     font-size: small;
+     
+}
+
+
+ #Telephone-footer {
+         color: yellowgreen;
+         font-size: small;
+        
+         
+}
+
+#number-footer{
+  color: #f5f3f3;
+  font-size: small;
+ 
+}
+
+#envelope-footer{
+  color: yellowgreen;
+
+}
+
+
+
+/*
+=========================
+FOOTER STYLE START
+=========================
+*/
+
+
+
+.footer {
+  height: 900px;
+  background-color: rgb(3, 15, 22);
+
+
+
+  
+}
+
+.copyright {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 1em;
+  color: #f5f3f3;
+ 
+}
+
+
+#copyright-text {
+  font-family: "Lora" serif;
+  margin-left: -30em;
+  
+}
+
+#footer-logo {
+      width: 100px;
+      height: 50px;
+}
+
+#social-footer {
+  font-size: small;
+  align-items: center;
+  -webkit-text-fill-color: yellowgreen;
+  margin-top: -2em;
+  margin-left: 9rem;
+
+
+
+}
+
+.footer hr {
+ width: 50%;
+ color: #f5f3f3;
+ margin-left: 5em;
+
+}
+.footer #top-hr {
+  width: 100%;
+  color: #f5f3f3;
+  margin-left: auto;
+}
+
+.list-unstyled {
+  font-family: "Lora" serif;
+  font-size: x-small;
+  text-align: center;
+  vertical-align: auto;
+  margin-left: 13em;
+  color: #f5f3f3;
+  padding: 5px;
+ 
+
+}
+
+#footer-info h4 {
+  font-size: medium;
+  color: yellowgreen;
+  text-align: center;
+  margin-left: 1em;
+}
+
+#find-us h4 {
+  font-size: medium;
+  color: yellowgreen;
+ text-align: center;
+  margin-left: 1em;
+
+ 
+
+}
+
+
+
+#location-footer{
+  color: yellowgreen;
+  font-size: small;
+
+
+
+
+}
+
+#address-footer{
+  text-align: center;
+     color: #f5f3f3;
+     font-size: small;
+     
+}
+
+
+ #Telephone-footer {
+         color: yellowgreen;
+         font-size: small;
+         
+        
+         
+}
+
+#number-footer{
+    text-align: left;
+  color: #f5f3f3;
+  font-size: small;
+ 
+}
+
+#envelope-footer{
+    text-align: left;
+  color: yellowgreen;
+
+}
+
+
+
+  
+
+
+
+  }
+
+
+  /*
+  ========================
+  PORTFOLIO
+  =========================
+  */
+  
+
+
+  
+  /**********  Super Extra Extra small devices only **********/
+  @media (min-width: 267px) and (max-width: 360px) {
+    
+    #logo-img{
+        width: 80px;
+        height: 40px;
+        margin-left: 5px;
+        margin-top: -15px;
+       
+      }
+    
+    
+      #slogan {
+        font-size: 0.4rem;
+        font-style: oblique;
+        color: white;
+        border: 0.1em solid yellowgreen;
+        padding: 0.2em;
+        border-radius: 0.7em;
+        text-decoration: double;
+        text-transform: uppercase;
+        position: relative;
+        bottom: 4em;
+        left: -3.1em;
+      
+       
+      }
+    
+    
+      #nav-list {
+        font-family: "Oxygen", sans-serif;
+        background-color: rgb(6, 6, 102);
+        font-size: 1.1em;
+        text-align: center;
+        color: white;
+        text-indent: 7px;
+        font-weight: 400px;
+        padding: 1px;
+        margin-top: -1em;
+        margin-left: 0.3em;
+        position: relative;
+        z-index: 10;
+      
+      
+    }
+
+    #who {
+      background-color: yellowgreen;
+      width: fit-content;
+      
+  }
+
+  #do {
+      background-color: yellowgreen;
+      width: fit-content;
+    
+  }
+
+  #portfolio {
+      background-color: yellowgreen;
+      width: fit-content;
+    
+     
+  }
+
+
+   /*
+  ===========================
+   DROPDOWN MENU  STYLE
+  ============================
+  */
+  .dropdown-menu {
+    animation: slideDown 0.5s ease forwards;
+    transform-origin: top;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+    to {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  
+    
+    
+    .header-info {
+        background-color: yellowgreen;
+        font-style: italic;
+        font-size: 7px
+        
+        
+      }
+      
+      
+      #clock {
+        color: rgb(6, 6, 102);
+        
+      }
+      
+      #working-hour{
+        color: white;
+        font-style: italic;
+      }
+      
+      #Telephone{
+        color:rgb(6, 6, 102);
+        
+      
+      
+      
+      }
+      
+      #number {
+        color: rgb(245, 243, 243);
+      
+      
+      }
+    
+      #envelope {
+        color:rgb(6, 6, 102);
+      
+      
+      }
+      
+      
+      #email {
+        color: rgb(247, 248, 245);
+      
+      
+      }
+    
+      #social {
+       color: rgb(6, 6, 102);
+    
+      }
+
+
+  /*==========================
+  HEADER WORKING HOUR STYING
+  ============================
+  */
+#workhour {
+  font-family: "Lora" serif;
+ font-size: 10px;
+  color: yellowgreen;
+  position: absolute;
+  right: 1em;
+  top: -1em;
+  }
+  
+  #clocknew {
+  font-size: 10px;
+  position: absolute;
+  right: 16em;
+  top: 0.11em;
+  }
+
+
+      
+   
+
+/*
+===========================
+SLIDE SECTION STYLE
+===========================
+*/
+
+
+#slide-image {
+  text-align: center;
+  width: 100%;
+  height: 350px;
+ 
+}
+
+
+.slide-caption, h2 {
+font-family: "Oxygen" sans-serif;
+font-weight: 500;
+font-size: 15px;
+text-align: center;
+align-items: center;
+color: yellowgreen;
+margin-top: -12em;
+border: 0.1px solid rgb(247, 244, 244);
+border-radius: 25px;
+border-spacing: 25px;
+
+}
+
+.slide-caption, #slide-text{
+font-family: "Lora" serif;
+font-size: 10px;
+text-align:center;
+color: rgb(248, 246, 246);
+
+
+
+}
+
+.slide-caption, #slide-button{
+background-color: rgb(243, 245, 241);
+font-family: "Oxygen" sans-serif;
+font-weight: 250;
+font-style: bold;
+font-size: 9px;
+color: black;
+border: 0.17px solid rgb(8, 7, 7);
+border-radius: 5px;
+padding: 1px;
+}
+
+.slide-caption, #slide-button-L {
+background-color: yellowgreen;
+font-family: "Oxygen" sans-serif;
+font-weight: 250;
+font-style: bold;
+font-size: 9px;
+color: black;
+border: 0.17px solid rgb(247, 244, 244);
+border-radius: 5px;
+padding: 2px;
+
+}
+
+
+
+/***************************END OF SLIDE SECTION STYLE*********************************/
+
+
+/***************************INFORMATION GRID STYLES*********************************/
+
+#columns {
+  width: 100%;
+  height: 200px;
+  border-color: 2px greenyellow;
+  border-width:1px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 35px;
+  margin-bottom: 12px;
+  padding: 5px;
+  
+
+ 
+
+}
+
+.front-tiles {
+  height: 15px;
+  background-color:rgb(6, 6, 102);
+  border: solid 0.05em yellowgreen;
+  border-style: ridge;
+  border-width: 0.3em;
+  border-radius: 4em;
+  padding: 30px;
+  box-shadow: 20cqh;
+
+ 
+}
+
+#front-tiles:hover {
+  box-shadow: 0 2px 5px 2px #f5f3f3;
+
+}
+
+.label{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background-color: blue;
+  font-size: 0.8em;
+  font-style: bold;
+  margin-top: -3.2em;
+  margin-left: em;
+  font-weight: 100px;
+  text-align: center;
+  border: solid 0.2em yellowgreen;
+  border-radius: 1em;
+  border-width: 3px;
+  border-style: outset;
+ 
+  
+}
+
+#grid-icon{
+  font-size: 50px;
+  color: yellowgreen;
+  border: solid 0.05em yellowgreen;
+  border-radius: 50px;
+  text-shadow: 0.02em;
+  margin-left: -15px;
+  margin-top: 30em;
+  position: relative;
+  bottom: 4.5rem;
+  right: -4.4rem;
+ 
+  
+ 
+}
+
+p {
+  font-family: "Lora" serif;
+  color: white;
+  text-align: left;
+  justify-content: center;
+
+
+}
+a, a:hover, a:active  {
+  text-decoration: none;
+  text-decoration-color: none;
+  color:white;
+}
+
+   
+   
+    
+
+    .portfolio {
+      height: 200px;
+      background-color: white;
+      margin-top: 170em;
+    
+    
+    }
+    
+    /***************************FOOTER STYLE START*********************************/
+
+
+
+.footer {
+  height: 950px;
+  background-color: rgb(3, 15, 22);
+
+
+
+  
+}
+
+.copyright {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 1em;
+  color: #f5f3f3;
+ 
+}
+
+
+#copyright-text {
+  font-family: "Lora" serif;
+  margin-left: -30em;
+  
+}
+
+#footer-logo {
+      width: 100px;
+      height: 50px;
+}
+
+#social-footer {
+  font-size: small;
+  align-items: center;
+  -webkit-text-fill-color: yellowgreen;
+  margin-top: -2em;
+  margin-left: 4rem;
+
+}
+
+.footer hr {
+ width: 50%;
+ color: #f5f3f3;
+ margin-left: 5em;
+
+}
+.footer #top-hr {
+  width: 100%;
+  color: #f5f3f3;
+  margin-left: auto;
+}
+
+.list-unstyled {
+  font-family: "Lora" serif;
+  font-size: x-small;
+  margin-left: 6.6em;
+  color: #f5f3f3;
+  padding: 10px;
+ 
+
+}
+
+#footer-info h4 {
+  font-size: medium;
+  color: yellowgreen;
+  margin-left: 4em;
+}
+
+#find-us h4 {
+  font-size: medium;
+  color: yellowgreen;
+  margin-left: 4em;
+
+ 
+
+}
+
+
+
+#location-footer{
+  color: yellowgreen;
+  font-size: small;
+
+
+
+
+}
+
+#address-footer{
+     color: #f5f3f3;
+     font-size: small;
+     
+}
+
+
+ #Telephone-footer {
+         color: yellowgreen;
+         font-size: small;
+        
+         
+}
+
+#number-footer{
+  color: #f5f3f3;
+  font-size: small;
+ 
+}
+
+#envelope-footer{
+  color: yellowgreen;
+
+}
+
+
+
+
+  }
