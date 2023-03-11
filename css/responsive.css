@@ -1260,7 +1260,11 @@ a, a:hover, a:active  {
 
 
 
-/***************************FOOTER STYLE START*********************************/
+/*
+===========================
+FOOTER STYLE START
+===========================
+*/
 
 
 .footer {
@@ -1493,7 +1497,7 @@ a, a:hover, a:active  {
       }
 
 
-  /*===========================
+  /*=============================
   HEADER WORKING HOUR STYING
   ============================
   */
@@ -1514,7 +1518,11 @@ a, a:hover, a:active  {
   }
    
 
-/***************************SLIDE SECTION STYLE*********************************/
+/*
+============================
+SLIDE SECTION STYLE
+============================
+*/
 
 
 #slide-image {
@@ -1576,12 +1584,20 @@ padding: 3px;
 
 
 
-/***************************END OF SLIDE SECTION STYLE*********************************/
+/*
+=============================
+END OF SLIDE SECTION STYLE
+=============================
+*/
 
 
 
 
-/***************************INFORMATION GRID STYLES*********************************/
+/*
+==============================
+INFORMATION GRID STYLES
+==============================
+*/
 
 #columns {
   width: 100%;
@@ -1681,7 +1697,11 @@ a, a:hover, a:active  {
     }
     
     
-/***************************FOOTER STYLE START*********************************/
+/*
+===========================
+FOOTER STYLE START
+===========================
+*/
 
 
 .footer {
@@ -1797,7 +1817,11 @@ a, a:hover, a:active  {
 
 
 
-/***************************FOOTER STYLE START*********************************/
+/*
+=========================
+FOOTER STYLE START
+=========================
+*/
 
 
 
@@ -1922,9 +1946,22 @@ a, a:hover, a:active  {
 
 }
 
-  /*****PORTFOLIO********/
+
+
   
-  #portfo {
+
+
+
+  }
+
+
+  /*
+  ========================
+  PORTFOLIO
+  =========================
+  */
+  
+  #portfolio {
     height: 200px;
     background-color: rgb(250, 246, 246);
     margin-top: 100rem;
@@ -1932,35 +1969,31 @@ a, a:hover, a:active  {
   
 
 
-
-  }
-
-
   
   /**********  Super Extra Extra small devices only **********/
   @media (min-width: 267px) and (max-width: 360px) {
     
     #logo-img{
-        width: 100px;
-        height: 50px;
-        margin-left: 25px;
+        width: 80px;
+        height: 40px;
+        margin-left: 5px;
         margin-top: -15px;
        
       }
     
     
       #slogan {
-        font-size: 0.5rem;
+        font-size: 0.4rem;
         font-style: oblique;
         color: white;
         border: 0.1em solid yellowgreen;
-        padding: 0.3em;
+        padding: 0.2em;
         border-radius: 0.7em;
         text-decoration: double;
         text-transform: uppercase;
         position: relative;
-        bottom: 1em;
-        left: 0.48em;
+        bottom: 4em;
+        left: -3.1em;
       
        
       }
@@ -1975,7 +2008,7 @@ a, a:hover, a:active  {
         text-indent: 7px;
         font-weight: 400px;
         padding: 1px;
-        margin-top: 1em;
+        margin-top: -1em;
         margin-left: 0.3em;
         position: relative;
         z-index: 10;
@@ -2006,7 +2039,7 @@ a, a:hover, a:active  {
     .header-info {
         background-color: yellowgreen;
         font-style: italic;
-        font-size: 4px
+        font-size: 7px
         
         
       }
@@ -2053,9 +2086,37 @@ a, a:hover, a:active  {
        color: rgb(6, 6, 102);
     
       }
+
+
+  /*==========================
+  HEADER WORKING HOUR STYING
+  ============================
+  */
+#workhour {
+  font-family: "Lora" serif;
+ font-size: 10px;
+  color: yellowgreen;
+  position: absolute;
+  right: 1em;
+  top: -1em;
+  }
+  
+  #clocknew {
+  font-size: 10px;
+  position: absolute;
+  right: 16em;
+  top: 0.11em;
+  }
+
+
+      
    
 
-/***************************SLIDE SECTION STYLE*********************************/
+/*
+===========================
+SLIDE SECTION STYLE
+===========================
+*/
 
 
 #slide-image {
@@ -2069,7 +2130,7 @@ a, a:hover, a:active  {
 .slide-caption, h2 {
 font-family: "Oxygen" sans-serif;
 font-weight: 500;
-font-size: 18px;
+font-size: 15px;
 text-align: center;
 align-items: center;
 color: yellowgreen;
@@ -2095,7 +2156,7 @@ background-color: rgb(243, 245, 241);
 font-family: "Oxygen" sans-serif;
 font-weight: 250;
 font-style: bold;
-font-size: 10px;
+font-size: 9px;
 color: black;
 border: 0.17px solid rgb(8, 7, 7);
 border-radius: 5px;
@@ -2107,7 +2168,7 @@ background-color: yellowgreen;
 font-family: "Oxygen" sans-serif;
 font-weight: 250;
 font-style: bold;
-font-size: 10px;
+font-size: 9px;
 color: black;
 border: 0.17px solid rgb(247, 244, 244);
 border-radius: 5px;
