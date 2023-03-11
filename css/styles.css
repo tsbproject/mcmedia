@@ -3,7 +3,11 @@ body {
 }
 
 
-/***************************HEADER SECTION STYLES*********************************/
+/*
+==============================
+HEADER SECTION STYLES
+==============================
+*/
 
 #header-nav {
   height: 150px;
@@ -188,7 +192,11 @@ padding: 10px;
 
 
 
-/***************************END OF SLIDE SECTION STYLE*********************************/
+/*
+============================
+END OF SLIDE SECTION STYLE
+============================
+*/
 
 #columns {
   width: 100%;
@@ -272,13 +280,12 @@ p {
   }
  
 
-/***************************END OF INFOTMATION GRID STYLES*********************************/
+/*
+================================
+END OF INFORMATION GRID STYLES
+================================
+*/
 
-#portfo {
-  height: 200px;
-  background-color: rgb(250, 246, 246);
-  margin-top: 10rem;
-}
 
 
 

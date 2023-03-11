@@ -218,6 +218,29 @@
       
       
     }
+
+
+     /*
+  ===========================
+   DROPDOWN MENU  STYLE
+  ============================
+  */
+  .dropdown-menu {
+    animation: slideDown 0.5s ease forwards;
+    transform-origin: top;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+    to {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  
     
     
     .header-info {
@@ -391,7 +414,11 @@ a, a:hover, a:active  {
 
 }
 
-/***************************FOOTER STYLE START*********************************/
+/*
+==========================
+FOOTER STYLE START
+=========================
+*/
 
 
 .footer {
@@ -589,6 +616,30 @@ a, a:hover, a:active  {
     }
 
 
+
+     /*
+  ===========================
+   DROPDOWN MENU  STYLE
+  ============================
+  */
+  .dropdown-menu {
+    animation: slideDown 0.5s ease forwards;
+    transform-origin: top;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+    to {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  
+
+
      /********** NAVIGATION STYLES END*******/
         
       
@@ -668,8 +719,11 @@ a, a:hover, a:active  {
   top: 0.9em;
   }
 
-
-       /***************************SLIDE SECTION STYLE*********************************/
+       /*
+       =======================
+       SLIDE SECTION STYLE
+       =======================
+      */
 
 
 #slide-image {
@@ -731,11 +785,19 @@ padding: 3px;
 
 
 
-/***************************END OF SLIDE SECTION STYLE*********************************/
+/*
+===============================
+END OF SLIDE SECTION STYLE
+===============================
+*/
    
     
     
-/***************************INFORMATION GRID STYLES*********************************/
+/*
+===============================
+INFORMATION GRID STYLES
+===============================
+*/
 
 #columns {
   width: 100%;
@@ -1024,6 +1086,29 @@ a, a:hover, a:active  {
     
      
   }
+
+
+   /*
+  ===========================
+   DROPDOWN MENU  STYLE
+  ============================
+  */
+  .dropdown-menu {
+    animation: slideDown 0.5s ease forwards;
+    transform-origin: top;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+    to {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  
     
     
     .header-info {
@@ -1100,7 +1185,11 @@ a, a:hover, a:active  {
    
 
    
-    /***************************SLIDE SECTION STYLE*********************************/
+    /*
+    ==========================
+    SLIDE SECTION STYLE
+    ==========================
+    */
 
 
 #slide-image {
@@ -1162,9 +1251,17 @@ padding: 3px;
 
 
 
-/***************************END OF SLIDE SECTION STYLE*********************************/
+/*
+=============================
+END OF SLIDE SECTION STYLE
+==============================
+*/
    
-      /***************************INFORMATION GRID STYLES*********************************/
+/*
+===============================
+INFORMATION GRID STYLES
+===============================
+*/
 
 #columns {
   width: 100%;
@@ -1443,6 +1540,29 @@ FOOTER STYLE START
     
      
   }
+
+
+   /*
+  ===========================
+   DROPDOWN MENU  STYLE
+  ============================
+  */
+  .dropdown-menu {
+    animation: slideDown 0.5s ease forwards;
+    transform-origin: top;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+    to {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  
     
     
     .header-info {
@@ -2034,6 +2154,29 @@ FOOTER STYLE START
     
      
   }
+
+
+   /*
+  ===========================
+   DROPDOWN MENU  STYLE
+  ============================
+  */
+  .dropdown-menu {
+    animation: slideDown 0.5s ease forwards;
+    transform-origin: top;
+  }
+  
+  @keyframes slideDown {
+    from {
+      transform: scaleY(0);
+      opacity: 0;
+    }
+    to {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+  
     
     
     .header-info {
