@@ -1488,7 +1488,7 @@ FOOTER STYLE START
     
 
   /**********  Super Extra small devices only **********/
-  @media (min-width: 414px) and (max-width: 568px) {
+  @media (max-width: 414px)  {
     #logo-img{
         width: 140px;
         height: 70px;
