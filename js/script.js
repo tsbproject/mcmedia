@@ -1,7 +1,7 @@
  // DISPLAYING BOTH THE WORKING HOUR ICON AND TEXT IN THE HEADER
 
  // Displaying the working hour text 
-let h =  "Monday - Satuday 9am - 6pm"
+let h =  "Monday - Saturday 9am - 6pm"
 document.getElementById("workhour").innerHTML = h;
 
 // Create a new <i> element with classes of "bi" and "bi-clock"
