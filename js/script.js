@@ -44,10 +44,22 @@ dropdowns.forEach((dropdown) => {
 
 
 
+// Get the navbar collapse div and the navbar-toggler button
+var navbarCollapse = document.querySelector('#navbarNav');
+var navbarToggler = document.querySelector('.navbar-toggler');
 
+// Set the initial state of the navbar collapse div to closed
+navbarCollapse.classList.add('collapse');
 
-const navbarToggler = document.querySelector('.navbar-toggler');
-
+// Add an event listener to the navbar-toggler button to toggle the navbar collapse div
 navbarToggler.addEventListener('click', function() {
-  navbarToggler.classList.toggle('active');
+  if (navbarCollapse.classList.contains('show')) {
+    // If the navbar collapse div is open, close it
+    navbarCollapse.classList.remove('show');
+    navbarCollapse.classList.add('collapse');
+  } else {
+    // If the navbar collapse div is closed, open it and position it to the right
+    navbarCollapse.classList.remove('collapse');
+    navbarCollapse.classList.add('show', 'position-absolute', 'top-0', 'end-0');
+  }
 });

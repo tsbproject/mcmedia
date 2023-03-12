@@ -2095,7 +2095,7 @@ FOOTER STYLE START
 
   
   /**********  Super Extra Extra small devices only **********/
-  @media (min-width: 267px) and (max-width: 360px) {
+  @media (max-width:360px)  {
     
     #logo-img{
         width: 80px;
@@ -2186,7 +2186,7 @@ FOOTER STYLE START
     .header-info {
         background-color: yellowgreen;
         font-style: italic;
-        font-size: 7px
+        font-size: 9px
         
         
       }
@@ -2325,10 +2325,18 @@ padding: 2px;
 
 
 
-/***************************END OF SLIDE SECTION STYLE*********************************/
+/*
+======================================
+END OF SLIDE SECTION STYLE
+======================================
+**/
 
+/*
+======================================
+INFORMATION GRID STYLES
+======================================
+**/
 
-/***************************INFORMATION GRID STYLES*********************************/
 
 #columns {
   width: 100%;
@@ -2388,11 +2396,11 @@ padding: 2px;
   border: solid 0.05em yellowgreen;
   border-radius: 50px;
   text-shadow: 0.02em;
-  margin-left: -15px;
+  margin-left: -1px;
   margin-top: 30em;
   position: relative;
   bottom: 4.5rem;
-  right: -4.4rem;
+  right: -6.2rem;
  
   
  
@@ -2419,12 +2427,16 @@ a, a:hover, a:active  {
     .portfolio {
       height: 200px;
       background-color: white;
-      margin-top: 170em;
+      margin-top: 112em;
     
     
     }
     
-    /***************************FOOTER STYLE START*********************************/
+    /*
+    ==================================
+    FOOTER STYLE START
+    ==================================
+    */
 
 
 
