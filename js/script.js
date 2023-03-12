@@ -63,3 +63,22 @@ navbarToggler.addEventListener('click', function() {
     navbarCollapse.classList.add('show', 'position-absolute', 'top-0', 'end-0');
   }
 });
+
+
+
+
+window.addEventListener('load', function() {
+  var content = document.getElementById('columns');
+  content.style.opacity = '0';
+  
+  // Define your animation here
+  var animation = content.animate([
+    { opacity: '0' },
+    { opacity: '1' }
+  ], 1000);
+  
+  // Play the animation when the content is visible
+  animation.onfinish = function() {
+    content.style.opacity = '1';
+  };
+});
