@@ -2337,17 +2337,13 @@ FOOTER STYLE START
   }
 
 
-  /*
-  ========================
-  PORTFOLIO
-  =========================
-  */
+
   
 
 
   
   /**********  Super Extra Extra small devices only **********/
-  @media (max-width:360px)  {
+  @media (max-width:375px)  {
     
     #logo-img{
         width: 80px;
@@ -2438,7 +2434,7 @@ FOOTER STYLE START
     .header-info {
         background-color: yellowgreen;
         font-style: italic;
-        font-size: 9px
+        font-size: 11px
         
         
       }
@@ -2652,7 +2648,7 @@ INFORMATION GRID STYLES
   margin-top: 30em;
   position: relative;
   bottom: 4.5rem;
-  right: -6.2rem;
+  right: -7rem;
  
   
  
@@ -2679,7 +2675,7 @@ a, a:hover, a:active  {
     .portfolio {
       height: 200px;
       background-color: white;
-      margin-top: 112em;
+      margin-top: 105em;
     
     
     }
@@ -2693,7 +2689,7 @@ a, a:hover, a:active  {
 
 
 .footer {
-  height: 950px;
+  height: 980px;
   background-color: rgb(3, 15, 22);
 
 
@@ -2702,7 +2698,7 @@ a, a:hover, a:active  {
 }
 
 .copyright {
-  font-size: 10px;
+  font-size: 12px;
   text-align: center;
   margin-top: 1em;
   color: #f5f3f3;
@@ -2726,7 +2722,7 @@ a, a:hover, a:active  {
   align-items: center;
   -webkit-text-fill-color: yellowgreen;
   margin-top: -2em;
-  margin-left: 4rem;
+  margin-left: 7rem;
 
 }
 
@@ -2744,7 +2740,7 @@ a, a:hover, a:active  {
 
 .list-unstyled {
   font-family: "Lora" serif;
-  font-size: x-small;
+  font-size: small;
   margin-left: 6.6em;
   color: #f5f3f3;
   padding: 10px;
@@ -2755,7 +2751,7 @@ a, a:hover, a:active  {
 #footer-info h4 {
   font-size: medium;
   color: yellowgreen;
-  margin-left: 4em;
+  margin-left: 0.1em;
 }
 
 #find-us h4 {
@@ -2772,6 +2768,9 @@ a, a:hover, a:active  {
 #location-footer{
   color: yellowgreen;
   font-size: small;
+ 
+
+ 
 
 
 
@@ -2781,6 +2780,7 @@ a, a:hover, a:active  {
 #address-footer{
      color: #f5f3f3;
      font-size: small;
+     margin-right: 10em;
      
 }
 
@@ -2807,3 +2807,6 @@ a, a:hover, a:active  {
 
 
   }
+
+
+  
