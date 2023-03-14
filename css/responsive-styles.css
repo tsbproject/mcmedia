@@ -122,9 +122,14 @@
       margin-left: 6.6em;
       color: #f5f3f3;
       padding: 10px;
-     
     
     }
+
+    .list-unstyled a:hover {
+      text-decoration: underline;
+    }
+
+  
   
     #footer-info h4 {
       color: yellowgreen;
