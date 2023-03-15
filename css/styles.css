@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(5, 5, 65);
+  background-color: rgb(252, 252, 255);
 }
 
 
@@ -433,17 +433,27 @@ END OF INFORMATION GRID STYLES
 
 
 
+.portfolio-header{
+  color: blue;
+}
 
-
-.portfolio {
-    height: 200px;
+#carouselPortfolio {
+    height: 500px;
     background-color: white;
     margin-top: 1em;
 
 
   }
 
-  #portfolio-image {
+
+  .card {
+    height: auto;  
+    width: 350px;
+
+}
+
+
+  .card-img-top {
        height: 200px;  
        width: 350px;
 
