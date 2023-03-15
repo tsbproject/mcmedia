@@ -901,7 +901,7 @@ a, a:hover, a:active  {
 }
 
 
-.portfolio {
+#carouselPortfolio {
   height: 200px;
   background-color: white;
   margin-top: 1em;
@@ -1362,7 +1362,7 @@ a, a:hover, a:active  {
 }
 
 
-.portfolio {
+#carouselPortfolio {
   height: 200px;
   background-color: white;
   margin-top: 34em;
@@ -1522,6 +1522,18 @@ INFORMATION GRID STYLES
 
 }
 
+
+#section2 {
+  background-image: url("../images/creative-design.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-color: blueviolet;
+  height:300px;
+  width: 100%;
+
+}
+
+
 .front-tiles {
   height: 20px;
   background-color:rgb(6, 6, 102);
@@ -1590,7 +1602,7 @@ a, a:hover, a:active  {
 }
 
 
-.portfolio {
+#carouselPortfolio {
   height: 200px;
   background-color: white;
   margin-top: 62em;
@@ -1801,7 +1813,7 @@ FOOTER STYLE START
     
   }
 
-  #portfolio {
+  #portfolio{
       background-color: yellowgreen;
       width: fit-content;
     
@@ -2002,6 +2014,18 @@ INFORMATION GRID STYLES
 
 }
 
+
+#section2 {
+  background-image: url("../images/creative-design.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-color: blueviolet;
+  height:75em;
+  width: 100%;
+
+}
+
+
 .front-tiles {
   height: 20px;
   background-color:rgb(6, 6, 102);
@@ -2075,10 +2099,10 @@ a, a:hover, a:active  {
     
 
 
-    .portfolio {
+#carouselPortfolio {
       height: 500px;
       background-color: white;
-      margin-top: 60em;
+      margin-top: 2em;
     
     
     }
@@ -2677,7 +2701,7 @@ a, a:hover, a:active  {
    
     
 
-    .portfolio {
+#carouselPortfolio {
       height: 200px;
       background-color: white;
       margin-top: 105em;
