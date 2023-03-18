@@ -451,15 +451,15 @@ END OF INFORMATION GRID STYLES
 
   .card {
     height: auto;  
-    width: 350px;
+ 
 
 }
 
 
   .card-img-top {
        height: 200px;  
-       width: 350px;
-       display: grid;
+     
+      
 
   }
 
