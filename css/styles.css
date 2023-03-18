@@ -441,9 +441,12 @@ END OF INFORMATION GRID STYLES
     height: 500px;
     background-color: white;
     margin-top: 1em;
+    
 
 
   }
+
+ 
 
 
   .card {
@@ -456,6 +459,7 @@ END OF INFORMATION GRID STYLES
   .card-img-top {
        height: 200px;  
        width: 350px;
+       display: grid;
 
   }
 

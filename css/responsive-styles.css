@@ -1777,7 +1777,7 @@ FOOTER STYLE START
         text-decoration: double;
         text-transform: uppercase;
         position: relative;
-        bottom: 2em;
+        bottom: 3.5em;
         left: -2.8em;
       
        
@@ -1912,8 +1912,8 @@ FOOTER STYLE START
   #clocknew {
   font-size: 12px;
   position: absolute;
-  right: 18em;
-  top: 1.2em;
+  right: 17.7em;
+  top: 2.1em;
   }
    
 
@@ -2393,7 +2393,7 @@ FOOTER STYLE START
         text-decoration: double;
         text-transform: uppercase;
         position: relative;
-        bottom: 4em;
+        bottom: 5.8em;
         left: -3.1em;
       
        
@@ -2463,7 +2463,7 @@ FOOTER STYLE START
     .header-info {
         background-color: yellowgreen;
         font-style: italic;
-        font-size: 11px
+        font-size: 9.5px
         
         
       }
@@ -2528,8 +2528,8 @@ FOOTER STYLE START
   #clocknew {
   font-size: 10px;
   position: absolute;
-  right: 16em;
-  top: 0.11em;
+  right: 15.8em;
+  top: 0.9em;
   }
 
 
@@ -2631,6 +2631,18 @@ INFORMATION GRID STYLES
 
 }
 
+
+#section2 {
+  background-image: url("../images/creative-design.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-color: blueviolet;
+  height:1325px;
+  width: 100%;
+
+
+}
+
 .front-tiles {
   height: 15px;
   background-color:rgb(6, 6, 102);
@@ -2661,9 +2673,7 @@ INFORMATION GRID STYLES
   text-align: center;
   border: solid 0.2em yellowgreen;
   border-radius: 1em;
-  border-width: 3px;
-  border-style: outset;
- 
+  
   
 }
 
@@ -2677,7 +2687,7 @@ INFORMATION GRID STYLES
   margin-top: 30em;
   position: relative;
   bottom: 4.5rem;
-  right: -7rem;
+  right: -6.5rem;
  
   
  
@@ -2704,7 +2714,8 @@ a, a:hover, a:active  {
 #carouselPortfolio {
       height: 200px;
       background-color: white;
-      margin-top: 105em;
+      margin-top: -1.4em;
+      margin-right: 15px;
     
     
     }
@@ -2718,8 +2729,9 @@ a, a:hover, a:active  {
 
 
 .footer {
-  height: 980px;
+  height: 1000px;
   background-color: rgb(3, 15, 22);
+  margin-top: 12em;
 
 
 
