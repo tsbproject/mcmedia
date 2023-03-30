@@ -594,7 +594,11 @@ FOOTER STYLE START
        
       }
     
-    /********** NAVIGATION STYLES START*******/
+    /* 
+    ======================================
+    NAVIGATION STYLES START
+    ======================================
+    */
       #nav-list {
         background-color: rgb(6, 6, 102);
         font-family: "Oxygen", sans-serif;
@@ -921,30 +925,35 @@ PORTFOLIO CAROUSEL
 ======================================
 */
 #carouselPortfolio {
-  height: 200px;
+  height: 400px;
   margin-top: 5em;
+  display: inline-flex;
 
 }
 
-
-.carousel-inner .carousel-item-end.active,
-		.carousel-inner .carousel-item-next {
+.carou-inner .carou-item-end.active,
+		.carou-inner .carou-item-next {
 			transform: translateX(25%);
 		}
 
-		.carousel-inner .carousel-item-start.active, 
-		.carousel-inner .carousel-item-prev {
+		.carou-inner .carou-item-start.active, 
+		.carou-inner .carou-item-prev {
 			transform: translateX(-25%);
 		}
 	
 
-	.carousel-inner .carousel-item-end,
-	.carousel-inner .carousel-item-start { 
+	.carou-inner .carou-item-end,
+	.carou-inner .carou-item-start { 
 		transform: translateX(0);
 	}
 
 
 
+  /*
+=====================================
+           FOOTER SECTION
+======================================
+*/
 
 .footer {
   height: 430px;
@@ -1419,18 +1428,17 @@ PORTFOLIO CAROUSEL
 
 }
 
-
-.carousel-inner .carousel-item > div {
-  display: none;
+.carou-inner .carou-item > div {
+  display:none;
 }
-.carousel-inner .carousel-item > div:first-child {
+.carou-inner .carou-item > div:first-child {
   display: block;
 }
 
 
-.carousel-inner .carousel-item.active,
-.carousel-inner .carousel-item-next,
-.carousel-inner .carousel-item-prev {
+.carou-inner .carou-item.active,
+.carou-inner .carou-item-next,
+.carou-inner .carou-item-prev {
 display: flex;
 }
 
