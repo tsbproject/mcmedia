@@ -2557,6 +2557,7 @@ ABOUT US PAGE STYLES
 #v-mission-header {
     margin-bottom: auto;
     font-family: "Oxygen" serif;
+    font-size: medium;
     background-color: yellowgreen;
     width: 10em;
     padding: 0.5px;
@@ -2565,7 +2566,7 @@ ABOUT US PAGE STYLES
 
 .vision-mission-text {
   color: black;
-  margin-top: -37em;
+  margin-top: -25em;
 
 }
 
