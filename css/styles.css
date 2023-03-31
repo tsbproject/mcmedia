@@ -1,6 +1,9 @@
 body {
   background-color: rgb(252, 252, 255);
+ font-family: "Lora" sans-serif;
 }
+
+
 
 
 /*
@@ -453,6 +456,65 @@ END OF INFORMATION GRID STYLES
 
 
 
+/*
+=====================================
+PAGES TOP HEADER STYLES
+=====================================
+*/
+
+.page-top-banner {
+    background-image: url("/images/creative-design.jpg"); 
+    background-attachment: fixed;
+    background-position: cover;
+    background-size: cover;
+    height: 500px;
+}
+
+
+/*
+=====================================
+ABOUT US PAGE STYLES
+=====================================
+*/
+
+#vision-mission {
+  background-color: rgba(241, 235, 235, 0.295);
+     height: 300px;
+     padding: 12px;
+     border: 25px solid white;
+    
+
+    
+
+
+}
+
+#v-mission-header {
+    margin-bottom: auto;
+    font-family: "Oxygen" serif;
+    background-color: yellowgreen;
+    width: 10em;
+    padding: 2px;
+    margin-bottom: 25em;
+}
+
+.vision-mission-text {
+  color: black;
+  margin-top: -43em;
+
+}
+
+#about-section {
+   height: 650px;
+   background-color: rgba(227, 235, 213, 0.432);
+  
+
+}
+
+.about-text {
+    color: black;
+    font-family: "Lora" sans-serif;
+}
 
  
 
