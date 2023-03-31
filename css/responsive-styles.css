@@ -2407,128 +2407,6 @@ a, a:hover, a:active  {
     
     }
     
-    
-/*
-===========================
-FOOTER STYLE START
-===========================
-*/
-
-
-.footer {
-  height: 500px;
-  background-color: rgb(3, 15, 22);
- 
-
-
-  
-}
-
-.copyright {
-  margin-top: 1em;
-  color: #f5f3f3;
- 
-}
-
-
-#copyright-text {
-  font-family: "Lora" serif;
-  margin-left: -30em;
-  
-}
-
-#footer-logo {
-      width: 100px;
-      height: 50px;
-}
-
-#social-footer {
-  font-size: small;
-  -webkit-text-fill-color: yellowgreen;
-  margin-top: -6em;
-  margin-left: 35rem;
-
-}
-
-.footer hr {
- width: 50%;
- color: #f5f3f3;
- margin-left: 5em;
-
-}
-.footer #top-hr {
-  width: 100%;
-  color: #f5f3f3;
-  margin-left: auto;
-}
-
-.list-unstyled {
-  font-family: "Lora" serif;
-  font-size: small;
-  margin-left: 6.6em;
-  color: #f5f3f3;
-  padding: 3px;
- 
-
-}
-
-.nav a:hover{
-  text-decoration: underline;
-}
-
-#footer-info h4 {
-  font-size: medium;
-  color: yellowgreen;
-  margin-left: 4em;
-}
-
-#find-us h4 {
-  font-size: medium;
-  color: yellowgreen;
-  margin-left: 4em;
-
- 
-
-}
-
-
-
-#location-footer{
-  color: yellowgreen;
-  font-size: small;
-
-
-
-
-}
-
-#address-footer{
-     color: #f5f3f3;
-     font-size: small;
-     
-}
-
-
- #Telephone-footer {
-         color: yellowgreen;
-         font-size: small;
-        
-         
-}
-
-#number-footer{
-  color: #f5f3f3;
-  font-size: small;
- 
-}
-
-#envelope-footer{
-  color: yellowgreen;
-
-}
-
-
-
 /*
 =========================
 FOOTER STYLE START
@@ -2538,7 +2416,7 @@ FOOTER STYLE START
 
 
 .footer {
-  height: 900px;
+  height: 980px;
   background-color: rgb(3, 15, 22);
 
 
@@ -2580,7 +2458,7 @@ FOOTER STYLE START
 .footer hr {
  width: 50%;
  color: #f5f3f3;
- margin-left: 5em;
+ margin-left: 6em;
 
 }
 .footer #top-hr {
@@ -2591,10 +2469,10 @@ FOOTER STYLE START
 
 .list-unstyled {
   font-family: "Lora" serif;
-  font-size: x-small;
+  font-size: small;
   text-align: center;
   vertical-align: auto;
-  margin-left: 13em;
+  margin-left: 9em;
   color: #f5f3f3;
   padding: 5px;
  
@@ -2604,15 +2482,13 @@ FOOTER STYLE START
 #footer-info h4 {
   font-size: medium;
   color: yellowgreen;
-  text-align: center;
-  margin-left: 1em;
+  margin-left: 8em;
 }
 
 #find-us h4 {
   font-size: medium;
   color: yellowgreen;
- text-align: center;
-  margin-left: 1em;
+  margin-left: 8em;
 
  
 
@@ -2630,7 +2506,7 @@ FOOTER STYLE START
 }
 
 #address-footer{
-  text-align: center;
+     text-align: left;
      color: #f5f3f3;
      font-size: small;
      
@@ -2682,7 +2558,7 @@ ABOUT US PAGE STYLES
     font-family: "Oxygen" serif;
     background-color: yellowgreen;
     width: 10em;
-    padding: 1px;
+    padding: 0.5px;
     margin-bottom: 25em;
 }
 
