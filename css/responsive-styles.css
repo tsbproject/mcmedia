@@ -338,7 +338,11 @@ font-size: medium;
  }
 
 
-    /***************************INFORMATION GRID STYLES*********************************/
+    /*
+    ====================================================
+    INFORMATION GRID STYLES
+    ====================================================
+    */
 
 #columns {
   width: 100%;
@@ -541,6 +545,54 @@ FOOTER STYLE START
   color: yellowgreen;
 
 }
+
+
+
+/*
+=====================================
+ABOUT US PAGE STYLES
+=====================================
+*/
+
+#vision-mission {
+  background-color: rgba(241, 235, 235, 0.295);
+     height: 300px;
+     padding: 12px;
+     border: 25px solid white;
+    
+
+    
+
+
+}
+
+#v-mission-header {
+    margin-bottom: auto;
+    font-family: "Oxygen" serif;
+    background-color: yellowgreen;
+    width: 10em;
+    padding: 2px;
+    margin-bottom: 25em;
+}
+
+.vision-mission-text {
+  color: black;
+  margin-top: -43em;
+
+}
+
+#about-section {
+   height: 650px;
+   background-color: rgba(227, 235, 213, 0.432);
+  
+
+}
+
+.about-text {
+    color: black;
+    font-family: "Lora" sans-serif;
+}
+
 
 
 
@@ -1063,6 +1115,53 @@ PORTFOLIO CAROUSEL
 }
 
 
+/*
+=====================================
+ABOUT US PAGE STYLES
+=====================================
+*/
+
+#vision-mission {
+  background-color: rgba(241, 235, 235, 0.295);
+     height: 300px;
+     padding: 12px;
+     border: 25px solid white;
+    
+
+    
+
+
+}
+
+#v-mission-header {
+    margin-bottom: auto;
+    font-family: "Oxygen" serif;
+    background-color: yellowgreen;
+    width: 10em;
+    padding: 2px;
+    margin-bottom: 25em;
+}
+
+.vision-mission-text {
+  color: black;
+  margin-top: -43em;
+
+}
+
+#about-section {
+   height: 650px;
+   background-color: rgba(227, 235, 213, 0.432);
+  
+
+}
+
+.about-text {
+    color: black;
+    font-family: "Lora" sans-serif;
+}
+
+
+
 
 
 
@@ -1561,6 +1660,53 @@ FOOTER STYLE START
 }
 
 
+/*
+=====================================
+ABOUT US PAGE STYLES
+=====================================
+*/
+
+#vision-mission {
+  background-color: rgba(241, 235, 235, 0.295);
+     height: 300px;
+     padding: 12px;
+     border: 25px solid white;
+    
+
+    
+
+
+}
+
+#v-mission-header {
+    margin-bottom: auto;
+    font-family: "Oxygen" serif;
+    background-color: yellowgreen;
+    width: 10em;
+    padding: 2px;
+    margin-bottom: 25em;
+}
+
+.vision-mission-text {
+  color: black;
+  margin-top: -43em;
+
+}
+
+#about-section {
+   height: 650px;
+   background-color: rgba(227, 235, 213, 0.432);
+  
+
+}
+
+.about-text {
+    color: black;
+    font-family: "Lora" sans-serif;
+}
+
+
+
 
     
     }
@@ -1818,6 +1964,53 @@ FOOTER STYLE START
   margin-left: 5em;
 
 }
+
+
+/*
+=====================================
+ABOUT US PAGE STYLES
+=====================================
+*/
+
+#vision-mission {
+  background-color: rgba(241, 235, 235, 0.295);
+     height: 300px;
+     padding: 12px;
+     border: 25px solid white;
+    
+
+    
+
+
+}
+
+#v-mission-header {
+    margin-bottom: auto;
+    font-family: "Oxygen" serif;
+    background-color: yellowgreen;
+    width: 10em;
+    padding: 2px;
+    margin-bottom: 25em;
+}
+
+.vision-mission-text {
+  color: black;
+  margin-top: -43em;
+
+}
+
+#about-section {
+   height: 650px;
+   background-color: rgba(227, 235, 213, 0.432);
+  
+
+}
+
+.about-text {
+    color: black;
+    font-family: "Lora" sans-serif;
+}
+
 
 
 
@@ -2430,6 +2623,53 @@ FOOTER STYLE START
   color: yellowgreen;
 
 }
+
+
+/*
+=====================================
+ABOUT US PAGE STYLES
+=====================================
+*/
+
+#vision-mission {
+  background-color: rgba(241, 235, 235, 0.295);
+     height: 300px;
+     padding: 12px;
+     border: 25px solid white;
+    
+
+    
+
+
+}
+
+#v-mission-header {
+    margin-bottom: auto;
+    font-family: "Oxygen" serif;
+    background-color: yellowgreen;
+    width: 10em;
+    padding: 1px;
+    margin-bottom: 25em;
+}
+
+.vision-mission-text {
+  color: black;
+  margin-top: -37em;
+
+}
+
+#about-section {
+   height: 70em;
+   background-color: rgba(227, 235, 213, 0.432);
+  
+
+}
+
+.about-text {
+    color: black;
+    font-family: "Lora" sans-serif;
+}
+
 
 
 
