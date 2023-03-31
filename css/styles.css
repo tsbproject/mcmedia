@@ -475,7 +475,7 @@ PAGES TOP HEADER STYLES
 */
 
 .about-top-banner {
-    background-image: url("/images/creative-design.jpg"); 
+    background-image: url("../images/creative-design.jpg"); 
     background-attachment: fixed;
     background-position: cover;
     background-size: cover;
@@ -484,7 +484,7 @@ PAGES TOP HEADER STYLES
 
 
 .web-design-top-banner {
-  background-image: url("/images/web-design-slide-1024x640.jpg"); 
+  background-image: url("../images/web-design-slide-1024x640.jpg"); 
   background-attachment: fixed;
   background-position: cover;
   background-size: cover;
