@@ -3,6 +3,17 @@ body {
  font-family: "Lora" sans-serif;
 }
 
+body a {
+  color: rgb(58, 180, 180);
+}
+body a:hover{
+ color: rgba(28, 175, 48, 0.925);
+}
+
+body a:visited{
+  color:rgb(80, 143, 8);
+}
+
 
 
 
