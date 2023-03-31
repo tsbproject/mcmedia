@@ -36,7 +36,7 @@ HEADER SECTION STYLES
   width: 170px;
   height: 80px;
   margin-left: 45px;
-  margin-bottom: -16px;
+
  
 }
 
@@ -51,6 +51,8 @@ HEADER SECTION STYLES
   text-decoration: double;
   text-transform: uppercase;
   margin-left: 2.7em;
+ position: relative;
+ top: -15.8px;
 
 
  
