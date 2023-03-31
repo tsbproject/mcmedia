@@ -36,6 +36,7 @@ HEADER SECTION STYLES
   width: 170px;
   height: 80px;
   margin-left: 45px;
+  margin-bottom: -16px;
  
 }
 
@@ -473,12 +474,21 @@ PAGES TOP HEADER STYLES
 =====================================
 */
 
-.page-top-banner {
+.about-top-banner {
     background-image: url("/images/creative-design.jpg"); 
     background-attachment: fixed;
     background-position: cover;
     background-size: cover;
     height: 500px;
+}
+
+
+.web-design-top-banner {
+  background-image: url("/images/web-design-slide-1024x640.jpg"); 
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: cover;
+  height: 500px;
 }
 
 
