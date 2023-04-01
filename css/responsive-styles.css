@@ -2772,7 +2772,7 @@ ABOUT US PAGE STYLES
         text-transform: uppercase;
         position: relative;
         bottom: 5.8em;
-        left: -3.1em;
+        left: -0.8em;
       
        
       }
@@ -3109,7 +3109,7 @@ a, a:hover, a:active  {
 .footer {
   height: 1000px;
   background-color: rgb(3, 15, 22);
-  margin-top: 12em;
+  margin-top: 1em;
 
 
 
@@ -3170,13 +3170,13 @@ a, a:hover, a:active  {
 #footer-info h4 {
   font-size: medium;
   color: yellowgreen;
-  margin-left: 0.1em;
+  margin-left: 5em;
 }
 
 #find-us h4 {
   font-size: medium;
   color: yellowgreen;
-  margin-left: 4em;
+  margin-left: 5em;
 
  
 
@@ -3198,8 +3198,8 @@ a, a:hover, a:active  {
 
 #address-footer{
      color: #f5f3f3;
-     font-size: small;
-     margin-right: 10em;
+     font-size: 9px;
+  
      
 }
 
@@ -3221,6 +3221,60 @@ a, a:hover, a:active  {
   color: yellowgreen;
 
 }
+
+/*
+=====================================
+ABOUT US PAGE STYLES
+=====================================
+*/
+
+#vision-mission {
+  background-color: rgba(241, 235, 235, 0.295);
+  height: 300px;
+  padding: 12px;
+  border: 25px solid white;
+ 
+
+ 
+
+
+}
+
+#v-mission-header {
+ margin-bottom: auto;
+ font-family: "Oxygen" serif;
+ font-size: medium;
+ text-align: center;
+ background-color: yellowgreen;
+ width: 15em;
+ padding: 0.5px;
+ margin-bottom: 25em;
+ margin-left: 2em;
+ 
+}
+
+.vision-mission-text {
+color: black;
+font-size: 13px;
+margin-top: -30em;
+
+}
+
+#about-section {
+height: 60em;
+background-color: rgba(227, 235, 213, 0.432);
+
+
+}
+
+.about-text {
+ color: black;
+ font-size: 13px;
+ font-family: "Lora" sans-serif;
+}
+
+
+
 
 
 
