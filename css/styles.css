@@ -480,6 +480,15 @@ PAGES TOP HEADER STYLES
   height: 350px;
 }
 
+.web-design-top-banner {
+  background-image: url("../images/web-design-slide-1024x640.jpg"); 
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: cover;
+  height: 350px;
+
+}
+
 
 /*
 =====================================
@@ -526,6 +535,25 @@ ABOUT US PAGE STYLES
     font-family: "Lora" sans-serif;
 }
 
+
+/*
+=====================================
+WEB DESIGN PAGE STYLES
+=====================================
+*/
+#web-design-page  {
+  height: 600px;
+  padding: 100px;
+}
+
+.web-design-header {
+  color: black;
+}
+
+.web-design-text {
+  color: black;
+
+}
  
 
 
