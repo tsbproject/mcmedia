@@ -225,6 +225,17 @@
   /********** Medium devices only **********/
   @media (min-width: 992px) and (max-width: 1199px) {
 
+   /*
+   =========================
+   HEADER STICKY TOP
+   =========================
+   */
+    .fixed-top-scroll {
+      position: sticky;
+      top: 0;
+      z-index: 1030;
+    }
+
     #logo-img{
         width: 140px;
         height: 70px;

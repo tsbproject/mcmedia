@@ -1,3 +1,14 @@
+// HEADER FIXED TOP
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 10) { 
+    $('header').addClass('fixed-top-scroll');
+  } else {
+    $('header').removeClass('fixed-top-scroll');
+  }
+});
+
+
+
 // DISPLAYING BOTH THE WORKING HOUR ICON AND TEXT IN THE HEADER
 
  // Displaying the working hour text 
@@ -13,6 +24,9 @@ const iconContainer = document.getElementById("clock");
 
 // Add the icon element to the container
 iconContainer.appendChild(clock);
+
+
+
 
 
 

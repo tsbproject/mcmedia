@@ -15,6 +15,17 @@ body a:visited{
 }
 
 
+body {
+  padding-top: 150px; /* Set padding to match header height */
+}
+
+
+
+
+
+
+
+
 
 
 /*
@@ -457,7 +468,7 @@ PAGES TOP HEADER STYLES
     background-attachment: fixed;
     background-position: cover;
     background-size: cover;
-    height: 500px;
+    height: 350px;
 }
 
 
@@ -466,7 +477,7 @@ PAGES TOP HEADER STYLES
   background-attachment: fixed;
   background-position: cover;
   background-size: cover;
-  height: 500px;
+  height: 350px;
 }
 
 
