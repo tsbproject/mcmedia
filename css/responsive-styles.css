@@ -2558,10 +2558,13 @@ ABOUT US PAGE STYLES
     margin-bottom: auto;
     font-family: "Oxygen" serif;
     font-size: medium;
+    text-align: center;
     background-color: yellowgreen;
-    width: 10em;
+    width: 15em;
     padding: 0.5px;
     margin-bottom: 25em;
+    margin-left: 3em;
+    
 }
 
 .vision-mission-text {
