@@ -2742,7 +2742,7 @@ WEB DESIGN PAGE STYLES
 */
 #web-design-page  {
   height: 900px;
-  margin-top: 25em;
+  margin-top: 19em;
   margin-bottom: 0;
 
 }
@@ -2768,28 +2768,37 @@ text-align: left;
 
 #process-list{
   font-size: 50px;
-  margin-left: 15px;
+  margin-left: auto;
   color: blue;
   margin-right: 50px;
+  margin-top: 1em;
 }
 
 #list-step-head {
   color: yellowgreen;
-  position: absolute;
-  left: 7em;
+  position: relative;
+  left: -1.5em;
+ bottom: -0.8em ;
 
 
+}
+
+#list-step-head2{
+  color: blue;
+  font-size: 13px;
+  font-weight: 600;
+  margin-top: -3em;
+  margin-left: 3.5em;
 }
 
 #list1 {
   font-size: 14px;
   color: black;
   text-align: left;
-  text-indent: 10px;
  text-justify: auto;
  position: relative;
  left: 4em;
- top: -3.5em;
+ top: -2em;
 }
 
 
