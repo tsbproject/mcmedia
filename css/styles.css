@@ -542,23 +542,77 @@ WEB DESIGN PAGE STYLES
 =====================================
 */
 #web-design-page  {
-  background-color: rgb(240, 242, 243);
   height: 900px;
+  margin-top: 25em;
+  margin-bottom: 0;
 
 }
 
-.web-design-header {
-  color: rgb(6, 6, 102);
+#web-design-header {
+font-family: "Oxygen" sans-serif;
+color: yellowgreen;
+text-align: left;
   
 }
 
 .web-design-text {
   color: black;
   
+}
 
+
+
+
+
+
+
+
+#process-list{
+  font-size: 50px;
+  margin-left: 15px;
+  color: blue;
+
+}
+
+#list-step-head {
+  color: yellowgreen;
+  position: absolute;
+  left: 35em;
 
 
 }
+
+#list1 {
+  font-size: 14px;
+  color: black;
+  text-align: left;
+  text-indent: 10px;
+ text-justify: auto;
+ position: relative;
+ left: 4em;
+ top: -3.5em;
+}
+
+
+#process-header{
+  font-family: "Oxygen" sans-serif;
+  color: yellowgreen;
+  text-align: center;
+  
+}
+
+#process-span {
+  font-size: larger;
+
+}
+
+#process-image {
+  height:650px;
+  width: 600px;
+  border: 0.5px solid yellowgreen;
+  border-radius: 20px;
+}
+
  
 
 

@@ -2735,6 +2735,82 @@ ABOUT US PAGE STYLES
 }
 
 
+/*
+=====================================
+WEB DESIGN PAGE STYLES
+=====================================
+*/
+#web-design-page  {
+  height: 900px;
+  margin-top: 25em;
+  margin-bottom: 0;
+
+}
+
+#web-design-header {
+font-family: "Oxygen" sans-serif;
+color: yellowgreen;
+text-align: left;
+  
+}
+
+.web-design-text {
+  color: black;
+  
+}
+
+
+
+
+
+
+
+
+#process-list{
+  font-size: 50px;
+  margin-left: 15px;
+  color: blue;
+  margin-right: 50px;
+}
+
+#list-step-head {
+  color: yellowgreen;
+  position: absolute;
+  left: 7em;
+
+
+}
+
+#list1 {
+  font-size: 14px;
+  color: black;
+  text-align: left;
+  text-indent: 10px;
+ text-justify: auto;
+ position: relative;
+ left: 4em;
+ top: -3.5em;
+}
+
+
+#process-header{
+  font-family: "Oxygen" sans-serif;
+  color: yellowgreen;
+  text-align: center;
+  
+}
+
+#process-span {
+  font-size: larger;
+
+}
+
+#process-image {
+  height:400px;
+  width: 350px;
+  border: 0.5px solid yellowgreen;
+  border-radius: 20px;
+}
 
 
   
@@ -2742,6 +2818,9 @@ ABOUT US PAGE STYLES
 
 
   }
+
+
+  
 
 
 
