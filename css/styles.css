@@ -544,17 +544,19 @@ WEB DESIGN PAGE STYLES
 #web-design-page  {
   background-color: rgb(240, 242, 243);
   height: 1100px;
-  padding: 7px;
+
 
 
 }
 
 .web-design-header {
   color: black;
+  text-align: center;
 }
 
 .web-design-text {
   color: black;
+  margin-left: 25em;
 
 
 }
