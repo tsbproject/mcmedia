@@ -542,8 +542,9 @@ WEB DESIGN PAGE STYLES
 =====================================
 */
 #web-design-page  {
-  height: 600px;
-  padding: 100px;
+  background-color: rgb(240, 242, 243);
+  height: 1100px;
+  padding: 7px;
 }
 
 .web-design-header {
@@ -552,6 +553,7 @@ WEB DESIGN PAGE STYLES
 
 .web-design-text {
   color: black;
+
 
 }
  
