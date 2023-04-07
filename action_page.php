@@ -145,14 +145,13 @@
 
   
   <!--------------------BODY SECTION START------------------------------>
-
   <section class="banner">
-    <div id="web-design-banner" class="web-design-top-banner p-4 bg-secondary text-white opacity-75">
+    <div id="digital-marketing-banner" class="digital-marketing-banner p-4 bg-secondary text-white opacity-75">
         <div class="container-fluid">
              <div class="row">
                   <div class="col-sm-4">
                     <div class="page-title wow fadeInDown" data-wow-delay="0.1s">
-                      <h1 id="about-banner-text"> WEB DESIGN </h1>
+                      <h1 id="about-banner-text"> DIGITAL MARKETING </h1>
   
                     </div>
   
@@ -162,182 +161,13 @@
     </div> 
   </section>
 
+   
 
-
-  <div id="web-design-page" class="web-design justify-content-around">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-8"><h2 id="web-design-header">WEB DESIGN<hr></h2> <p class="web-design-text">Marvel Creative Media is a web design agency that specializes in designing 
-          distinct websites for businesses of all sizes. We deal directly with our clients to understand their basic needs and develop customized websites that are 
-          tailored to their specific goals and objectives.</p>
-
-          <p class="web-design-text">Our strength is lies in our expertise in user experience (UX) design. We strongly believe that a website's design and functionality are critical to its success,
-          and therefore work diligently to create intuitive, user-friendly websites that are easy to navigate and visually appealing.</p>
-          
-          <p class="web-design-text">Aside UX design, Marvel Creative Media also offers a range of other web design services, including responsive design, e-commerce 
-          design, and custom WordPress development. </p>
     
-          <p class="web-design-text">Our team comprises of experienced web developers who are skilled in using the latest web technologies to create websites that load faster, reliable, and secure.</p>
-          
-          <p class="web-design-text"> One of our greatest strengths at Marvel Creative Media in web design service is our focus on search engine optimization (SEO). 
-          We understand that a website and its contents can have a significant impact on its search engine rankings, so we work to optimize 
-          every aspect of a website to ensure that it is fully optimized for search engines.</p>
-         
-        <div class="col-md-2"></div>
-          
-      </div>
-    </div>      
-  </div>  
-  
-      
-      
-        <div class="container text-center mt-5">
-          <div class="row">
-                <div class="col-md-2"></div>
-                <div class="col-md-8"> <h3 id="process-header">GET FAMILAIR WITH OUR WORK PROCESS<hr></h3>
-                  <span id="process-span">We Follow specific work process to get the best out of our clients projects</span></div>
-                <div class="col-md-2"></div>
-  
-          
-          </div>
-        </div>
-
-
-
-
-        <div class="container text-center justify-content-evenly mt-5">
-            <div class="process">
-                <div class="row">
-                      <div class="col-md-5"><img id="process-image" src="images/process-info.jpg"></div>
-                      <div class="col-md-5">  <ul class="list" id="process-list"> 
-                                                  <li id="process-list" class=  "nav"> <i id="process-icons" class="bi-patch-question-fill"></i>&nbsp; &nbsp;
-                                                    <h4 id="list-step-head">Step1</h4><p id="list-step-head2">PROJECT ENQUIRY & BRIEF</p><span id="list1">
-                                                      This simply means the stage at the point of contact where we get to know our client and ask questions
-                                                      regarding their basic need or specifications. This is important in order to help the client achieve 
-                                                      their objective or goal.</span> </li>
-                                                      
-                                                    <li  id="process-list"  class="nav"> <i id="process-icons" class="bi-bookmark-check-fill"></i>&nbsp; &nbsp;
-                                                    <h4 id="list-step-head">Step2</h4><p id="list-step-head2">VIRTUAL/PHYSICAL MEETING</p><span id="list1">
-                                                      After initial payment has been made, we begin the execution of the project based on client specifications 
-                                                      and contents provided.</span></li>
-                                                    
-                                                      
-                                                
-                                                    <li  id="process-list"  class="nav"> <i id="process-icons" class="bi-journals s"></i>&nbsp; &nbsp;
-                                                      <h4 id="list-step-head">Step3</h4><p id="list-step-head2">PROJECT INVOICING</p><span id="list1">
-                                                        At this stage after meeting with client, we will prepare and sent the neccessary documents and invoice to the
-                                                        client in order to make payment.</span> </li>
-                                                  
-                                                    <li  id="process-list"  class="nav"> <i id="process-icons" class="bi-bookmark-check-fill"></i>&nbsp; &nbsp;
-                                                      <h4 id="list-step-head">Step4</h4><p id="list-step-head2">EXECUTING THE PROJECT</p><span id="list1">
-                                                      After initial payment has been made, we begin the execution of the project based on client specifications 
-                                                      and contents provided.</span></li>
-                                                  
-                                                  
-                                                    <li  id="process-list"  class="nav"> <i id="process-icons" class="bi-person-check-fill"></i>&nbsp; &nbsp;
-                                                      <h4 id="list-step-head">Step5</h4><p id="list-step-head2">REVIEW WITH THE CLIENT</p><span id="list1">
-                                                        This is the stage of reviewing the workdone with the clients, to make correction in terms of addition 
-                                                        and subtration in the project.</span> </li>
-                                                    
-                                                  
-                                                    <li  id="process-list"  class="nav"> <i id="process-icons" class="bi-check-all"></i>&nbsp; &nbsp;
-                                                      <h4 id="list-step-head">Step6</h4><p id="list-step-head2">HOSTING &amp; DELIVERY</p><span id="list1">
-                                                          After review and satisfaction of the client, we host the website project on client server and we finally
-                                                          deliver the needed protocol to operate the website effectively.</span> </li>
-                                                  
-
-                                        
-                                              </ul>
-                    </div>
-                </div>
-            </div>
-        </div> 
-
-
-        <div class=" request-header  text-center text-info">
-          <div class="container">
-            <div class="row">
-              <h4 id="request-header">REQUEST A QUOTE</h4>
-            </div>
-          </div>
-        </div>
-
-
-        <div class=" request-header  justify-content-center">
-          <div class="container">
-            <div class="row">
-               <div class="col-md-2"></div>
-               
-               <div class="col-md-8">
-                <form id="contactForm" class="was-validated">
-                <div class="mb-4">
-                  <label for="requestFormAbout" class="form-label">DESCRIBE YOUR PROJECT</label>
-                  <textarea class="form-control" id="requestFormAbout"rows="6"></textarea>
-                </div>
-                
-                <div class="mb-4">
-                  <label for="requestFormBudget" class="form-label">TELL US ABOUT YOUR BUDGET</label>
-                  <input type="text" class="form-control" id="requestFormBudget" placeholder="Please input your budget here"required >
-                  <div class="valid-feedback">Valid.</div>
-                  <div class="invalid-feedback">Please fill out this field.</div>
-                </div>
-                
-                <div class="mb-4">
-                <label for="requestFormName" class="form-label">Name*</label>
-                <input type="text" class="form-control" id="requestFormName" placeholder="FullName"required>
-                <div class="valid-feedback">Valid.</div>
-                <div class="invalid-feedback"data-sb-validations="required">Please fill out this field.</div>
-              </div>
-              
-
-              <div class="mb-4">
-                <label for="requestFormEmail" class="form-label">Email address*</label>
-                <input type="email" class="form-control" id="requestFormEmail" placeholder="name@example.com"required>
-                <div class="valid-feedback">Valid.</div>
-                <div class="invalid-feedback">Please fill out this field.</div>
-              </div>
-
-              <div class="mb-4">
-                <label for="requestFormPhone" class="form-label">Phone*</label>
-                <input type="phone" class="form-control" id="requestFormPhone" placeholder="Phone Number"required>
-              </div>
-
-              <div class="mb-4">
-                <label for="requestFormCompany" class="form-label">Company</label>
-                <input type="text" class="form-control" id="requestFormCompany" placeholder="Company Name">
-              </div>
-
-
-                          <!-- Form submissions success message -->
-                <div class="d-none" id="submitSuccessMessage">
-                  <div class="text-center mb-3">Form submission successful!</div>
-                </div>
-
-                <!-- Form submissions error message -->
-                <div class="d-none" id="submitErrorMessage">
-                  <div class="text-center text-danger mb-3">Error sending message!</div>
-                </div>
-                          
-              <div class="col-12">
-                <button id="send-request-btn" class="btn btn-primary mb-4" type="submit">Send Request</button>
-              </div>
-            </form>
-
-
-              </div>
-               
-               <div class="col-md-2"></div>
-            </div>
-          </div>
-        </div>
-            
     
 
 
-<!---------------------------------------------------------------
-                         FOOTER SECTION
---------------------------------------------------------------->
+
          
           <div id="section4" class="footer">
             <div class="container-fluid justify-content-evenly p-3">
@@ -508,8 +338,12 @@
    
    
    
-   <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-   <script src="js/script.js"></script>
+   
+   
+   
+   
+   
+    <script src="js/script.js"></script>
     
   </body>
 </html>

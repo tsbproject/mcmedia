@@ -8,6 +8,15 @@ $(window).scroll(function() {
 });
 
 
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 50) {
+    $('.navbar').addClass('navbar-tranparent');
+  } else {
+    $('.header').removeClass('header-tranparent');
+  }
+});
+
+
 
 // DISPLAYING BOTH THE WORKING HOUR ICON AND TEXT IN THE HEADER
 
@@ -71,7 +80,6 @@ dropdowns.forEach((dropdown) => {
      next = next.nextElementSibling
  }
 })
-  
 
 
 

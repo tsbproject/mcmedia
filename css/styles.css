@@ -20,6 +20,11 @@ body {
 }
 
 
+html {
+  scroll-behavior: smooth ;
+}
+
+
 
 
 
@@ -439,14 +444,17 @@ END OF INFORMATION GRID STYLES
 
 .portfolio-header{
       font-family: "Oxygen" sans-serif;
-      margin-top: 30px;
+      margin-top: 20px;
       text-align: center;
       color: blue;
       }
 
 #carouselPortfolio {
-    height: 300px;
+    height: 200px;
     margin-top: 2em;
+    margin-bottom: 5em;
+    padding: 25px;
+   
     
 
 }
@@ -612,6 +620,11 @@ text-align: left;
 
 }
 
+#process-icons{
+  box-shadow: 20cqh black ;
+
+}
+
 #process-image {
   height:650px;
   width: 600px;
@@ -623,6 +636,12 @@ text-align: left;
 
  
 
+#send-request-btn{
+  width: 850px;
+  height: 50px;
+  font-size: larger;
+  font-weight: 900;
 
+}
 
   

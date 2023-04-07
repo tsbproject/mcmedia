@@ -1023,25 +1023,26 @@ PORTFOLIO CAROUSEL
 #carouselPortfolio {
   height: 400px;
   margin-top: 5em;
-  display: inline-flex;
+ 
 
 }
 
-.carou-inner .carou-item-end.active,
-		.carou-inner .carou-item-next {
+.carousel-inner .carousel-item-end.active,
+		.carousel-inner .carousel-item-next {
 			transform: translateX(25%);
 		}
 
-		.carou-inner .carou-item-start.active, 
-		.carou-inner .carou-item-prev {
+		.carousel-inner .carousel-item-start.active, 
+		.carousel-inner .carousel-item-prev {
 			transform: translateX(-25%);
 		}
 	
 
-	.carou-inner .carou-item-end,
-	.carou-inner .carou-item-start { 
+	.carousel-inner .carousel-item-end,
+	.carousel-inner .carousel-item-start { 
 		transform: translateX(0);
 	}
+
 
 
 
@@ -1569,21 +1570,22 @@ PORTFOLIO CAROUSEL
   height: 200px;
   background-color: white;
   margin-top: 3em;
+ 
 
 
 }
 
-.carou-inner .carou-item > div {
-  display:none;
+.carousel-inner .carousel-item > div {
+  display: block;
 }
-.carou-inner .carou-item > div:first-child {
+.carousel-inner .carousel-item > div:first-child {
   display: block;
 }
 
 
-.carou-inner .carou-item.active,
-.carou-inner .carou-item-next,
-.carou-inner .carou-item-prev {
+.carousel-inner .carousel-item.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
 display: flex;
 }
 
@@ -2378,7 +2380,7 @@ SLIDE SECTION STYLE
 .slide-caption, h2 {
 font-family: "Oxygen" sans-serif;
 font-weight: 500;
-font-size: 20px;
+font-size: 17px;
 text-align: center;
 align-items: center;
 color: yellowgreen;
