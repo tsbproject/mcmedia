@@ -2824,7 +2824,14 @@ text-align: left;
 }
 
 
-  
+#send-request-btn{
+  width: 400px;
+  height: 50px;
+  font-size: larger;
+  font-weight: 900;
+
+}
+
 
 
 
