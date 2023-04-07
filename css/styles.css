@@ -497,6 +497,16 @@ PAGES TOP HEADER STYLES
 
 }
 
+.web-dev-top-banner {
+  background-image: url("../images/web-app-development.jpg"); 
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: cover;
+  height: 350px;
+
+
+}
+
 
 /*
 =====================================
@@ -652,4 +662,15 @@ text-align: left;
 
 }
 
-  
+ 
+
+
+/*
+=====================================
+WEB DEVELOPMENT PAGE STYLES
+=====================================
+*/
+
+#web-dev-banner{
+
+}
