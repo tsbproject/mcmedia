@@ -11,7 +11,7 @@ body a:hover{
 }
 
 body a:visited{
-  color:rgb(80, 143, 8);
+  color:rgb(29, 218, 252);
 }
 
 
@@ -449,16 +449,63 @@ END OF INFORMATION GRID STYLES
       color: blue;
       }
 
-#carouselPortfolio {
-    height: 200px;
-    margin-top: 2em;
-    margin-bottom: 5em;
-    padding: 25px;
-   
+      #carouselPortfolio {
+        height: 200px;
+        margin-top: 0.2em;
+        margin-bottom: 5em;
+        padding: 25px;
+  
+       
+    }
+
+
+    .multicarousel {
+      width: 100%;
+      overflow-x: hidden;
+    }
     
-
-}
-
+    .carousel-inner {
+      display: flex;
+      flex-wrap: nowrap;
+    }
+    
+    .carousel-item {
+      flex: 0 0 auto;
+    }
+    
+    .carousel-item .col-3 {
+      padding: 5px;
+    }
+    
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: auto;
+      padding: 0 15px;
+    }
+    
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      width: 20px;
+      height: 20px;
+    }
+    
+    @media (max-width: 576px) {
+      .multicarousel .carousel-inner {
+        flex-wrap: nowrap;
+       
+        overflow-x: auto;
+      
+      }
+      .multicarousel .carousel-item {
+        flex-basis: auto;
+        width: 100%;
+      }
+      .multicarousel .carousel-item .col-3 {
+        flex-basis: 33.33%;
+        width: auto;
+      }
+    }
+    
 
 
 
@@ -671,6 +718,7 @@ WEB DEVELOPMENT PAGE STYLES
 =====================================
 */
 
-#web-dev-banner{
+#web-dev-text{
+  color: black;
 
 }
