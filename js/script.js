@@ -16,6 +16,36 @@ $(window).scroll(function() {
   }
 });
 
+// MAKING FOOTER FADEIN AND OUT ON SCROLLING UP AND DOWN
+$(document).ready(function() {
+  var lastScrollPosition = 0;
+  $(window).scroll(function() {
+    var currentScrollPosition = $(this).scrollTop();
+    if (currentScrollPosition > lastScrollPosition) {
+      // Scrolling down
+      $('.footer').fadeIn();
+    } else {
+      // Scrolling up
+      $('.footer').fadeOut();
+    }
+    lastScrollPosition = currentScrollPosition;
+  });
+});
+
+
+// PORTFOLIO CAROUSEL
+$('.multicarousel').on('slide.bs.carousel', function (event) {
+  var $next = $(event.relatedTarget);
+  var $target = $('.carousel-inner', event.target);
+  var $width = $next.width();
+
+  if (!$target.is(':animated')) {
+    $target.animate({scrollLeft: $next.position().left}, 500);
+  }
+});
+
+
+
 
 
 // DISPLAYING BOTH THE WORKING HOUR ICON AND TEXT IN THE HEADER
@@ -64,16 +94,9 @@ dropdowns.forEach((dropdown) => {
 
 
 
- // PORTFOLIO CAROUSEL
- $('.multicarousel').on('slide.bs.carousel', function (event) {
-  var $next = $(event.relatedTarget);
-  var $target = $('.carousel-inner', event.target);
-  var $width = $next.width();
+ 
 
-  if (!$target.is(':animated')) {
-    $target.animate({scrollLeft: $next.position().left}, 500);
-  }
-});
+
 
 
 
