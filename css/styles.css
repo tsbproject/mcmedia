@@ -36,6 +36,8 @@ html {
 
 
 
+
+
 /*
 ==============================
 HEADER SECTION STYLES
@@ -49,6 +51,13 @@ HEADER SECTION STYLES
   border-style: ridge;
   border-color: yellowgreen;
 }
+
+
+
+.fixed-top-transparent {
+  background-color: transparent;
+}
+
 
 
 
@@ -604,12 +613,69 @@ WEB DEVELOPMENT PAGE STYLES
 
 }
 
+.web-dev-sections {
+  margin-top: 3em;
+}
+
+#web-dev-section-header1 {
+  font-size: large;
+  color: blue;
+
+}
+
+#web-dev-section-text1{
+  font-size: medium;
+  color: black;
+}
+
+#get-started {
+  font-size: large;
+  color: blue;
+}
+
+#get-started-text {
+  font-size: medium;
+  color: black;
+}
+
+#requestquote {
+  font-size: larger;
+  font-weight: 900;
+  color: white;
+  padding:4px;
+  border-radius: 5px;
+  border-width: 5px;
+  background-color: yellowgreen;
+  text-align: center;
+}
+
+#requestquote:hover {
+  background-color: blue;
+
+}
+
+
+#web-dev-section-text2 {
+  font-size: medium;
+  color: black;
+
+}
+  
 
 
 
 
 
 
+
+
+
+
+/*
+============================================
+OTHER DEVICES RESPOSIVENESS SECTION
+============================================
+*/
 
 
   /********** Large devices only **********/

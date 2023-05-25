@@ -1,19 +1,17 @@
 // HEADER FIXED TOP
-$(window).scroll(function() {
-  if ($(this).scrollTop() > 10) { 
-    $('header').addClass('fixed-top-scroll');
-  } else {
-    $('header').removeClass('fixed-top-scroll');
-  }
-});
-
-
-$(window).scroll(function() {
-  if ($(this).scrollTop() > 50) {
-    $('.navbar').addClass('navbar-tranparent');
-  } else {
-    $('.header').removeClass('header-tranparent');
-  }
+$(document).ready(function() {
+  var lastScrollPosition = 0;
+  $(window).scroll(function() {
+    var currentScrollPosition = $(this).scrollTop();
+    if (currentScrollPosition > lastScrollPosition) {
+      // Scrolling down
+      $('.fixed-top').removeClass('fixed-top-transparent');
+    } else {
+      // Scrolling up
+      $('.fixed-top').addClass('fixed-top-transparent');
+    }
+    lastScrollPosition = currentScrollPosition;
+  });
 });
 
 // MAKING FOOTER FADEIN AND OUT ON SCROLLING UP AND DOWN
@@ -33,6 +31,10 @@ $(document).ready(function() {
 });
 
 
+
+
+
+
 // PORTFOLIO CAROUSEL
 $('.multicarousel').on('slide.bs.carousel', function (event) {
   var $next = $(event.relatedTarget);
@@ -43,6 +45,10 @@ $('.multicarousel').on('slide.bs.carousel', function (event) {
     $target.animate({scrollLeft: $next.position().left}, 500);
   }
 });
+
+
+
+
 
 
 
