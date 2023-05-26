@@ -15,20 +15,45 @@ $(document).ready(function() {
 });
 
 // MAKING FOOTER FADEIN AND OUT ON SCROLLING UP AND DOWN
+
 $(document).ready(function() {
   var lastScrollPosition = 0;
   $(window).scroll(function() {
     var currentScrollPosition = $(this).scrollTop();
     if (currentScrollPosition > lastScrollPosition) {
       // Scrolling down
-      $('.footer').fadeIn();
+      $('.footer').fadeOut();
     } else {
       // Scrolling up
-      $('.footer').fadeOut();
+      $('.footer').fadeIn();
     }
     lastScrollPosition = currentScrollPosition;
   });
 });
+/*
+$(document).ready(function() {
+  var footer = $('footer');
+  var windowHeight = $(window).height();
+  var bodyHeight = $(document).height() - windowHeight;
+
+  $(window).scroll(function() {
+    var scrollPosition = $(this).scrollTop();
+
+    // Calculate the remaining scroll distance to the bottom of the page
+    var remainingScroll = bodyHeight - scrollPosition;
+
+    if (remainingScroll <= 0) {
+      // Reached the end of scrolling down, fade in the footer
+      footer.fadeIn();
+    } else if (scrollPosition <= 0) {
+      // Scrolling up, fade out the footer
+      footer.fadeOut();
+    }
+  });
+});
+*/
+
+
 
 
 

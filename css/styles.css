@@ -17,7 +17,7 @@ body a:visited{
 
 body {
   padding-top: 150px; /* Set padding to match header height */
-  height: 2100px;
+  height: 2300px;
 }
 
 
@@ -626,6 +626,7 @@ WEB DEVELOPMENT PAGE STYLES
 #web-dev-section-text1{
   font-size: medium;
   color: black;
+  padding: 10px;
 }
 
 #get-started {
@@ -654,10 +655,57 @@ WEB DEVELOPMENT PAGE STYLES
 
 }
 
+.web-dev-getstarted {
+  margin-top: -12em;
+
+}
+
 
 #web-dev-section-text2 {
   font-size: medium;
   color: black;
+  padding: 10px;
+
+}
+
+.web-dev-hero {
+  margin-top: 25px;
+  height: 350px;
+  background-color: rgb(6, 6, 102);
+}
+
+#web-dev-hero-header1 {
+  margin-top: 4em;
+  color: white;
+  text-align: center;
+}
+
+#web-dev-hero-text1 {
+  font-size: medium;
+  color: white;
+  padding: 10px;
+  text-align: center;
+
+}
+
+#web-dev-hero-button1 {
+  align-items: center;
+  font-family: "Oxygen" sans-serif;
+  font-size: larger;
+  font-weight: 800;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 0.001px solid yellowgreen;
+  border-width: 1px;
+  background-color: yellowgreen;
+  margin-left: 15em;
+
+}
+
+#web-dev-hero-button1:hover {
+
+  background-color: blue;
 
 }
   
@@ -791,7 +839,7 @@ OTHER DEVICES RESPOSIVENESS SECTION
       bottom: 0;
       width: 100%;
       z-index: 999;
-      display:inline;
+      display:none;
       
      
    
