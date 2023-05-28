@@ -414,6 +414,7 @@ PAGES TOP HEADER STYLES
     background-position: cover;
     background-size: cover;
     height: 350px;
+  
 }
 
 
@@ -440,6 +441,25 @@ PAGES TOP HEADER STYLES
   background-position: cover;
   background-size: cover;
   height: 350px;
+
+
+}
+
+
+.creative-top-banner {
+  background-image: url("../images/CREATIVE-IMAGEX.jpg"); 
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: cover;
+  height: 350px;
+  font-size: small;
+
+
+}
+
+#banner-text {
+  font-size: 28px;
+  margin-top: 10px;
 
 
 }
@@ -708,6 +728,46 @@ WEB DEVELOPMENT PAGE STYLES
   background-color: blue;
 
 }
+
+/*
+=============================================
+CREATIVE GRAPHIC DESIGN STYLES
+=============================================
+*/
+
+#creative-graphic-header{
+  margin-top: 20px;
+  padding: 15px;
+  font-family: "Oxygen" sans-serif;
+  color: blue;
+}
+
+
+#creative-graphic-text {
+
+  font-family: "Lora" serif;
+  color: black;
+  font-size: 23px;
+  font-style: normal;
+  font-stretch: extra-expanded;
+  
+
+}
+
+#creative-graphic-image{
+  margin-top: 5em;
+  padding: 15px;
+  width: 600px;
+  height: 400px;
+  box-shadow: 50em;
+  border: 15px solid yellowgreen ;
+  border-width: 20px;
+  border-radius: 10em;
+  
+
+}
+
+
   
 
 
