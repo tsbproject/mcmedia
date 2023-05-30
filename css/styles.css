@@ -871,7 +871,7 @@ animation: fadeIn 5s;
   margin-top: 1em;
   font-size: 40px;
   font-weight: bolder;
-  color: red;
+  color: white;
   border: 1px solid white;
   background-color: yellowgreen;
   text-align: center
@@ -881,7 +881,7 @@ animation: fadeIn 5s;
 }
 
 .creative-get-in-touch:hover {
-  background-color: #f5f3f3;
+  background-color: rgb(6, 6, 102);
 
 }
 
@@ -893,12 +893,33 @@ animation: fadeIn 5s;
 
 
 .creative-design-img2{
-  width: 1200px;
-  height: 500px;
- position: absolute;
+  width: 1100px;
+  height: 450px;
+  margin-top: 2em ;
+  margin-left: 7em;
+  border: solid;
+  border-color: #f5f3f3;
+  border-radius: 15px;
+  border-width: 15px;
+  box-shadow: 7px 10px 10px 7px;
 
 
 }
+
+#creative-design-phone {
+  font-size: 2em;
+  color: black;
+  margin-left: 15em;
+}
+
+.creative-phone-number{
+  font-family: "Lora", serif;
+  font-style: normal;
+  color: white;
+
+}
+
+
 
 
 
@@ -3764,6 +3785,200 @@ text-align: left;
   font-weight: 900;
 
 }
+
+/*
+=============================================
+CREATIVE GRAPHIC DESIGN STYLES
+=============================================
+*/
+
+#creative-graphic-header{
+  margin-top: 20px;
+  padding: 15px;
+  font-family: "Oxygen" sans-serif;
+  color: blue;
+}
+
+
+#creative-graphic-text {
+  font-family: "Lora", serif;
+  color: black;
+  font-size: 23px;
+  font-style: normal;
+  font-stretch: extra-expanded;
+  margin-right: 12px;
+  
+
+}
+
+#creative-graphic-image{
+  margin-top: 1em;
+  padding: 3px;
+  width: 300px;
+  height: 200px;
+  border: 15px solid yellowgreen ;
+  border-width: 20px;
+  border-radius: 10em;
+  
+
+}
+
+.creative-graphic-design2{
+  height: 400px;
+  padding: 20px;
+  font-size: 30px;
+  
+  
+
+  
+
+}
+
+#creative-design-column1 {
+  height: 300px;
+  background-color: blue;
+  border: 3px solid blue;
+  border-width: 10px;
+  border-radius: 10px;
+  margin-top: 34px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-orientation: sideways-right;
+  color: black;
+}
+
+#creative-design-column2 {
+  height: 300px;
+  background-color:yellowgreen;
+  border: 3px solid yellowgreen;
+  border-width: 10px;
+  border-radius: 10px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-orientation: sideways-right;
+  color: black;
+  
+}
+
+#creative-design-column3 {
+  height: 300px;
+  background-color: blue;
+  border: 3px solid blue;
+  border-width: 10px;
+  border-radius: 10px;
+  margin-top: -34px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-orientation: sideways-right;
+  color: black;
+  
+}
+
+#creative-design-column4 {
+  height: 300px;
+  background-color: yellowgreen;
+  border: 3px solid yellowgreen;
+  border-width: 10px;
+  border-radius: 10px;
+  margin-top: -68px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-orientation: sideways-right;
+  color:black;
+  
+}
+
+.creative-graphic-text1{
+  margin-top: 2em;
+  text-align: center;
+
+}
+
+.fade-in-text{
+  font-size: 25px;
+  font-family: "Lora",serif;
+}
+
+.fade-in-text {
+animation: fadeIn 5s;
+
+
+
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.creative-design-hero{
+  margin-top: 6em;
+  height: 650px;
+  background-color: blue;
+
+}
+
+
+.creative-get-in-touch{
+  margin-top: 1em;
+  font-size: 40px;
+  font-weight: bolder;
+  color: white;
+  border: 1px solid white;
+  background-color: yellowgreen;
+  text-align: center
+  
+  
+
+}
+
+.creative-get-in-touch:hover {
+  background-color: rgb(6, 6, 102);
+
+}
+
+#span-get-in-touch{
+  font-size:35px;
+  text-align: left;
+
+}
+
+
+.creative-design-img2{
+  width: 400px;
+  height: 225px;
+  margin-top: 1em ;
+  -moz-box-align: center;
+  margin-left: 2em;
+ 
+  border: solid;
+  border-color: #f5f3f3;
+  border-radius: 15px;
+  border-width: 15px;
+  box-shadow: 7px 10px 10px 7px;
+
+
+}
+
+#creative-design-phone {
+  font-size: 2em;
+  color: black;
+  margin-left: 15em;
+}
+
+.creative-phone-number{
+  font-family: "Lora", serif;
+  font-style: normal;
+  color: white;
+
+}
+
+
+
 
 
 
