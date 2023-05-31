@@ -1,8 +1,8 @@
 // MAKING FOOTER FADEIN AND OUT ON SCROLLING UP AND DOWN
 
-$(document).ready(function() {
-  var lastScrollPosition = 0;
-  $(window).scroll(function() {
+ $(document).ready(function() {
+ 
+ $(window).scroll(function() {
     var currentScrollPosition = $(this).scrollTop();
     if (currentScrollPosition > lastScrollPosition) {
       // Scrolling down
@@ -10,8 +10,10 @@ $(document).ready(function() {
     } else {
       // Scrolling up
       $('.footer').show();
-    }
+    } 
+      
     lastScrollPosition = currentScrollPosition;
+    
   });
 });
 
