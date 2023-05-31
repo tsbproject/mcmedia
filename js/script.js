@@ -1,19 +1,3 @@
-// HEADER FIXED TOP
-$(document).ready(function() {
-  var lastScrollPosition = 0;
-  $(window).scroll(function() {
-    var currentScrollPosition = $(this).scrollTop();
-    if (currentScrollPosition > lastScrollPosition) {
-      // Scrolling down
-      $('.fixed-top').removeClass('fixed-top-transparent');
-    } else {
-      // Scrolling up
-      $('.fixed-top').addClass('fixed-top-transparent');
-    }
-    lastScrollPosition = currentScrollPosition;
-  });
-});
-
 // MAKING FOOTER FADEIN AND OUT ON SCROLLING UP AND DOWN
 
 $(document).ready(function() {
@@ -30,28 +14,35 @@ $(document).ready(function() {
     lastScrollPosition = currentScrollPosition;
   });
 });
-/*
+
+
+
+
+
+
+
+
+
+
+
+// HEADER FIXED TOP
 $(document).ready(function() {
-  var footer = $('footer');
-  var windowHeight = $(window).height();
-  var bodyHeight = $(document).height() - windowHeight;
-
+  var lastScrollPosition = 0;
   $(window).scroll(function() {
-    var scrollPosition = $(this).scrollTop();
-
-    // Calculate the remaining scroll distance to the bottom of the page
-    var remainingScroll = bodyHeight - scrollPosition;
-
-    if (remainingScroll <= 0) {
-      // Reached the end of scrolling down, fade in the footer
-      footer.fadeIn();
-    } else if (scrollPosition <= 0) {
-      // Scrolling up, fade out the footer
-      footer.fadeOut();
+    var currentScrollPosition = $(this).scrollTop();
+    if (currentScrollPosition > lastScrollPosition) {
+      // Scrolling down
+      $('.fixed-top').removeClass('fixed-top-transparent');
+    } else {
+      // Scrolling up
+      $('.fixed-top').addClass('fixed-top-transparent');
     }
+    lastScrollPosition = currentScrollPosition;
   });
 });
-*/
+
+
+
 
 
 
@@ -122,6 +113,8 @@ dropdowns.forEach((dropdown) => {
     menu.classList.remove("show", "animated");
   });
 });
+
+
 
 
 
