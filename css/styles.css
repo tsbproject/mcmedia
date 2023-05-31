@@ -3812,12 +3812,13 @@ CREATIVE GRAPHIC DESIGN STYLES
 }
 
 #creative-graphic-image{
-  margin-top: 1em;
+  margin-top: 5px;
+  margin-left: 17px;
   padding: 3px;
   width: 300px;
   height: 200px;
   border: 15px solid yellowgreen ;
-  border-width: 20px;
+  border-width: 14px;
   border-radius: 10em;
   
 
@@ -3835,12 +3836,12 @@ CREATIVE GRAPHIC DESIGN STYLES
 }
 
 #creative-design-column1 {
-  height: 300px;
+  height: 250px;
   background-color: blue;
   border: 3px solid blue;
   border-width: 10px;
   border-radius: 10px;
-  margin-top: 34px;
+  margin-top: -20px;
   font-family: "Oxygen", sans-serif;
   font-weight: bold;
   text-align: center;
@@ -3893,7 +3894,7 @@ CREATIVE GRAPHIC DESIGN STYLES
 }
 
 .creative-graphic-text1{
-  margin-top: 2em;
+  margin-top: 0.2em;
   text-align: center;
 
 }
@@ -3916,8 +3917,8 @@ animation: fadeIn 5s;
 }
 
 .creative-design-hero{
-  margin-top: 6em;
-  height: 650px;
+  margin-top: 15em;
+  height: 400px;
   background-color: blue;
 
 }
@@ -3949,11 +3950,10 @@ animation: fadeIn 5s;
 
 
 .creative-design-img2{
-  width: 400px;
+  width: 350px;
   height: 225px;
   margin-top: 1em ;
-  -moz-box-align: center;
-  margin-left: 2em;
+  margin-left: 1em;
  
   border: solid;
   border-color: #f5f3f3;
