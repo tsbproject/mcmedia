@@ -22,7 +22,7 @@ $(document).ready(function() {
 
 
 
-
+/*
 $(document).ready(function() {
   // Check if the user is on a mobile device
   var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
@@ -50,7 +50,7 @@ $(document).ready(function() {
     $('footer').hide();
   }
 });
-
+*/
 
 
 
