@@ -6,13 +6,49 @@ $(document).ready(function() {
     var currentScrollPosition = $(this).scrollTop();
     if (currentScrollPosition > lastScrollPosition) {
       // Scrolling down
-      $('.footer').fadeOut();
+      $('.footer').hide();
     } else {
       // Scrolling up
-      $('.footer').fadeIn();
+      $('.footer').show();
     }
     lastScrollPosition = currentScrollPosition;
   });
+});
+
+
+
+
+
+
+
+
+
+$(document).ready(function() {
+  // Check if the user is on a mobile device
+  var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+  if (!isMobile) {
+    var footer = $('footer');
+    var previousScroll = 0;
+
+    $(window).scroll(function() {
+      var currentScroll = $(this).scrollTop();
+
+      // Check if scrolling up or down
+      if (currentScroll > previousScroll) {
+        // Scrolling down
+        footer.fadeOut();
+      } else {
+        // Scrolling up
+        footer.fadeIn();
+      }
+
+      previousScroll = currentScroll;
+    });
+  } else {
+    // Hide the footer on mobile devices
+    $('footer').hide();
+  }
 });
 
 
