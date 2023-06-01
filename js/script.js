@@ -1,68 +1,3 @@
-// MAKING FOOTER FADEIN AND OUT ON SCROLLING UP AND DOWN
-
- $(document).ready(function() {
- 
- $(window).scroll(function() {
-    var currentScrollPosition = $(this).scrollTop();
-    if (currentScrollPosition > lastScrollPosition) {
-      // Scrolling down
-      $('.footer').hide();
-    } else {
-      // Scrolling up
-      $('.footer').show();
-    } 
-      
-    lastScrollPosition = currentScrollPosition;
-    
-  });
-});
-
-
-
-
-
-
-
-
-/*
-$(document).ready(function() {
-  // Check if the user is on a mobile device
-  var isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-
-  if (!isMobile) {
-    var footer = $('footer');
-    var previousScroll = 0;
-
-    $(window).scroll(function() {
-      var currentScroll = $(this).scrollTop();
-
-      // Check if scrolling up or down
-      if (currentScroll > previousScroll) {
-        // Scrolling down
-        footer.fadeOut();
-      } else {
-        // Scrolling up
-        footer.fadeIn();
-      }
-
-      previousScroll = currentScroll;
-    });
-  } else {
-    // Hide the footer on mobile devices
-    $('footer').hide();
-  }
-});
-*/
-
-
-
-
-
-
-
-
-
-
 // HEADER FIXED TOP
 $(document).ready(function() {
   var lastScrollPosition = 0;
@@ -183,6 +118,46 @@ navbarToggler.addEventListener('click', function() {
     navbarCollapse.classList.add('show', 'position-absolute', 'top-0', 'end-0');
   }
 });
+
+
+// MAKING FOOTER FADEIN AND OUT ON SCROLLING UP AND DOWN
+
+// Get the footer and body content elements
+const footer = document.querySelector('footer');
+const bodyContent = document.querySelector('.body-content');
+
+let lastScrollPosition = window.pageYOffset;
+const footerHeight = footer.offsetHeight;
+
+// Function to handle the scroll event
+const handleScroll = () => {
+  const currentScrollPosition = window.pageYOffset;
+
+  if (currentScrollPosition > lastScrollPosition) {
+    // Scrolling down
+    bodyContent.style.transform = 'translateY(100%)';
+  } else {
+    // Scrolling up
+    bodyContent.style.transform = `translateY(${footerHeight}px)`;
+  }
+
+  lastScrollPosition = currentScrollPosition;
+
+  // Check if reached the end of the body content
+  const bodyContentBottom = bodyContent.offsetTop + bodyContent.offsetHeight;
+  const windowBottom = currentScrollPosition + window.innerHeight;
+
+  if (bodyContentBottom < windowBottom) {
+    footer.style.display = 'block';
+  } else {
+    footer.style.display = 'none';
+  }
+};
+
+// Attach the scroll event listener
+window.addEventListener('scroll', handleScroll);
+
+
 
 
 
