@@ -631,6 +631,8 @@ WEB DEVELOPMENT PAGE STYLES
 
 #web-dev-text{
   color: black;
+  font-family: "Lora", serif;
+  font-size: 20px;
 
 }
 
@@ -645,18 +647,19 @@ WEB DEVELOPMENT PAGE STYLES
 }
 
 #web-dev-section-text1{
-  font-size: medium;
+  font-size: 20px;
   color: black;
   padding: 10px;
 }
 
 #get-started {
+  margin-top: 5em;
   font-size: large;
   color: blue;
 }
 
 #get-started-text {
-  font-size: medium;
+  font-size: 20px;
   color: black;
 }
 
@@ -683,10 +686,15 @@ WEB DEVELOPMENT PAGE STYLES
 
 
 #web-dev-section-text2 {
-  font-size: medium;
+  font-size: 20px;
   color: black;
   padding: 10px;
 
+}
+
+#findings {
+  font-family: "Lora", serif;
+  font-size: 20px;
 }
 
 .web-dev-hero {
@@ -702,7 +710,7 @@ WEB DEVELOPMENT PAGE STYLES
 }
 
 #web-dev-hero-text1 {
-  font-size: medium;
+  font-size: 20px;
   color: white;
   padding: 10px;
   text-align: center;
@@ -3790,6 +3798,128 @@ text-align: left;
   font-weight: 900;
 
 }
+
+
+#web-dev-text{
+  color: black;
+  font-family: "Lora", serif;
+  font-size: 20px;
+
+}
+
+.web-dev-sections {
+  margin-top: 3em;
+}
+
+#web-dev-section-header1 {
+  font-size: large;
+  color: blue;
+
+}
+
+#web-dev-section-text1{
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+}
+
+#get-started {
+  margin-top: 1em;
+  font-size: large;
+  color: blue;
+}
+
+#get-started-text {
+  font-size: 20px;
+  color: black;
+}
+
+#requestquote {
+  font-size: larger;
+  font-weight: 900;
+  color: white;
+  padding:4px;
+  border-radius: 5px;
+  border-width: 5px;
+  background-color: yellowgreen;
+  text-align: center;
+}
+
+#requestquote:hover {
+  background-color: blue;
+
+}
+
+.web-dev-getstarted {
+  margin-top: -12em;
+
+}
+
+
+#web-dev-section-text2 {
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+
+}
+
+#findings {
+  font-family: "Lora", serif;
+  font-size: 20px;
+}
+
+.web-dev-hero {
+  margin-top: 25px;
+  height: 350px;
+  background-color: rgb(6, 6, 102);
+}
+
+#web-dev-hero-header1 {
+  margin-top: 4em;
+  color: white;
+  text-align: center;
+}
+
+#web-dev-hero-text1 {
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+
+}
+
+#web-dev-hero-button1 {
+  align-items: center;
+  font-family: "Oxygen" sans-serif;
+  font-size: larger;
+  font-weight: 800;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 0.001px solid yellowgreen;
+  border-width: 1px;
+  background-color: yellowgreen;
+  margin-left: 15em;
+
+}
+
+#web-dev-hero-button1:hover {
+
+  background-color: blue;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 =============================================
