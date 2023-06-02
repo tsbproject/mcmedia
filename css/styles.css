@@ -905,7 +905,7 @@ animation: fadeIn 5s;
   width: 1100px;
   height: 450px;
   margin-top: 2em ;
-  margin-left: 7em;
+  margin-left: 9em;
   border: solid;
   border-color: #f5f3f3;
   border-radius: 15px;
@@ -3800,6 +3800,25 @@ text-align: left;
 }
 
 
+
+
+
+/*
+=====================================
+WEB DEVELOPMENT PAGE STYLES
+=====================================
+*/
+.web-dev-header {
+  margin-top: 20px;
+  font-size: 5em;
+
+}
+
+#web-dev-section-header1 {
+  font-size: small;
+}
+
+
 #web-dev-text{
   color: black;
   font-family: "Lora", serif;
@@ -3824,7 +3843,7 @@ text-align: left;
 }
 
 #get-started {
-  margin-top: 1em;
+  margin-top: 10em;
   font-size: large;
   color: blue;
 }
@@ -3920,7 +3939,6 @@ text-align: left;
 
 
 
-
 /*
 =============================================
 CREATIVE GRAPHIC DESIGN STYLES
@@ -3948,9 +3966,9 @@ CREATIVE GRAPHIC DESIGN STYLES
 
 #creative-graphic-image{
   margin-top: 5px;
-  margin-left: 17px;
-  padding: 3px;
-  width: 300px;
+  margin-left: 3px;
+  padding: 2px;
+  width: 350px;
   height: 200px;
   border: 15px solid yellowgreen ;
   border-width: 14px;
