@@ -1011,6 +1011,44 @@ DIGITAL MARKETING PAGE STYLES
 }
 
 
+.digital-marketing-hero {
+   height: 400px;
+   background-color: blue;
+
+
+}
+
+.digital-hero-text {
+  font-family: "Lora",serif;
+  font-size: xx-large;
+
+}
+
+.digital-hero-button {
+  padding: 13px;
+  font-family: "Oxygen",sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  color: #f5f3f3;
+  margin-left:10em ;
+  border: 0.5px solid white;
+  border-color: #f5f3f3;
+  border-radius: 12px;
+  background-color:yellowgreen;
+
+
+
+
+
+}
+
+.digital-hero-button:hover {
+  background-color: blue;
+
+}
+
+
 
 /*
 ============================================
@@ -4195,6 +4233,117 @@ animation: fadeIn 5s;
   color: white;
 
 }
+
+
+/*
+====================================================
+DIGITAL MARKETING PAGE STYLES
+====================================================
+*/
+
+.digital-marketing-header1 {
+  margin-top: 20px;
+    font-family: "Oxygen", sans-serif;
+    font-size: xx-large;
+    color: blue;
+
+
+}
+
+.digital-marketing-text {
+   font-family: "Lora", serif;
+   font-size: 20px;
+   color: black;
+}
+
+
+
+ 
+ 
+.digital-marketing2{
+  height: 76em;
+  background-color: yellowgreen;
+
+  
+
+}
+
+ 
+
+
+.rounded-circle{
+   width: 250px;
+   height: 250px;
+   margin-top: 20px;
+   margin-left: 57px;
+   border: 0.5px solid white;
+   border-width: 3px;
+   box-shadow: 5px 5px 5px 5px;
+}
+
+
+.digital-marketing-caption {
+  font-size: 15px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 100px;
+  left: 5px ;
+
+}
+
+.digital-seo-caption {
+  font-size: 15px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 10em;
+  left: -80px ;
+
+}
+
+
+.digital-marketing-hero {
+   height: 400px;
+   background-color: blue;
+
+
+}
+
+.digital-hero-text {
+  font-family: "Lora",serif;
+  font-size: large;
+
+}
+
+.digital-hero-button {
+  padding: 8px;
+  font-family: "Oxygen",sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  text-align: center;
+  color: #f5f3f3;
+  margin-left:3em ;
+  border: 0.5px solid white;
+  border-color: #f5f3f3;
+  border-radius: 12px;
+  background-color:yellowgreen;
+
+
+
+
+
+}
+
+.digital-hero-button:hover {
+  background-color: blue;
+
+}
+
 
 
 
