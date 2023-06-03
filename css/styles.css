@@ -3857,11 +3857,13 @@ WEB DEVELOPMENT PAGE STYLES
   font-size: larger;
   font-weight: 900;
   color: white;
-  padding:4px;
+  padding: 12px;
   border-radius: 5px;
   border-width: 5px;
   background-color: yellowgreen;
   text-align: center;
+  margin-left: 4.6em;
+
 }
 
 #requestquote:hover {
@@ -3889,12 +3891,12 @@ WEB DEVELOPMENT PAGE STYLES
 
 .web-dev-hero {
   margin-top: 25px;
-  height: 350px;
+  height: 35em;
   background-color: rgb(6, 6, 102);
 }
 
 #web-dev-hero-header1 {
-  margin-top: 4em;
+  margin-top: 1.5em;
   color: white;
   text-align: center;
 }
@@ -3909,7 +3911,7 @@ WEB DEVELOPMENT PAGE STYLES
 
 #web-dev-hero-button1 {
   align-items: center;
-  font-family: "Oxygen" sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: larger;
   font-weight: 800;
   color: white;
@@ -3918,7 +3920,7 @@ WEB DEVELOPMENT PAGE STYLES
   border: 0.001px solid yellowgreen;
   border-width: 1px;
   background-color: yellowgreen;
-  margin-left: 15em;
+  margin-left: 7em;
 
 }
 
