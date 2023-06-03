@@ -17,8 +17,9 @@ body a:visited{
 
 body {
   padding-top: 150px; /* Set padding to match header height */
-  min-height: 2000px;
+  /*min-height: 2000px;
   position: relative;
+  */
 }
 
 
@@ -653,7 +654,7 @@ WEB DEVELOPMENT PAGE STYLES
 }
 
 #get-started {
-  margin-top: 5em;
+  margin-top: 10px;
   font-size: large;
   color: blue;
 }
@@ -664,10 +665,11 @@ WEB DEVELOPMENT PAGE STYLES
 }
 
 #requestquote {
+  font-family: "Oxygeb", serif;
   font-size: larger;
-  font-weight: 900;
+  font-weight: bolder;
   color: white;
-  padding:4px;
+  padding:10px;
   border-radius: 5px;
   border-width: 5px;
   background-color: yellowgreen;
@@ -719,7 +721,7 @@ WEB DEVELOPMENT PAGE STYLES
 
 #web-dev-hero-button1 {
   align-items: center;
-  font-family: "Oxygen" sans-serif;
+  font-family: "Oxygen", sans-serif;
   font-size: larger;
   font-weight: 800;
   color: white;
@@ -727,6 +729,7 @@ WEB DEVELOPMENT PAGE STYLES
   text-align: center;
   border: 0.001px solid yellowgreen;
   border-width: 1px;
+  border-radius:5px;
   background-color: yellowgreen;
   margin-left: 15em;
 
@@ -1075,7 +1078,7 @@ OTHER DEVICES RESPOSIVENESS SECTION
 
     .hide-footer {
       position: absolute;
-      bottom: -100px; /* Example value, adjust as needed */
+      bottom: -300px; 
     }
     
 
