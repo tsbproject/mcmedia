@@ -428,8 +428,8 @@ PAGES TOP HEADER STYLES
   height: 350px;
 }
 
-.web-design-top-banner {
-  background-image: url("../images/web-design-slide-1024x640.jpg"); 
+.digital-marketing-banner {
+  background-image: url("../images/digital-marketing-side-1-1024x597.jpg"); 
   background-attachment: fixed;
   background-position: cover;
   background-size: cover;
@@ -933,22 +933,82 @@ animation: fadeIn 5s;
 
 
 
+/*
+====================================================
+DIGITAL MARKETING PAGE STYLES
+====================================================
+*/
 
+.digital-marketing-header1 {
+  margin-top: 20px;
+    font-family: "Oxygen", sans-serif;
+    font-size: xx-large;
+    color: blue;
+
+
+}
+
+.digital-marketing-text {
+   font-family: "Lora", serif;
+   font-size: 20px;
+   color: black;
+}
 
 
 
  
  
- 
+.digital-marketing2{
+  height: 500px;
+  background-color: yellowgreen;
+
+  
+
+}
 
  
+#digital-marketing-image1 {
+  width: 450px;
+  height: 450px;
+  column-gap: 0px;
+}
 
 
 
+.rounded-circle{
+   width: 350px;
+   height: 350px;
+   margin-top: 20px;
+   margin-left: -10px;
+   border: 0.5px solid white;
+   border-width: 3px;
+   box-shadow: 5px 5px 5px 5px;
+}
 
 
+.digital-marketing-caption {
+  font-size: 20px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 30px;
+  left: 3em ;
 
+}
 
+.digital-seo-caption {
+  font-size: 20px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 30px;
+  left: 7em ;
+
+}
 
 
 
