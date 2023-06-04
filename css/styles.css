@@ -3340,8 +3340,7 @@ ABOUT US PAGE STYLES
         text-decoration: double;
         text-transform: uppercase;
         position: relative;
-        top: -32px;
-        left: 1.5em;
+        margin-right: 25em;
       
 
       
@@ -3477,7 +3476,7 @@ ABOUT US PAGE STYLES
   #clocknew {
   font-size: 12px;
   position: absolute;
-  right: 17.7em;
+  left: 14.5em;
   top: 2.1em;
   }
    
@@ -3825,7 +3824,7 @@ ABOUT US PAGE STYLES
 
 #v-mission-header {
     margin-bottom: auto;
-    font-family: "Oxygen" serif;
+    font-family: "Oxygen", sans-serif;
     font-size: medium;
     text-align: center;
     background-color: yellowgreen;
@@ -3838,7 +3837,8 @@ ABOUT US PAGE STYLES
 
 .vision-mission-text {
   color: black;
-  font-size: medium;
+  font-family: "Lora", serif;
+  font-size: 20px;
   margin-top: -25em;
 
 }
@@ -3851,9 +3851,10 @@ ABOUT US PAGE STYLES
 }
 
 .about-text {
-    color: black;
-    font-size: 14px;
-    font-family: "Lora" sans-serif;
+    font-size: 20px;
+    font-family: "Lora", serif;
+    color: balck;
+    
 }
 
 
