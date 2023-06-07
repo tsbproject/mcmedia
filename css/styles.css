@@ -3901,7 +3901,7 @@ ABOUT US PAGE STYLES
 
 #vision-mission {
      background-color: rgba(241, 235, 235, 0.295);
-     height: 300px;
+     height: 450px;
      padding: 12px;
      border: 25px solid white;
     
@@ -3928,12 +3928,14 @@ ABOUT US PAGE STYLES
   color: black;
   font-family: "Lora", serif;
   font-size: 20px;
-  margin-top: -25em;
+  text-align: justify;
+  margin-top: -20em;
+ 
 
 }
 
 #about-section {
-   height: 60em;
+   height: 110em;
    background-color: rgba(227, 235, 213, 0.432);
   
 
@@ -3942,7 +3944,9 @@ ABOUT US PAGE STYLES
 .about-text {
     font-size: 20px;
     font-family: "Lora", serif;
-    color: balck;
+    text-align: justify;
+    color: black;
+
     
 }
 
