@@ -1163,7 +1163,7 @@ WEB DESIGN TRANNING PAGE STYLES
 
 }
 
-.register-wdtraining-header{
+.register-wdtraining-header {
   margin-top: 20px;
   font-family: "Oxygen", sans-serif;
   font-size: xx-large;
@@ -3427,7 +3427,9 @@ ABOUT US PAGE STYLES
         text-decoration: double;
         text-transform: uppercase;
         position: relative;
-        margin-right: 25em;
+        bottom: 4em;
+        margin-left: -3em;
+        
       
 
       
@@ -4536,6 +4538,83 @@ DIGITAL MARKETING PAGE STYLES
 
 }
 
+/*
+================================================
+WEB DESIGN TRANNING PAGE STYLES
+================================================
+*/
+
+#web-design-training-header {
+  font-family: "Oxygen", sans-serif;
+  font-size: xx-large;
+  font-weight: 800;
+  color: blue;
+
+}
+
+.web-des-training {
+ margin-top: 3em;
+}
+
+
+.web-design-image1 {
+  margin-top: -29px;
+  margin-bottom: 15px;
+  margin-left: 5px;
+  width: 365px;
+  height: 300px;
+  border: 0.5px solid;
+  border-color: yellowgreen;
+  border-width: 25px;
+  border-style: double;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 10px;
+
+
+}
+
+#web-design-traning-text1 {
+ font-family: "Lora", serif;
+ font-size: 20px;
+ text-align: justify;
+ color: black;
+ padding: 10px;
+}
+
+
+.register-form-wdtraining {
+ height: 55em;
+ background-color: yellowgreen;
+ padding: 20px;
+
+
+}
+
+.register-wdtraining-header {
+ margin-top: 20px;
+ font-family: "Oxygen", sans-serif;
+ font-size: xx-large;
+ font-weight: bolder;
+ color: blue;
+}
+
+
+
+.registerform {
+ font-family: "lora", serif;
+
+
+}
+
+
+.btn-primary {
+ width: 14.8em;
+ font-family: "Oxygen", sans-serif;
+ font-weight: bolder;
+ font-stretch: expanded;
+ font-size: x-large;
+
+}
 
 
 
