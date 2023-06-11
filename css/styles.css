@@ -4293,10 +4293,12 @@ CREATIVE GRAPHIC DESIGN STYLES
 #creative-graphic-text {
   font-family: "Lora", serif;
   color: black;
-  font-size: 23px;
+  font-size: 20px;
   font-style: normal;
+  text-align: justify;
   font-stretch: extra-expanded;
   margin-right: 12px;
+
   
 
 }
