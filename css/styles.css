@@ -1156,9 +1156,20 @@ WEB DESIGN TRANNING PAGE STYLES
 
 
 .register-form-wdtraining {
-  height: 800px;
+  height: 900px;
+  padding: 30px;
+  background-image: url("../images/web-traning4.jpg"); 
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: cover;
   background-color: yellowgreen;
-  padding: 20px;
+  background-blend-mode:darken ;
+  -webkit-text-fill-color: rgb(204, 83, 26)
+  
+  
+  
+  
+
 
 
 }
@@ -1181,11 +1192,54 @@ WEB DESIGN TRANNING PAGE STYLES
 
 
 .btn-primary {
-  width: 28em;
+  width: 27.5em;
   font-family: "Oxygen", sans-serif;
   font-weight: bolder;
   font-stretch: expanded;
   font-size: x-large;
+
+}
+
+.bi-person{
+  font-size: 27px;
+  position: relative;
+  top: 39px;
+  right: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
+
+.bi-envelope-at{
+  font-size: 27px;
+  position: relative;
+  top: 39px;
+  right: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
+
+
+.bi-telephone{
+  font-size: 27px;
+  position: relative;
+  top: 39px;
+  right: 40px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: lightgrey;
+}
+
+
+
+
+#web-design-background-image {
+  background-image: url("../images/web-traning4.jpg"); 
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: cover;
+
 
 }
 
@@ -3978,16 +4032,20 @@ WEB DESIGN PAGE STYLES
 }
 
 #web-design-header {
-font-family: "Oxygen" sans-serif;
+font-family: "Oxygen", sans-serif;
 color: yellowgreen;
 text-align: left;
+font-size: x-large;
+font-weight: bolder;
   
 }
 
 .web-design-text {
   color: black;
   font-size: 14px;
-  font-family: "Lora" sans-serif;
+  font-family: "Lora", sans-serif;
+  font-size: 20px;
+  text-align: justify;
   
 }
 
@@ -4025,6 +4083,7 @@ text-align: left;
 
 #list1 {
   font-size: 14px;
+  font-family: "Oxygen",sans-serif;
   color: black;
   text-align: left;
  text-justify: auto;
@@ -4043,6 +4102,8 @@ text-align: left;
 
 #process-span {
   font-size: larger;
+  font-family: "Oxygen",sans-serif;
+  font-size: 20px;
 
 }
 
@@ -4073,12 +4134,18 @@ WEB DEVELOPMENT PAGE STYLES
 */
 .web-dev-header {
   margin-top: 20px;
-  font-size: 5em;
+  font-size: 10em;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bolder;
+  
 
 }
 
 #web-dev-section-header1 {
-  font-size: small;
+  font-family: "Oxygen",sans-serif;
+  font-size: 100px;
+  font-weight: bolder;
+
 }
 
 
@@ -4086,6 +4153,7 @@ WEB DEVELOPMENT PAGE STYLES
   color: black;
   font-family: "Lora", serif;
   font-size: 20px;
+  text-align: justify;
 
 }
 
@@ -4094,15 +4162,18 @@ WEB DEVELOPMENT PAGE STYLES
 }
 
 #web-dev-section-header1 {
+  font-family: "Oxygen", sans-serif;
   font-size: large;
   color: blue;
 
 }
 
 #web-dev-section-text1{
+  font-family: "Lora", serif;
   font-size: 20px;
   color: black;
   padding: 10px;
+  text-align: justify;
 }
 
 #get-started {
@@ -4165,6 +4236,7 @@ WEB DEVELOPMENT PAGE STYLES
 }
 
 #web-dev-hero-text1 {
+  font-family: "Oxygen", sans-serif;
   font-size: 20px;
   color: white;
   padding: 10px;
