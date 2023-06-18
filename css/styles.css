@@ -1156,23 +1156,54 @@ WEB DESIGN TRANNING PAGE STYLES
 
 
 .register-form-wdtraining {
-  height: 900px;
-  padding: 30px;
-  background-image: url("../images/web-traning4.jpg"); 
-  background-attachment: fixed;
-  background-position: cover;
-  background-size: cover;
-  background-color: yellowgreen;
-  background-blend-mode:darken ;
-  -webkit-text-fill-color: rgb(204, 83, 26)
+  height: 840px;
+  padding: 10px;
+  /*background-color: blue;*/
   
   
-  
-  
-
-
-
 }
+
+
+ #register-form-column {
+   background: yellowgreen;
+   box-shadow:  0  10px 10px ;
+  -webkit-text-fill-color: rgb(4, 4, 36)
+  
+
+
+ }
+
+ #training-info-column {
+   background-image: url("../images/web-traning2.jpg"); 
+   background-position: cover;
+   background-size: cover;
+   background-color: blue;
+   background-blend-mode: multiply;
+   opacity: 0.6;
+  
+   
+}
+
+  #training-info-column {
+   color: black;
+  
+  }
+
+ .training-info-header {
+    font-family: "Oxygen", sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color:white;
+    text-align: center;
+    position: relative;
+    top: -27em;
+    left: 11em;
+   
+   
+
+ }
+
+ 
 
 .register-wdtraining-header {
   margin-top: 20px;
@@ -1186,49 +1217,54 @@ WEB DESIGN TRANNING PAGE STYLES
 
 .registerform {
   font-family: "lora", serif;
+
  
 
 }
 
 
 .btn-primary {
-  width: 27.5em;
+  width: 26.8em;
   font-family: "Oxygen", sans-serif;
   font-weight: bolder;
   font-stretch: expanded;
   font-size: x-large;
+  background-color: yellowgreen;
 
 }
 
 .bi-person{
-  font-size: 27px;
+  font-size: 25px;
   position: relative;
-  top: 39px;
-  right: 40px;
+  top: 37px;
+  right: 35px;
   padding: 5px;
   border-radius: 10px;
-  background-color: lightgrey;
+  background-color: lightgray;
+  
 }
 
 .bi-envelope-at{
-  font-size: 27px;
+  font-size: 25px;
   position: relative;
-  top: 39px;
-  right: 40px;
+  top: 37px;
+  right: 35px;
   padding: 5px;
   border-radius: 10px;
-  background-color: lightgrey;
+  background-color: lightgray;
+ 
 }
 
 
 .bi-telephone{
-  font-size: 27px;
+  font-size: 25px;
   position: relative;
-  top: 39px;
-  right: 40px;
+  top: 37px;
+  right: 35px;
   padding: 5px;
   border-radius: 10px;
-  background-color: lightgrey;
+  background-color: lightgray;
+
 }
 
 
