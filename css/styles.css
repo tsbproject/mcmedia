@@ -1156,7 +1156,7 @@ WEB DESIGN TRANNING PAGE STYLES
 
 
 .register-form-wdtraining {
-  height: 840px;
+  height: 970px;
   padding: 10px;
   /*background-color: blue;*/
   
@@ -1174,20 +1174,21 @@ WEB DESIGN TRANNING PAGE STYLES
  }
 
  #training-info-column {
-   background-image: url("../images/web-traning2.jpg"); 
-   background-position: cover;
-   background-size: cover;
-   background-color: blue;
-   background-blend-mode: multiply;
-   opacity: 0.6;
-  
-   
-}
+  background-color: blue;
+  height: 930px;
+  box-shadow:   5px 5px  0 black ;
 
-  #training-info-column {
-   color: black;
-  
-  }
+   
+ }
+
+ #training-info-bg {
+   width: 650px;
+   height: 970px;
+  opacity: 0.05;
+   
+ }
+
+
 
  .training-info-header {
     font-family: "Oxygen", sans-serif;
@@ -1195,17 +1196,42 @@ WEB DESIGN TRANNING PAGE STYLES
     font-weight: bolder;
     color:white;
     text-align: center;
-    position: relative;
-    top: -27em;
-    left: 11em;
-   
+    margin-top: -32em;
    
 
  }
 
- 
 
-.register-wdtraining-header {
+
+ .tech-icon {
+  font-size: 4em;
+  display: block;
+  margin-left: 1em;
+  
+
+   
+
+ }
+
+ .tech-to-learn {
+  height: 200px;
+  border: 1px solid yellowgreen;
+   
+ }
+
+ 
+.tech-header {
+  font-size: large;
+  margin-left: 3em;
+  margin-top: 2em;
+  padding: 2px;
+
+}
+
+
+
+
+ .register-wdtraining-header {
   margin-top: 20px;
   font-family: "Oxygen", sans-serif;
   font-size: xx-large;
@@ -1229,7 +1255,7 @@ WEB DESIGN TRANNING PAGE STYLES
   font-weight: bolder;
   font-stretch: expanded;
   font-size: x-large;
-  background-color: yellowgreen;
+  background-color: rgb(198, 241, 97);
 
 }
 
