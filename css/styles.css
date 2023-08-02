@@ -51,9 +51,9 @@ HEADER SECTION STYLES
   color: white;
   height: 150px;
   background-color: rgb(6, 6, 102);
-  border-bottom: 0.8em;
-  border-style: ridge;
-  border-color: yellowgreen;
+  border-bottom: 0.2em solid yellowgreen;
+
+  
 }
 
 
@@ -410,7 +410,7 @@ END OF INFORMATION GRID STYLES
 
 /*
 =====================================
-PAGES TOP HEADER STYLES
+PAGES TOP BANNER STYLES
 =====================================
 */
 
@@ -430,6 +430,7 @@ PAGES TOP HEADER STYLES
   background-position: cover;
   background-size: cover;
   height: 350px;
+  opacity: 0.5;
 }
 
 .digital-marketing-banner {
@@ -474,8 +475,9 @@ PAGES TOP HEADER STYLES
 }
 
 #banner-text {
-  font-size: 28px;
+  font-size: 22px;
   margin-top: 10px;
+  text-align: center;
 
 
 }
@@ -1115,13 +1117,13 @@ DIGITAL MARKETING PAGE STYLES
 
 /*
 ================================================
-WEB DESIGN TRANNING PAGE STYLES
+WEB DESIGN & DEVELOPMENT TRANNING PAGE STYLES
 ================================================
 */
 
 #web-design-training-header {
    font-family: "Oxygen", sans-serif;
-   font-size: xx-large;
+   font-size: x-large;
    font-weight: 800;
    color: blue;
 
@@ -1183,8 +1185,8 @@ WEB DESIGN TRANNING PAGE STYLES
 
  #training-info-bg {
    width: 650px;
-   height: 970px;
-  opacity: 0.05;
+   height: 940px;
+  opacity: 0.18;
    
  }
 
@@ -1196,7 +1198,7 @@ WEB DESIGN TRANNING PAGE STYLES
     font-weight: bolder;
     color:white;
     text-align: center;
-    margin-top: -32em;
+    margin-top: -30em;
    
 
  }
@@ -1414,7 +1416,13 @@ OTHER DEVICES RESPOSIVENESS SECTION
 
     .footer {
       height: 400px;
+      background-image:  url("../images/creative-design.jpg") cross-fade(10%); 
+      background-repeat: repeat;
       background-color: rgb(3, 15, 22);
+      background-position: cover;
+      background-size: cover;
+      background-attachment: fixed;
+   
       
     
      

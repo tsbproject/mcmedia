@@ -80,13 +80,13 @@
                   Training
                  </a>
                <ul id="do" class="dropdown-menu">
-                 <li><a class="dropdown-item" href="web-design-training.html">Web Design Training</a></li>
+                 <li><a class="dropdown-item" href="web-design-dev-training.html">Web Design & Development Training</a></li>
                  <li><hr class="dropdown-divider"></li>
                  <li><a class="dropdown-item" href="web-app-development-training.html">Web/ App Development Training</a></li>
                  <li><hr class="dropdown-divider"></li>
                  <li><a class="dropdown-item" href="creative-design-training.html">Creative Design Traning</a></li>
                  <li><hr class="dropdown-divider"></li>
-                 <li><a class="dropdown-item" href="digital-marketing-training.html">Digital Marketing Training</a></li>
+                 <li><a class="dropdown-item" href="#">Digital Marketing Training</a></li>
                </ul>
                 
               </li>
