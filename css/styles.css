@@ -749,6 +749,7 @@ WEB DEVELOPMENT PAGE STYLES
   margin-top: 4em;
   color: white;
   text-align: center;
+ margin-top:3em;
 }
 
 #web-dev-hero-text1 {
@@ -756,6 +757,7 @@ WEB DEVELOPMENT PAGE STYLES
   color: white;
   padding: 10px;
   text-align: center;
+
 
 }
 
@@ -772,6 +774,7 @@ WEB DEVELOPMENT PAGE STYLES
   border-radius:5px;
   background-color: yellowgreen;
   margin-left: 15em;
+
 
 }
 
