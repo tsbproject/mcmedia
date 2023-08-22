@@ -5470,8 +5470,8 @@ WEB DESIGN & DEVELOPMENT TRANNING PAGE STYLES
   background-attachment: fixed;
   background-position: cover;
   background-size: cover;
-  height: auto;
-  width: auto;
+  height: fit-content;
+  width: fit-content;
   font-size: small;
 
 }
