@@ -1049,7 +1049,7 @@ DIGITAL MARKETING PAGE STYLES
   color: white;
   position: relative;
   top: 30px;
-  left: 7.5em ;
+  left: 3em ;
 
 }
 
@@ -3073,6 +3073,298 @@ ABOUT US PAGE STYLES
 
 
 
+/*
+=================================================
+WEB DEVELOPMENT STYLES
+=================================================
+*/
+
+.web-dev-header {
+  margin-top: 20px;
+  font-size: 10em;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bolder;
+  
+
+}
+
+#web-dev-section-header1 {
+  font-family: "Oxygen",sans-serif;
+  font-size: 100px;
+  font-weight: bolder;
+
+}
+
+
+#web-dev-text{
+  color: black;
+  font-family: "Lora", serif;
+  font-size: 20px;
+  text-align: justify;
+
+}
+
+.web-dev-sections {
+  margin-top: 3em;
+}
+
+#web-dev-section-header1 {
+  font-family: "Oxygen", sans-serif;
+  font-size: large;
+  color: blue;
+
+}
+
+#web-dev-section-text1{
+  font-family: "Lora", serif;
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+  text-align: justify;
+}
+
+#get-started {
+  margin-top: 10em;
+  font-size: large;
+  color: blue;
+}
+
+#get-started-text {
+  font-size: 20px;
+  color: black;
+}
+
+#requestquote {
+  font-size: larger;
+  font-weight: 900;
+  color: white;
+  padding: 12px;
+  border-radius: 5px;
+  border-width: 5px;
+  background-color: yellowgreen;
+  text-align: center;
+  margin-left: 4.6em;
+
+}
+
+#requestquote:hover {
+  background-color: blue;
+
+}
+
+.web-dev-getstarted {
+  margin-top: -12em;
+
+}
+
+
+#web-dev-section-text2 {
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+
+}
+
+#findings {
+  font-family: "Lora", serif;
+  font-size: 20px;
+}
+
+.web-dev-hero {
+  margin-top: 25px;
+  height: 35em;
+  background-color: rgb(6, 6, 102);
+}
+
+#web-dev-hero-header1 {
+  margin-top: 1.5em;
+  color: white;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#web-dev-hero-text1 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  text-align: center;
+
+}
+
+#web-dev-hero-button1 {
+  align-items: center;
+  font-family: "Oxygen", sans-serif;
+  font-size: larger;
+  font-weight: 800;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 0.001px solid yellowgreen;
+  border-width: 1px;
+  background-color: yellowgreen;
+  margin-left: 7em;
+
+}
+
+#web-dev-hero-button1:hover {
+
+  background-color: blue;
+
+}
+
+
+
+
+/*
+====================================================
+DIGITAL MARKETING PAGE STYLES
+====================================================
+*/
+
+.digital-marketing-header1 {
+  margin-top: 20px;
+    font-family: "Oxygen", sans-serif;
+    font-size: xx-large;
+    color: blue;
+
+
+}
+
+.digital-marketing-text {
+   font-family: "Lora", serif;
+   font-size: 20px;
+   color: black;
+}
+
+
+
+ 
+ 
+.digital-marketing2{
+  height: 1100px;
+  background-color: yellowgreen;
+
+  
+
+}
+
+ 
+#digital-marketing-image1 {
+  width: 450px;
+  height: 450px;
+  column-gap: 50px;
+}
+
+
+
+.rounded-circle{
+  column-gap: 20em;
+  border: 0.5px solid white;
+  border-width: 3px;
+  box-shadow : 5px 5px 5px 5px;
+  width: 200px;
+  height: 200px;
+  margin-top: 55px;
+  margin-left: 17em;
+  
+ 
+}
+
+
+.digital-marketing-caption1 {
+  font-size: 20px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 8em;
+  left: -9.5em ;
+
+}
+
+.digital-marketing-caption2 {
+  font-size: 20px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 8em;
+  left: -5.3em ;
+
+}
+
+
+.digital-marketing-caption3 {
+  font-size: 20px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 8em;
+  left: -9.9em ;
+
+}
+
+
+.digital-marketing-caption4 {
+  font-size: 20px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 8em;
+  left: -9.2em ;
+
+}
+
+
+.digital-marketing-hero {
+   height: 400px;
+   background-color: blue;
+
+
+}
+
+.digital-hero-text {
+  font-family: "Lora",serif;
+  font-size: xx-large;
+
+}
+
+.digital-hero-button {
+  padding: 13px;
+  font-family: "Oxygen",sans-serif;
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  color: #f5f3f3;
+  margin-left:10em ;
+  border: 0.5px solid white;
+  border-color: #f5f3f3;
+  border-radius: 12px;
+  background-color:yellowgreen;
+
+
+
+
+
+}
+
+.digital-hero-button:hover {
+  background-color: blue;
+
+}
+
+
+
+
+
+
 
     
     }
@@ -3512,24 +3804,36 @@ ABOUT US PAGE STYLES
     font-size: 11px;
 }
 
-
-
-
-
-    
-    }
-
-
     /*
 =====================================
 WEB DEVELOPMENT PAGE STYLES
 =====================================
 */
 
+
+
+.web-dev-header {
+  margin-top: 20px;
+  font-size: 10em;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bolder;
+  
+
+}
+
+#web-dev-section-header1 {
+  font-family: "Oxygen",sans-serif;
+  font-size: 100px;
+  font-weight: bolder;
+
+}
+
+
 #web-dev-text{
   color: black;
   font-family: "Lora", serif;
   font-size: 20px;
+  text-align: justify;
 
 }
 
@@ -3538,19 +3842,22 @@ WEB DEVELOPMENT PAGE STYLES
 }
 
 #web-dev-section-header1 {
+  font-family: "Oxygen", sans-serif;
   font-size: large;
   color: blue;
 
 }
 
 #web-dev-section-text1{
+  font-family: "Lora", serif;
   font-size: 20px;
   color: black;
   padding: 10px;
+  text-align: justify;
 }
 
 #get-started {
-  margin-top: 10px;
+  margin-top: 10em;
   font-size: large;
   color: blue;
 }
@@ -3561,15 +3868,16 @@ WEB DEVELOPMENT PAGE STYLES
 }
 
 #requestquote {
-  font-family: "Oxygeb", serif;
   font-size: larger;
-  font-weight: bolder;
+  font-weight: 900;
   color: white;
-  padding:10px;
+  padding: 12px;
   border-radius: 5px;
   border-width: 5px;
   background-color: yellowgreen;
   text-align: center;
+  margin-left: 4.6em;
+
 }
 
 #requestquote:hover {
@@ -3597,23 +3905,23 @@ WEB DEVELOPMENT PAGE STYLES
 
 .web-dev-hero {
   margin-top: 25px;
-  height: 350px;
+  height: 35em;
   background-color: rgb(6, 6, 102);
 }
 
 #web-dev-hero-header1 {
-  margin-top: 4em;
+  margin-top: 1.5em;
   color: white;
   text-align: center;
- margin-top:3em;
+  margin-top: 20px;
 }
 
 #web-dev-hero-text1 {
+  font-family: "Oxygen", sans-serif;
   font-size: 20px;
   color: white;
   padding: 10px;
   text-align: center;
-
 
 }
 
@@ -3627,10 +3935,8 @@ WEB DEVELOPMENT PAGE STYLES
   text-align: center;
   border: 0.001px solid yellowgreen;
   border-width: 1px;
-  border-radius:5px;
   background-color: yellowgreen;
-  margin-left: 15em;
-
+  margin-left: 7em;
 
 }
 
@@ -3639,6 +3945,14 @@ WEB DEVELOPMENT PAGE STYLES
   background-color: blue;
 
 }
+
+
+
+
+    
+    }
+
+
 
 
 
