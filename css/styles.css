@@ -3949,6 +3949,154 @@ WEB DEVELOPMENT PAGE STYLES
 
 
 
+/*
+====================================================
+DIGITAL MARKETING PAGE STYLES
+====================================================
+*/
+
+.digital-marketing-header1 {
+  margin-top: 20px;
+    font-family: "Oxygen", sans-serif;
+    font-size: xx-large;
+    color: blue;
+
+
+}
+
+.digital-marketing-text {
+   font-family: "Lora", serif;
+   font-size: 20px;
+   color: black;
+}
+
+
+
+ 
+ 
+.digital-marketing2{
+  height: 1100px;
+  background-color: yellowgreen;
+
+  
+
+}
+
+ 
+#digital-marketing-image1 {
+  width: 450px;
+  height: 450px;
+  column-gap: 50px;
+}
+
+
+
+.rounded-circle{
+  column-gap: 20em;
+  border: 0.5px solid white;
+  border-width: 3px;
+  box-shadow : 5px 5px 5px 5px;
+  width: 200px;
+  height: 200px;
+  margin-top: 55px;
+  margin-left: 17em;
+  
+ 
+}
+
+
+.digital-marketing-caption1 {
+  font-size: 20px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 8em;
+  left: -9.5em ;
+
+}
+
+.digital-marketing-caption2 {
+  font-size: 20px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 8em;
+  left: -5.3em ;
+
+}
+
+
+.digital-marketing-caption3 {
+  font-size: 20px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 8em;
+  left: -9.9em ;
+
+}
+
+
+.digital-marketing-caption4 {
+  font-size: 20px;
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 8em;
+  left: -9.2em ;
+
+}
+
+
+.digital-marketing-hero {
+   height: 400px;
+   background-color: blue;
+
+
+}
+
+.digital-hero-text {
+  font-family: "Lora",serif;
+  font-size:30px;
+  margin-bottom: -0.5em;
+
+}
+
+.digital-hero-button {
+  font-family: "Oxygen",sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+  text-align: center;
+  color: #f5f3f3;
+  margin-left:15em ;
+  border: 0.5px solid white;
+  border-color: #f5f3f3;
+  border-radius: 12px;
+  background-color:yellowgreen;
+  padding: 13px;
+
+
+
+
+
+}
+
+.digital-hero-button:hover {
+  background-color: blue;
+
+}
+
+
+
+
 
     
     }
@@ -5000,7 +5148,7 @@ DIGITAL MARKETING PAGE STYLES
  
  
 .digital-marketing2{
-  height: 76em;
+  height: 82em;
   background-color: yellowgreen;
 
   
@@ -5011,10 +5159,10 @@ DIGITAL MARKETING PAGE STYLES
 
 
 .rounded-circle{
-  margin-bottom: 20px;
+   margin-bottom: 20px;
    width: 250px;
    height: 250px;
-   margin-top: 20px;
+   margin-top: 30px;
    margin-left: 57px;
    border: 0.5px solid white;
    border-width: 3px;
@@ -5029,7 +5177,8 @@ DIGITAL MARKETING PAGE STYLES
   color: white;
   margin-left: 7em;
   position: relative;
-  top: 0.8em;
+  top: 0.1em;
+  left:0.8em;
  
   
 
@@ -5043,7 +5192,7 @@ DIGITAL MARKETING PAGE STYLES
   text-align: center;
   color: white;
   position: relative;
-  top: 10em;
+  top: 11em;
   left: -9em ;
 
 }
@@ -5056,7 +5205,8 @@ DIGITAL MARKETING PAGE STYLES
   color: white;
   margin-left: 7em;
   position: relative;
-  top: 0.7em;
+  top: 0.1em;
+  left:0.8em;
 }
 
 
@@ -5067,7 +5217,8 @@ DIGITAL MARKETING PAGE STYLES
   color: white;
   margin-left: 8em;
   position: relative;
-  top: -1em;
+  top: 0.1em;
+  left:0.75em;
 }
 
 
