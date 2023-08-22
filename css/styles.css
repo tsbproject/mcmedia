@@ -2562,7 +2562,7 @@ ABOUT US PAGE STYLES
         text-transform: uppercase;
         position: relative;
         bottom: 3.32em;
-        left: 4em;
+        left: 3.58em;
       
        
       }
@@ -2696,8 +2696,8 @@ ABOUT US PAGE STYLES
   #clocknew {
   font-size: medium;
   position: absolute;
-  right: 19em;
-  top: 1.59em;
+  right: 19.6em;
+  top: 1.6em;
   }
    
 
@@ -3332,22 +3332,23 @@ DIGITAL MARKETING PAGE STYLES
 
 .digital-hero-text {
   font-family: "Lora",serif;
-  font-size: xx-large;
+  font-size:30px;
+  margin-bottom: -0.5em;
 
 }
 
 .digital-hero-button {
-  padding: 13px;
   font-family: "Oxygen",sans-serif;
-  font-size: 50px;
+  font-size: 20px;
   font-weight: bolder;
   text-align: center;
   color: #f5f3f3;
-  margin-left:10em ;
+  margin-left:15em ;
   border: 0.5px solid white;
   border-color: #f5f3f3;
   border-radius: 12px;
   background-color:yellowgreen;
+  padding: 13px;
 
 
 
