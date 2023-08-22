@@ -5456,120 +5456,6 @@ DIGITAL MARKETING PAGE STYLES
 
 }
 
-/*
-================================================
-WEB DESIGN TRANNING PAGE STYLES
-================================================
-*/
-
-#web-design-training-header {
-  font-family: "Oxygen", sans-serif;
-  font-size: xx-large;
-  font-weight: 800;
-  color: blue;
-
-}
-
-.web-des-training {
- margin-top: 3em;
-}
-
-
-.web-design-image1 {
-  margin-top: -29px;
-  margin-bottom: 15px;
-  margin-left: 5px;
-  width: 365px;
-  height: 300px;
-  border: 0.5px solid;
-  border-color: yellowgreen;
-  border-width: 25px;
-  border-style: double;
-  border-radius: 15px;
-  box-shadow: 0px 0px 10px 10px;
-
-
-}
-
-#web-design-traning-text1 {
- font-family: "Lora", serif;
- font-size: 20px;
- text-align: justify;
- color: black;
- padding: 10px;
-}
-
-
-.register-form-wdtraining {
-  height:117em;
-  padding: 30px;
-  background-image: url("../images/web-traning4.jpg"); 
-  background-attachment: fixed;
-  background-position: cover;
-  background-size: cover;
-  background-color: yellowgreen;
-  background-blend-mode:darken ;
-  -webkit-text-fill-color: rgb(204, 83, 26)
-}
-
-.register-wdtraining-header {
- margin-top: 20px;
- font-family: "Oxygen", sans-serif;
- font-size: xx-large;
- font-weight: bolder;
- color: blue;
-}
-
-
-
-.registerform {
- font-family: "lora", serif;
-
-
-}
-
-
-.btn-primary {
- width: 14em;
- font-family: "Oxygen", sans-serif;
- font-weight: bolder;
- font-stretch: expanded;
- font-size: x-large;
-
-}
-
-
-
-.bi-person{
-  font-size: 27px;
-  position: relative;
-  top: 39px;
-  right: 40px;
-  padding: 5px;
-  border-radius: 10px;
-  background-color: lightgrey;
-}
-
-.bi-envelope-at{
-  font-size: 27px;
-  position: relative;
-  top: 39px;
-  right: 40px;
-  padding: 5px;
-  border-radius: 10px;
-  background-color: lightgrey;
-}
-
-
-.bi-telephone{
-  font-size: 27px;
-  position: relative;
-  top: 39px;
-  right: 40px;
-  padding: 5px;
-  border-radius: 10px;
-  background-color: lightgrey;
-}
 
 
 
@@ -5578,6 +5464,21 @@ WEB DESIGN TRANNING PAGE STYLES
 WEB DESIGN & DEVELOPMENT TRANNING PAGE STYLES
 ================================================
 */
+
+.web-design-training-banner{
+  background-image: url("../images/web-traning4.jpg"); 
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: cover;
+  height: auto;
+  width: auto;
+  font-size: small;
+
+}
+
+
+
+
 
 #web-design-training-header {
   font-family: "Oxygen", sans-serif;
