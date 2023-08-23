@@ -63,7 +63,7 @@
               <a href="index.html" class="navbar-brand">
                 <img id="logo-img" src="images/marvelcmedia-logo.png" alt="site-logo">
               </a>
-              <p><span id="slogan">YOUR TECH RENDIZVOUS</span></p>
+              <p><span id="slogan">YOUR TECH RENDEZVOUS</span></p>
               <i id="clocknew" class="bi bi-clock"></i> <p id="workhour"></p> 
             </div>
 
