@@ -3029,6 +3029,17 @@ ABOUT US PAGE STYLES
 =====================================
 */
 
+.about-top-banner {
+  background-image: url("../images/creative-design.jpg"); 
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: cover;
+  height: auto;
+  width: auto;
+
+}
+
+
 #vision-mission {
   background-color: rgba(241, 235, 235, 0.295);
      height: 300px;
@@ -3078,6 +3089,19 @@ ABOUT US PAGE STYLES
 WEB DEVELOPMENT STYLES
 =================================================
 */
+
+
+.web-dev-top-banner {
+  background-image: url("../images/web-app-development.jpg"); 
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: cover;
+  height: auto;
+  width: auto;
+
+
+}
+
 
 .web-dev-header {
   margin-top: 20px;
@@ -3221,6 +3245,17 @@ WEB DEVELOPMENT STYLES
 DIGITAL MARKETING PAGE STYLES
 ====================================================
 */
+
+
+.digital-marketing-banner {
+  background-image: url("../images/digital-marketing-side-1-1024x597.jpg"); 
+  background-attachment: fixed;
+  background-position: cover;
+  background-size: cover;
+  height: auto;
+  width: auto;
+
+}
 
 .digital-marketing-header1 {
   margin-top: 20px;
@@ -4448,15 +4483,15 @@ DIGITAL MARKETING PAGE STYLES
  font-size: 12px;
   color: yellowgreen;
   position: absolute;
-  right: 3em;
+  right: 0.2em;
   top: 0.36em;
   }
   
   #clocknew {
   font-size: 12px;
   position: absolute;
-  left: 15.1em;
-  top: 2.1em;
+  left: 18em;
+  top: 2em;
   }
    
 
@@ -5495,7 +5530,7 @@ WEB DESIGN & DEVELOPMENT TRANNING PAGE STYLES
 
 .web-design-image1 {
   margin-top: 4em;
-  align-items:center ;
+  padding: auto;
   width: 390px;
   height: 550px;
   border: 0.5px solid;
@@ -5519,7 +5554,7 @@ WEB DESIGN & DEVELOPMENT TRANNING PAGE STYLES
 
 .register-form-wdtraining {
  height: 970px;
- padding: 10px;
+ padding: 35px;
  /*background-color: blue;*/
  
  
@@ -5546,9 +5581,10 @@ WEB DESIGN & DEVELOPMENT TRANNING PAGE STYLES
 }
 
 #training-info-bg {
-  width: 400px;
-  height: 65em;
- opacity: 0.18;
+  opacity: 0.18;
+  width: 330px;
+  height: 65em
+
   
 }
 
