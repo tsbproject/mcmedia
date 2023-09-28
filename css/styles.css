@@ -51,6 +51,7 @@ HEADER SECTION STYLES
   color: white;
   height: 150px;
   background-color: rgb(6, 6, 102);
+  transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
   border-bottom: 0.2em solid yellowgreen;
 
   
@@ -58,9 +59,6 @@ HEADER SECTION STYLES
 
 
 
-.fixed-top-transparent {
-  background-color: transparent;
-}
 
 
 
@@ -994,6 +992,7 @@ DIGITAL MARKETING PAGE STYLES
 .digital-marketing-text {
    font-family: "Lora", serif;
    font-size: 20px;
+   text-align: justify;
    color: black;
 }
 
@@ -1358,6 +1357,7 @@ OTHER DEVICES RESPOSIVENESS SECTION
         font-stretch: semi-expanded;
         border-top: solid 0.2px rgb(15, 155, 197);
         border-spacing: 2px;
+        transition: padding 0.3s ease-in-out;
         
         
     }
@@ -1572,6 +1572,7 @@ OTHER DEVICES RESPOSIVENESS SECTION
         height: 70px;
         margin-left: 45px;
         margin-top: 17px;
+        transition: padding 0.3s ease-in-out;
        
       }
     
@@ -2001,6 +2002,7 @@ ABOUT US PAGE STYLES
         height: 70px;
         margin-left: 38px;
         margin-top: -15px;
+
        
       }
     
