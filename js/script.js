@@ -1,43 +1,43 @@
-// // HEADER FIXED TOP
-// $(document).ready(function() {
-//   var lastScrollPosition = 0;
-//   $(window).scroll(function() {
-//     var currentScrollPosition = $(this).scrollTop();
-//     if (currentScrollPosition > lastScrollPosition) {
-//       // Scrolling down
-//       $('.fixed-top').removeClass('fixed-top-transparent');
-//     } else {
-//       // Scrolling up
-//       $('.fixed-top').addClass('fixed-top-transparent');
-//     }
-//     lastScrollPosition = currentScrollPosition;
-//   });
-// });
 
-//MAKING NAVBAR SHRINK ON SCROLL
-var previousScroll = 0;
 
-        $(document).ready(function () {
-            $(window).scroll(function () {
-                var currentScroll = $(this).scrollTop();
 
-                if (currentScroll > previousScroll) {
-                    // Scrolling down
-                    $('.navbar').css('height', '80px');
-                    $('.navbar').css('padding', '10px 0');
-                    $('.navbar-nav').css('padding', '5px 0');
-                    $('.logo').css('padding', '400px 0');
-                } else {
-                    // Scrolling up
-                    $('.navbar').css('height', '150px');
-                    $('.navbar').css('padding', '0px 0');
-                    $('.navbar-nav').css('padding', '25px 0');
-                    $('.logo').css('padding', '100px 0');
-                }
 
-                previousScroll = currentScroll;
-            });
-        });
+
+        //shrinking navbar. logo and Navlinks while scrolling up
+$(document).ready(function () {
+  var previousScroll = 0;
+  var $headerNav = $('#header-nav');
+  var $logoImg = $('#logo-img');
+  var $navList = $('#nav-list');
+  var $workHour = $('#workhour');
+  var $clockNew = $('#clocknew')
+
+  $(window).scroll(function () {
+      var currentScroll = $(this).scrollTop();
+
+      if (currentScroll > previousScroll) {
+          // Scrolling down
+          $headerNav.css('height', '70px');
+          $headerNav.css('padding', '10px 0');
+          $logoImg.css('max-height', '40px');
+          $workHour.addClass('shrink');
+          $clockNew.addClass('shrink');
+
+          $navList.addClass('shrink');
+      } else {
+          // Scrolling up
+          $headerNav.css('height', '150px');
+          $headerNav.css('padding', '20px 0');
+          $logoImg.css('max-height', '100px');
+          $navList.removeClass('shrink');
+          $workHour.removeClass('shrink');
+          $clockNew.removeClass('shrink');
+      }
+
+      previousScroll = currentScroll;
+  });
+});
+
 
 
 

@@ -53,9 +53,27 @@ HEADER SECTION STYLES
   background-color: rgb(6, 6, 102);
   transition: height 0.3s ease-in-out, padding 0.3s ease-in-out;
   border-bottom: 0.2em solid yellowgreen;
+  
 
   
 }
+
+
+#nav-list.shrink {
+  font-size: 80%; /* Adjust the font size when the navbar shrinks */
+}
+
+#workhour.shrink {
+  font-size: 60%;
+}
+
+
+#clocknew.shrink {
+  font-size: 70%;
+}
+
+
+
 
 
 
@@ -76,6 +94,7 @@ top: 0.9em;
 }
 
 #clocknew {
+  font-size: 20px;
 position: absolute;
 right: 26.5em;
 top: 1.4em;
@@ -4680,7 +4699,7 @@ a, a:hover, a:active  {
 
 
 #carouselPortfolio {
-      height: 500px;
+      height: 200px;
       margin-top: -3em;
     
     
@@ -4697,7 +4716,7 @@ FOOTER STYLE START
 .footer {
   height: 980px;
   background-color: rgb(3, 15, 22);
-  margin-top: 113em;
+  margin-top: 20px;
 
 
 
